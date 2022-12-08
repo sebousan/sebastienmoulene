@@ -10,9 +10,9 @@ tags:
   - Stylus
 datas:
   - title: Studio
-    value: Rue Pavée
+    text: Rue Pavée
   - title: Website
-    value: https://www.electrasolutions.com
+    text: https://www.electrasolutions.com
   - title: Location
-    value: Dubai UAE
+    text: Dubai UAE
 ---

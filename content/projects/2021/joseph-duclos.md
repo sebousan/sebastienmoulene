@@ -11,5 +11,5 @@ tags:
   - SASS
 datas:
   - title: Website
-    value: https://www.josephduclos.com
+    text: https://www.josephduclos.com
 ---

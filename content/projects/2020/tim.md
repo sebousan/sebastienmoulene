@@ -13,9 +13,9 @@ tags:
   - SASS
 datas:
   - title: Client
-    value: Les Mousquetaires
+    text: Les Mousquetaires
   - title: Agency
-    value: Maddyness
+    text: Maddyness
   - title: Website
-    value: https://www.josephduclos.com
+    text: https://www.josephduclos.com
 ---

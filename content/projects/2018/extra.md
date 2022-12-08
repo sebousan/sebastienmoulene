@@ -10,9 +10,9 @@ tags:
   - SASS
 datas:
   - title: Agency
-    value: Keyrus
+    text: Keyrus
   - title: Website
-    value: https://www.extra.com
+    text: https://www.extra.com
   - title: Location
-    value: Saoudi Arabia
+    text: Saoudi Arabia
 ---

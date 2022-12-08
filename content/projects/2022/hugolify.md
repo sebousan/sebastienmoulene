@@ -11,5 +11,5 @@ tags:
   - SASS
 datas:
   - title: Website
-    value: https://www.hugolify.com
+    text: https://www.hugolify.com
 ---

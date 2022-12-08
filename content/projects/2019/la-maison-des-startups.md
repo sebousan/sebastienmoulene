@@ -10,9 +10,9 @@ tags:
   - SASS
 datas:
   - title: Client
-    value: LVMH
+    text: LVMH
   - title: Agency
-    value: Maddyness
+    text: Maddyness
   - title: Website
-    value: https://lamaisondesstartups.lvmh.com
+    text: https://lamaisondesstartups.lvmh.com
 ---

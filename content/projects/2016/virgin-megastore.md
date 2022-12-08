@@ -10,11 +10,11 @@ tags:
   - Stylus
 datas:
   - title: Agency
-    value: Azur Digital
+    text: Azur Digital
   - title: Studio
-    value: Rue Pavée
+    text: Rue Pavée
   - title: Location
-    value: Dubai UAE
+    text: Dubai UAE
   - title: Award
-    value: Seamless Award
+    text: Seamless Award
 ---

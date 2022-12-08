@@ -10,9 +10,9 @@ tags:
   - SASS
 datas:
   - title: Agency
-    value: Azur Digital
+    text: Azur Digital
   - title: Website
-    value: https://www.carrefouruae.com
+    text: https://www.carrefouruae.com
   - title: Location
-    value: Dubai UAE
+    text: Dubai UAE
 ---

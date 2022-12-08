@@ -11,5 +11,5 @@ tags:
   - SASS
 datas:
   - title: Website
-    value: https://www.maisonhellard.com
+    text: https://www.maisonhellard.com
 ---
