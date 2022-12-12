@@ -1,0 +1,24 @@
+.project
+    --bs-card-spacer-x: 1rem
+    --bs-card-spacer-y: 1rem
+    --bs-card-border-width: 0
+    --bs-card-border-radius: 4px
+    --bs-card-inner-border-radius: 0
+    --bs-card-bg: #F8F9FA
+    --bs-card-cap-bg: transparent
+    --bs-card-cap-padding-x: 1rem
+    --bs-card-cap-padding-y: 1rem
+    @extend .card
+    .tags
+        @extend .card-footer
+        padding-top: 0
+        li
+            @extend .badge
+            @extend .bg-secondary
+    .category
+        &::before
+            content: '—'
+            margin-left: .25rem
+            margin-right: .25rem
+    a
+        @extend .stretched-link

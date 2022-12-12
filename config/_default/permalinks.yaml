@@ -1,5 +1,4 @@
 projects:       /projects/:year-:slug/
 types:          /projects/:slug/
-tags:           /projects/:slug/
+tags:           /projects/tags/:slug/
 # casestudies:    /case-studies/:slug/
-# publications:   /publications/:slug/
