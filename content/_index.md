@@ -2,7 +2,7 @@
 index: true
 title: Home
 hero:
-  title: Front-end developer (Hugo and Shopify)
+  title: Freelance front-end developer
   text: I’m a French developer from Bordeaux. I have been doing this job for over fifteen years and now I specialize in low carbon and accessible websites.
 blocks: 
   - type: informations
