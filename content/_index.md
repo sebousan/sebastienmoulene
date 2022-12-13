@@ -10,6 +10,10 @@ hero:
 
 
     I am certified Opquast and “Developing accessible websites“ from Access42.
+  cta:
+    blank: true
+    text: Send me an email
+    url: mailto:sebousan@gmail.com
 blocks:
   - type: informations
     title: I’m working on an open-source project
@@ -22,7 +26,8 @@ blocks:
         cta:
           blank: true
           text: Discover Hugolify
-          url: https://www.hugolify.com/
+          url: https://www.hugolify.com
+          
   - type: latest
     section: projects
     count: 3
