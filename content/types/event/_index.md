@@ -1,4 +1,4 @@
 ---
 index: false
-title: Evenementiel
+title: Event
 ---

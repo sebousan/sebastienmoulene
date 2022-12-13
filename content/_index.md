@@ -3,14 +3,21 @@ index: true
 title: Home
 hero:
   title: Freelance front-end developer
-  text: I’m a French developer from Bordeaux. I have been doing this job for over fifteen years and now I specialize in low carbon and accessible websites.
-blocks: 
+  text: >-
+    Hi! I’m a French senior developer from Bordeaux. \
+
+    I have been doing this job for over fifteen years and now I specialize in low carbon and accessible websites. 
+
+
+    I am certified Opquast and “Developing accessible websites“ from Access42.
+blocks:
   - type: informations
     title: I’m working on an open-source project
-    column: 2
+    column: 1
     items:
       - title: Hugolify (Hugo + Bootstrap + Netlify CMS)
-        text: Jamstack solution for building easily a fast, as accessible as possible and low carbon website!
+        text: Jamstack solution for building easily a fast, as accessible as possible
+          and low carbon website!
         icon: git
         cta:
           blank: true
