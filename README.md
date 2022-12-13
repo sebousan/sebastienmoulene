@@ -6,9 +6,9 @@
 - [License](#license)
 
 ## Live
-https://www.sebastienmoulene.com
+https://sebastienmoulene.netlify.app
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5a4fa061-e7a5-4e66-9612-4fae713bda09/deploy-status)](https://app.netlify.com/sites/hugolify-demo/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e9ec9e14-55a3-4321-ad67-d1ca78702fa9/deploy-status)](https://app.netlify.com/sites/sebastienmoulene/deploys)
 
 ## Documentation
 [https://github.com/sebousan/hugolify-template/wiki](https://github.com/sebousan/hugolify-template/wiki)
