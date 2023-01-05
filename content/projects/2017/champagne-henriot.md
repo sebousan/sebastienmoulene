@@ -8,6 +8,8 @@ tags:
   - Prestashop
   - Smarty
   - Stylus
+image:
+  src: /images/uploads/henriot.jpg
 datas:
   - title: Studio
     text: 23 prod

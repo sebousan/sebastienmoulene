@@ -10,6 +10,8 @@ tags:
   - jQuery
   - Javascript
   - SASS
+image:
+  src: /images/uploads/atelier.jpg
 datas:
   - title: Client
     text: Nespresso

@@ -1,4 +1,3 @@
-
 ---
 index: false
 draft: false
@@ -8,4 +7,9 @@ types: Editorial
 tags:
   - CSS
   - PHP
+image:
+  src: /images/uploads/94.jpg
+datas:
+  - title: Studio
+    text: Rue Pavée
 ---

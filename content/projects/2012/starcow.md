@@ -8,6 +8,8 @@ tags:
   - Prestashop
   - Smarty
   - Stylus
+image:
+  src: /images/uploads/starcow.jpg
 datas:
   - title: Studio
     text: Rue Pavée

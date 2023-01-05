@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - Stylus
+image:
+  src: /images/uploads/rowenta.png
 datas:
   - title: Client
     text: Rowenta

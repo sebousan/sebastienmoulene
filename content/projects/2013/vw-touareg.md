@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - SASS
+image:
+  src: /images/uploads/touareg.jpg
 datas:
   - title: Client
     text: Volkwagen

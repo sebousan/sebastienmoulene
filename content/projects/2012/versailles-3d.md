@@ -9,6 +9,8 @@ tags:
   - jQuery
   - Javascript
   - CSS
+image:
+  src: /images/uploads/versailles.jpg
 datas:
   - title: Agency
     text: 84.Paris

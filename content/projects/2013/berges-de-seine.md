@@ -9,6 +9,8 @@ tags:
   - jQuery
   - Javascript
   - CSS
+image:
+  src: /images/uploads/lesberges.jpg
 datas:
   - title: Client
     text: Ville de Paris

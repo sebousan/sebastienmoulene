@@ -7,6 +7,8 @@ types: Editorial
 tags:
   - Wordpress
   - CSS
+image:
+  src: /images/uploads/cblog.jpg
 datas:
   - title: Client
     text: Ministère de la Culture

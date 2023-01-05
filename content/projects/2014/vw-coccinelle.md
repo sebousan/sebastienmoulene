@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - SASS
+image:
+  src: /images/uploads/cox.jpg
 datas:
   - title: Client
     text: Volkwagen

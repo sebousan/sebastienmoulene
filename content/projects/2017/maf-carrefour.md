@@ -8,6 +8,8 @@ tags:
   - SAP Hybris
   - Javascript
   - SASS
+image:
+  src: /images/uploads/carrefour.jpg
 datas:
   - title: Agency
     text: Azur Digital

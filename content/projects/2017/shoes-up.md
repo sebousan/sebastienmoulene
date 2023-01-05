@@ -10,6 +10,8 @@ tags:
   - jQuery
   - Javascript
   - Stylus
+image:
+  src: /images/uploads/su.jpg
 datas:
   - title: Studio
     text: Rue Pavée

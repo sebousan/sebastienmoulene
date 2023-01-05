@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - SASS
+image:
+  src: /images/uploads/christofle.jpg
 datas:
   - title: Agency
     text: Mediabrands

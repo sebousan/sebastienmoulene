@@ -8,6 +8,8 @@ tags:
   - SAP Hybris
   - Javascript
   - SASS
+image:
+  src: /images/uploads/extra.png
 datas:
   - title: Agency
     text: Keyrus

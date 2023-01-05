@@ -7,6 +7,8 @@ types: Editorial
 tags:
   - Webbox
   - CSS
+image:
+  src: /images/uploads/kerastase.jpg
 datas:
   - title: Client
     text: L’Oréal

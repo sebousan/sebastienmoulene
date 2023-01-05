@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - Stylus
+image:
+  src: /images/uploads/lorealparis.jpg
 datas:
   - title: Client
     text: L’Oréal

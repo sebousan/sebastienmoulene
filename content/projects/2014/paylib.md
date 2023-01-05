@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - SASS
+image:
+  src: /images/uploads/paylib1.jpg
 datas:
   - title: Agency
     text: 5ème Gauche

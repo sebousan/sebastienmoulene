@@ -8,6 +8,8 @@ tags:
   - Wordpress
   - Javascript
   - Stylus
+image:
+  src: /images/uploads/electra.jpg
 datas:
   - title: Studio
     text: Rue Pavée

@@ -9,6 +9,8 @@ tags:
   - jQuery
   - Javascript
   - Stylus
+image:
+  src: /images/uploads/cannes.jpg
 datas:
   - title: Client
     text: Nespresso

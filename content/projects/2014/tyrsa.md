@@ -7,6 +7,8 @@ types: Editorial
 tags:
   - Wordpress
   - SASS
+image:
+  src: /images/uploads/tyrsa.jpg
 datas:
   - title: Client
     text: Armée de l’air

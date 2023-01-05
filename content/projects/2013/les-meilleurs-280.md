@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - cSS
+image:
+  src: /images/uploads/280-1.jpg
 datas:
   - title: Client
     text: McDonald’s

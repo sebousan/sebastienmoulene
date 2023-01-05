@@ -9,6 +9,8 @@ tags:
   - jQuery
   - Javascript
   - SASS
+image:
+  src: /images/uploads/84.jpg
 datas:
   - title: Agency
     text: 84.Paris

@@ -9,6 +9,8 @@ tags:
   - jQuery
   - Javascript
   - CSS
+image:
+  src: /images/uploads/samaritaine.jpg
 datas:
   - title: Client
     text: LVMH

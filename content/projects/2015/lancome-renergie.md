@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - SASS
+image:
+  src: /images/uploads/lancome-renergie.jpg
 datas:
   - title: Client
     text: Lancôme

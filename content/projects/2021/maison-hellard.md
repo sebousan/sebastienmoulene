@@ -9,7 +9,7 @@ tags:
   - Bootstrap
   - Liquid
   - SASS
-datas:
-  - title: Website
-    text: https://www.maisonhellard.com
+image:
+  src: /images/uploads/maisonhellard.jpg
+datas: []
 ---

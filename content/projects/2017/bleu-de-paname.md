@@ -9,6 +9,8 @@ tags:
   - Smarty
   - Stylus
   - Wordpress
+image:
+  src: /images/uploads/bdp.jpg
 datas:
   - title: Studio
     text: Rue Pavée

@@ -8,6 +8,8 @@ tags:
   - Prestashop
   - Smarty
   - Stylus
+image:
+  src: /images/uploads/dissonances.jpg
 datas:
   - title: Studio
     text: Rue Pavée

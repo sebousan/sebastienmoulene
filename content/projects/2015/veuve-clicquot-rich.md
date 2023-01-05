@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - SASS
+image:
+  src: /images/uploads/rich.jpg
 datas:
   - title: Client
     text: Champagne Veuve Clicquot Ponsardin

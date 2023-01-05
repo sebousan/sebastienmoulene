@@ -8,6 +8,8 @@ tags:
   - Wordpress
   - Bootstrap
   - SASS
+image:
+  src: /images/uploads/lmds.jpg
 datas:
   - title: Client
     text: LVMH

@@ -7,4 +7,6 @@ types: Editorial
 tags:
   - Wordpress
   - Stylus
+image:
+  src: /images/uploads/mint.jpg
 ---

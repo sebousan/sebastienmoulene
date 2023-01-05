@@ -8,6 +8,8 @@ tags:
   - Rails
   - Javascript
   - SASS
+image:
+  src: /images/uploads/odysound.jpg
 datas:
   - title: Agency
     text: Lost Mechanics

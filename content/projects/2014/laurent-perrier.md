@@ -7,6 +7,8 @@ types: Editorial
 tags:
   - Wordpress
   - SASS
+image:
+  src: /images/uploads/lp.jpg
 datas:
   - title: Agency
     text: Semio Design

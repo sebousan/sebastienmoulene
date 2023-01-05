@@ -7,4 +7,6 @@ types: Editorial
 tags:
   - Javascript
   - SASS
+image:
+  src: /images/uploads/canb.jpg
 ---

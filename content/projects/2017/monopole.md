@@ -7,6 +7,8 @@ types: Editorial
 tags:
   - Wordpress
   - Stylus
+image:
+  src: /images/uploads/monopole.jpg
 datas:
   - title: Studio
     text: Rue Pavée

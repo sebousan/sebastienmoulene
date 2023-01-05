@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - SASS
+image:
+  src: /images/uploads/adl.jpg
 datas:
   - title: Client
     text: Armée de l’air

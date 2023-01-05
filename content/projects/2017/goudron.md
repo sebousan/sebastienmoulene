@@ -8,6 +8,8 @@ tags:
   - Prestashop
   - Smarty
   - Stylus
+image:
+  src: /images/uploads/goudron.jpg
 datas:
   - title: Studio
     text: Rue Pavée

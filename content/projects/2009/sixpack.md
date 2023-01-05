@@ -9,4 +9,6 @@ tags:
   - Smarty
   - Stylus
   - CSS
+image:
+  src: /images/uploads/sixpack.jpg
 ---

@@ -8,6 +8,8 @@ tags:
   - SAP Hybris
   - Javascript
   - Stylus
+image:
+  src: /images/uploads/virgin.jpg
 datas:
   - title: Agency
     text: Azur Digital

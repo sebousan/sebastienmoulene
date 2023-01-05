@@ -9,6 +9,8 @@ tags:
   - Bootstrap
   - Liquid
   - SASS
+image:
+  src: /images/uploads/josephduclos.jpg
 datas:
   - title: Website
     text: https://www.josephduclos.com

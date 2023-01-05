@@ -8,6 +8,8 @@ tags:
   - Wordpress
   - Bootstrap
   - SASS
+image:
+  src: /images/uploads/urw.jpg
 datas:
   - title: Client
     text: Unibail-Rodamco-Westfield

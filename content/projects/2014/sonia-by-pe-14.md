@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - SASS
+image:
+  src: /images/uploads/sonia.jpg
 datas:
   - title: Client
     text: Sonia Rykiel

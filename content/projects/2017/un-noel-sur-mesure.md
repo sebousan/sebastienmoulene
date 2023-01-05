@@ -8,6 +8,8 @@ tags:
   - jQuery
   - Javascript
   - Stylus
+image:
+  src: /images/uploads/printemps.jpg
 datas:
   - title: Client
     text: Printemps
