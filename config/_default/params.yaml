@@ -1,1 +1,6 @@
 _merge: deep
+projects:
+  _merge: deep
+  image:
+    _merge: deep
+    desktop: "400x"

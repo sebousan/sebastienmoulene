@@ -4,17 +4,29 @@ title: Home
 hero:
   title: Freelance front-end developer
   text: >-
-    Hi! I’m a French senior developer from Bordeaux. \
+    Hi! I’m a French senior developer from Bordeaux, France.\
 
-    I have been doing this job for over fifteen years and now I specialize in low carbon and accessible websites. 
-
-
-    I am certified Opquast and “Developing accessible websites“ from Access42.
+    I have been doing this job for over fifteen years and I specialize in low carbon and accessible websites.
   cta:
     blank: true
     text: Send me an email
     url: mailto:sebousan@gmail.com
 blocks:
+  - type: informations
+    column: 2
+    background: false
+    items:
+      - cta:
+          blank: false
+        title: Web project quality control
+        text: I am certified in 2022 by Opquast.
+        icon: browser-safari
+      - cta:
+          blank: false
+        icon: universal-access-circle
+        title: Developing accessible websites
+        text: I am certified in 2022 by Access42.
+    title: Certifications
   - type: informations
     title: I’m working on an open-source project
     column: 1
@@ -27,7 +39,6 @@ blocks:
           blank: true
           text: Discover Hugolify
           url: https://www.hugolify.com
-          
   - type: latest
     section: projects
     count: 3

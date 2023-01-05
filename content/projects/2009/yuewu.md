@@ -8,5 +8,8 @@ tags:
   - ActionScript 2
   - CSS
 image:
-  src: /images/uploads/yuewu.jpg
+  src: /images/uploads/yue.jpg
+datas:
+  - title: Studio
+    text: Rue Pavée
 ---
