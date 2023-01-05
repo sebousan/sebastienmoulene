@@ -6,7 +6,8 @@ footer[role="contentinfo"]
     hr,
     .hugolify
         display: none
-    .logo + p
-        max-width: 50%
-        margin-left: auto
-        margin-right: auto
+    @include media-breakpoint-up(md)
+        .logo + p
+            max-width: 50%
+            margin-left: auto
+            margin-right: auto
