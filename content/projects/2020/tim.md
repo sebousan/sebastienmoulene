@@ -9,11 +9,10 @@ tags:
   - Wordpress
   - Bootstrap
   - SASS
+  - PHP
 datas:
   - title: Client
     text: Les Mousquetaires
   - title: Agency
     text: Maddyness
-  - title: Website
-    text: https://www.josephduclos.com
 ---
