@@ -9,6 +9,8 @@ tags:
   - Netlify CMS
   - Bootstrap
   - SASS
+image:
+  src: /images/uploads/src-sio.jpg
 datas:
   - title: Agency
     text: Digital Luxury Group

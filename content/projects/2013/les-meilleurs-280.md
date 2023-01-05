@@ -7,7 +7,7 @@ types: Event
 tags:
   - jQuery
   - Javascript
-  - cSS
+  - CSS
 image:
   src: /images/uploads/280-1.jpg
 datas:

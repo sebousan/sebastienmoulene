@@ -10,6 +10,8 @@ tags:
   - Netlify CMS
   - Bootstrap
   - SASS
+image:
+  src: /images/uploads/tdesign.jpg
 datas:
   - title: Website
     text: https://www.tdesign-architecture.com

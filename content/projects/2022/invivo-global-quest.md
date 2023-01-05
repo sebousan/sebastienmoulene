@@ -9,6 +9,8 @@ tags:
   - Netlify CMS
   - Bootstrap
   - SASS
+image:
+  src: /images/uploads/invivoglobalquest.jpg
 datas:
   - title: Agency
     text: Maddyness
