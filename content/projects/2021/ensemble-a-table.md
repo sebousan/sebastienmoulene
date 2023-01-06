@@ -9,6 +9,8 @@ tags:
   - Bootstrap
   - Javascript
   - SASS
+image:
+  src: /images/uploads/ensemble.jpg
 datas:
   - title: Client
     text: Confédération des Arts de la Table
