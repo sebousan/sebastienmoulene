@@ -1,5 +1,5 @@
 ---
-index: false
+isIndex: false
 draft: false
 date: 2016-05-10T22:00:00.000Z
 title: L’Oréal Paris

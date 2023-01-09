@@ -1,5 +1,5 @@
 ---
-index: false
+isIndex: false
 draft: true
 date: 2023-01-02T10:34:08.410Z
 title: Tdesign Architecture

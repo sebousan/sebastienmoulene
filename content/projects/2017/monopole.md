@@ -1,5 +1,5 @@
 ---
-index: false
+isIndex: false
 draft: false
 date: 2017-11-07T23:00:00.000Z
 title: Monopole

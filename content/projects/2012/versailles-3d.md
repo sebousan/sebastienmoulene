@@ -1,5 +1,5 @@
 ---
-index: false
+isIndex: false
 draft: false
 date: 2012-06-11T22:00:00.000Z
 title: Versailles 3D

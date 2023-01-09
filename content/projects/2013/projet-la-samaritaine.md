@@ -1,5 +1,5 @@
 ---
-index: false
+isIndex: false
 draft: false
 date: 2013-03-26T22:00:00.000Z
 title: Projet La Samaritaine

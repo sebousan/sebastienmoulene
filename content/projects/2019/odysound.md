@@ -1,5 +1,5 @@
 ---
-index: false
+isIndex: false
 draft: false
 date: 2019-09-30T23:00:00.000Z
 title: Odysound

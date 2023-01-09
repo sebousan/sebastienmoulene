@@ -1,5 +1,5 @@
 ---
-index: true
+isIndex: true
 title: Home
 hero:
   title: Freelance front-end developer
