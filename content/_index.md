@@ -27,7 +27,7 @@ blocks:
         title: Developing accessible websites
         text: I am certified in 2022 by Access42.
     title: Certifications
-  - type: informations
+  - type: pushes
     title: I’m working on an open-source project
     column: 1
     items:
@@ -39,6 +39,7 @@ blocks:
           blank: true
           text: Discover Hugolify
           url: https://www.hugolify.com
+        offset: start
   - type: latest
     section: projects
     count: 3
