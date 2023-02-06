@@ -1,15 +1,13 @@
 {
-  "name": "hugolify-template",
-  "version": "1.0.0",
-  "repository": "https://github.com/sebousan/hugolify-template",
+  "name": "sebastienmoulene",
+  "version": "1.1.0",
+  "repository": "https://github.com/sebousan/sebastienmoulene",
   "author": {
+    "email": "sebousan@gmail.com",
     "name": "Sébastien Moulène",
-    "url": "https://www.sebousan.com/"
+    "url": "https://www.sebastienmoulene.com/"
   },
   "license": "MIT",
-  "dependencies": {
-    "hugolify-theme": "./themes/hugolify-theme"
-  },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.13",
