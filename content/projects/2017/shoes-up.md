@@ -4,7 +4,7 @@ draft: false
 date: 2017-07-02T23:00:00.000Z
 title: Shoes-Up
 types: Editorial
-tags:
+projects_tags:
   - Wordpress
   - PHP
   - jQuery

@@ -4,7 +4,7 @@ draft: false
 date: 2021-09-01T22:00:00.000Z
 title: Ensemble à table
 types: Ecommerce
-tags:
+projects_tags:
   - Rails
   - Bootstrap
   - Javascript

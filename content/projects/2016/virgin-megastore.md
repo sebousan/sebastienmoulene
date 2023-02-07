@@ -4,7 +4,7 @@ draft: false
 date: 2016-04-07T22:00:00.000Z
 title: Virgin Megastore
 types: Ecommerce
-tags:
+projects_tags:
   - SAP Hybris
   - Javascript
   - Stylus

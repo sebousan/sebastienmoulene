@@ -4,7 +4,7 @@ draft: false
 date: 2013-11-20T22:00:00.000Z
 title: Le Cinq — George V
 types: Editorial
-tags:
+projects_tags:
   - Wordpress
   - jQuery
   - Javascript

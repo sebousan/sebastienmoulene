@@ -4,7 +4,7 @@ draft: false
 date: 2006-02-28T22:00:00.000Z
 title: Grafik Battle Card
 types: Event
-tags:
+projects_tags:
   - ActionScript 2
   - CSS
 image:

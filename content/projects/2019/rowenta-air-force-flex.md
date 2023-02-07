@@ -4,7 +4,7 @@ draft: false
 date: 2019-12-18T23:00:00.000Z
 title: Rowenta Air Force Flex Animal
 types: Event
-tags:
+projects_tags:
   - jQuery
   - Javascript
   - Stylus

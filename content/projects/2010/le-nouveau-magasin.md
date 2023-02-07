@@ -4,7 +4,7 @@ draft: false
 date: 2010-10-26T23:00:00.000Z
 title: Le nouveau magasin
 types: Ecommerce
-tags:
+projects_tags:
   - Prestashop
   - Smarty
   - Stylus

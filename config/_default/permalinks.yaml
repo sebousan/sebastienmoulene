@@ -1,4 +1,3 @@
 projects:       /projects/:year-:slug/
 types:          /projects/:slug/
-tags:           /projects/tags/:slug/
-# casestudies:    /case-studies/:slug/
+projects_tags:  /projects/tags/:slug/

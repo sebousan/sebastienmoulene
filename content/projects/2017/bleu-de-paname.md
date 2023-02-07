@@ -4,7 +4,7 @@ draft: false
 date: 2017-02-16T23:00:00.000Z
 title: Bleu de paname
 types: Ecommerce
-tags:
+projects_tags:
   - Prestashop
   - Smarty
   - Stylus

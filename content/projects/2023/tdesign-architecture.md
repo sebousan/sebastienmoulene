@@ -4,7 +4,7 @@ draft: true
 date: 2023-01-02T10:34:08.410Z
 title: Tdesign Architecture
 types: Editorial
-tags:
+projects_tags:
   - Hugolify
   - Hugo
   - Netlify CMS

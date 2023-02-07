@@ -4,7 +4,7 @@ draft: false
 date: 2017-05-10T23:00:00.000Z
 title: Champagne Henriot
 types: Ecommerce
-tags:
+projects_tags:
   - Prestashop
   - Smarty
   - Stylus

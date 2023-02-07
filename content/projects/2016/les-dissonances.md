@@ -4,7 +4,7 @@ draft: false
 date: 2016-10-12T23:00:00.000Z
 title: Les dissonances
 types: Ecommerce
-tags:
+projects_tags:
   - Prestashop
   - Smarty
   - Stylus

@@ -4,7 +4,7 @@ draft: false
 date: 2017-03-01T23:00:00.000Z
 title: MAF Carrefour
 types: Ecommerce
-tags:
+projects_tags:
   - SAP Hybris
   - Javascript
   - SASS

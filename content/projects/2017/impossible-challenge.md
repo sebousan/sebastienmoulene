@@ -4,7 +4,7 @@ draft: false
 date: 2017-07-03T23:00:00.000Z
 title: Impossible Challenge
 types: Event
-tags:
+projects_tags:
   - jQuery
   - Javascript
   - Stylus

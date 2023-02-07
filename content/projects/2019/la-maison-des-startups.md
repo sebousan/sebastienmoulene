@@ -4,7 +4,7 @@ draft: false
 date: 2019-12-18T23:00:00.000Z
 title: La maison des startups
 types: Editorial
-tags:
+projects_tags:
   - Wordpress
   - Bootstrap
   - SASS

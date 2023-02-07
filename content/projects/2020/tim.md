@@ -5,7 +5,7 @@ date: 2020-09-01T22:00:00.000Z
 title: TIM
 description: Internal media platform
 types: Editorial
-tags:
+projects_tags:
   - Wordpress
   - Bootstrap
   - SASS

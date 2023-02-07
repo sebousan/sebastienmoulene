@@ -4,7 +4,7 @@ draft: false
 date: 2014-08-31T23:00:00.000Z
 title: Château Roquebert
 types: Ecommerce
-tags:
+projects_tags:
   - Prestashop
   - Smarty
   - SASS

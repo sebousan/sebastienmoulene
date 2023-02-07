@@ -4,7 +4,7 @@ draft: false
 date: 2017-11-07T23:00:00.000Z
 title: Monopole
 types: Editorial
-tags:
+projects_tags:
   - Wordpress
   - Stylus
 image:

@@ -4,7 +4,7 @@ draft: false
 date: 2014-10-14T22:00:00.000Z
 title: Toute une armée
 types: Event
-tags:
+projects_tags:
   - jQuery
   - Javascript
   - SASS

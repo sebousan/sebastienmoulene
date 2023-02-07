@@ -4,7 +4,7 @@ draft: false
 date: 2022-12-20T10:34:08.410Z
 title: Lawyerify
 types: Editorial
-tags:
+projects_tags:
   - Hugolify
   - Hugo
   - Netlify CMS
