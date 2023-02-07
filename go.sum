@@ -1,0 +1,12 @@
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
+github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
+github.com/hugolify/hugolify-theme v1.2.3 h1:IQNsbuihMg00YM9xVqLOnsNo5t3UlTBwTh7nlCs/kVI=
+github.com/hugolify/hugolify-theme v1.2.3/go.mod h1:Ql6rtAl9AiN81qR+9X+h+yKG8Gmw9qFjlCKm1qarplA=
+github.com/hugolify/hugolify-theme-projects v1.1.0 h1:q4gSVZo3evxqaHZUxjl7IXg1T6LFKhFV9P7nZ2cSwdc=
+github.com/hugolify/hugolify-theme-projects v1.1.0/go.mod h1:DseeRICUC354yaV9BDa6M3AwIeZVKXLnJbFczHCSH+U=
+github.com/hugolify/hugolify-theme-projects-tags v1.0.0 h1:jGzlXgAYbFdzEdNAP9V81V8L1IkNPeqFg76gu14Ct0g=
+github.com/hugolify/hugolify-theme-projects-tags v1.0.0/go.mod h1:qqkCPiuJJxLQrnomqNqmSbwLquISdi3c0mhpvXE1CNU=
+github.com/hugolify/hugolify-theme-projects-types v1.0.0 h1:Ep3rpNZZ3smxJgu4W/ccnbTyz+oblDtIWrUlujDR8A4=
+github.com/hugolify/hugolify-theme-projects-types v1.0.0/go.mod h1:IFi4jmAY5oXSLTWyK0mcGUDoFzWtgTQB/bQ+gL23MTg=
+github.com/twbs/bootstrap v5.2.3+incompatible h1:lOmsJx587qfF7/gE7Vv4FxEofegyJlEACeVV+Mt7cgc=
+github.com/twbs/bootstrap v5.2.3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
