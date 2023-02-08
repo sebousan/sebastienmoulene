@@ -76,6 +76,7 @@
       "last",
       "list",
       "list-projects_tags",
+      "list-tags",
       "list-types",
       "logo",
       "media",
@@ -98,7 +99,6 @@
       "push-start",
       "row",
       "section-projects",
-      "section-sitemap",
       "sidebar",
       "social-github",
       "social-instagram",
@@ -106,22 +106,17 @@
       "social-sebouorhum",
       "social-twitter",
       "surtitle",
-      "tags",
       "taxonomy-projects_tags",
       "taxonomy-types",
       "term-projects_tags",
       "term-types",
-      "title",
-      "toc"
+      "title"
     ],
     "ids": [
       "footer",
       "main",
-      "projects",
       "projectsFilters",
-      "projectsFiltersLabel",
-      "toc",
-      "tocLabel"
+      "projectsFiltersLabel"
     ]
   }
 }

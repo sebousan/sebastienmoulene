@@ -1,5 +1,5 @@
 imports:
-- path: github.com/hugolify/hugolify-theme
-- path: github.com/hugolify/hugolify-theme-projects
 - path: github.com/hugolify/hugolify-theme-projects-types
 - path: github.com/hugolify/hugolify-theme-projects-tags
+- path: github.com/hugolify/hugolify-theme-projects
+- path: github.com/hugolify/hugolify-theme
