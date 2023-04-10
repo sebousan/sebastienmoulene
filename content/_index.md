@@ -4,9 +4,9 @@ title: Home
 hero:
   title: Freelance front-end developer
   text: >-
-    Hi! I’m a French senior developer from Bordeaux, France.\
+    Hi! I’m a french senior developer from Bordeaux, France.\
 
-    I have been doing this job for over fifteen years and I specialize in low carbon and accessible websites.
+    I have been doing this job for over twenty years and I specialize in low carbon and accessible websites.
   cta:
     blank: true
     text: Send me an email
@@ -38,7 +38,7 @@ blocks:
         cta:
           blank: true
           text: Discover Hugolify
-          url: https://www.hugolify.com
+          url: https://www.hugolify.io
         offset: start
   - type: latest
     section: projects
