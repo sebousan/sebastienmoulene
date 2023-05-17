@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2018-08-31T22:00:00.000Z
 title: eXtra
-types: Ecommerce
+projects_types: Ecommerce
 projects_tags:
   - SAP Hybris
   - Javascript

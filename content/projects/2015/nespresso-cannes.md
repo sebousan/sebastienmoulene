@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2015-05-04T22:00:00.000Z
 title: Nespresso Cannes
-types: Event
+projects_types: Event
 projects_tags:
   - Wordpress
   - jQuery

@@ -28,12 +28,12 @@ blocks:
         text: I am certified in 2022 by Access42.
     title: Certifications
   - type: pushes
-    title: I’m working on an open-source project
+    heading:
+      title: I’m working on an open-source project
     column: 1
     items:
-      - title: Hugolify (Hugo + Bootstrap + Netlify CMS)
-        text: Jamstack solution for building easily a fast, as accessible as possible
-          and low carbon website!
+      - title: Hugolify (Hugo + Bootstrap + Decap CMS)
+        text: Jamstack solution for building easily a fast, as accessible as possible and low carbon website!
         icon: git
         cta:
           blank: true
@@ -43,5 +43,6 @@ blocks:
   - type: latest
     section: projects
     count: 3
-    title: Latest projects
+    heading:
+      title: Latest projects
 ---

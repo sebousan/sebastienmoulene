@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2022-12-08T10:34:08.410Z
 title: Demo Hugolify
-types: Editorial
+projects_types: Editorial
 projects_tags:
   - Hugolify
   - Hugo

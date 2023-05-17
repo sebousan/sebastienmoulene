@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2020-04-05T22:00:00.000Z
 title: Grand prix du commerce
-types: Event
+projects_types: Event
 projects_tags:
   - Wordpress
   - Bootstrap

@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2016-10-12T23:00:00.000Z
 title: Les dissonances
-types: Ecommerce
+projects_types: Ecommerce
 projects_tags:
   - Prestashop
   - Smarty

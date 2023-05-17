@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2017-07-17T23:00:00.000Z
 title: Goudron
-types: Ecommerce
+projects_types: Ecommerce
 projects_tags:
   - Prestashop
   - Smarty

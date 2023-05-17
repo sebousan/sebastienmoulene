@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2014-06-11T22:00:00.000Z
 title: Paylib
-types: Editorial
+projects_types: Editorial
 projects_tags:
   - jQuery
   - Javascript

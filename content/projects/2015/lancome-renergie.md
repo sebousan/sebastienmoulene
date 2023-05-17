@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2015-11-21T22:00:00.000Z
 title: Lancôme Rénergie
-types: Editorial
+projects_types: Editorial
 projects_tags:
   - jQuery
   - Javascript

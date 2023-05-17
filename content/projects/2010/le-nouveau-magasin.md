@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2010-10-26T23:00:00.000Z
 title: Le nouveau magasin
-types: Ecommerce
+projects_types: Ecommerce
 projects_tags:
   - Prestashop
   - Smarty

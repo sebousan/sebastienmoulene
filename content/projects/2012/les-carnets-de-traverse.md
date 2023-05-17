@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2012-01-18T23:00:00.000Z
 title: Les carnets de traverse
-types: Editorial
+projects_types: Editorial
 projects_tags:
   - Wordpress
   - PHP

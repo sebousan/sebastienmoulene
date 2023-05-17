@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2013-12-09T22:00:00.000Z
 title: Volkwagen Touareg
-types: Event
+projects_types: Event
 projects_tags:
   - jQuery
   - Javascript

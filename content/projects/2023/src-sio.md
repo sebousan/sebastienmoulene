@@ -3,7 +3,7 @@ isIndex: false
 draft: true
 date: 2023-01-02T10:34:08.410Z
 title: Swissroc Industrial Opportunities
-types: Editorial
+projects_types: Editorial
 projects_tags:
   - Hugo
   - Netlify CMS

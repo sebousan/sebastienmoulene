@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2021-09-15T22:00:00.000Z
 title: Joseph Duclos
-types: Ecommerce
+projects_types: Ecommerce
 projects_tags:
   - Shopify
   - Bootstrap

@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 date: 2021-09-01T22:00:00.000Z
 title: Ensemble à table
-types: Ecommerce
+projects_types: Ecommerce
 projects_tags:
   - Rails
   - Bootstrap

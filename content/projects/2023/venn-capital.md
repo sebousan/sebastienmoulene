@@ -1,8 +1,8 @@
 ---
 isIndex: false
 draft: false
-date: 2022-12-20T10:34:08.410Z
-title: Lawyerify
+date: 2023-05-15T10:34:08.410Z
+title: Venn Capital
 projects_types: Editorial
 projects_tags:
   - Hugolify
@@ -11,6 +11,8 @@ projects_tags:
   - Bootstrap
   - SASS
 datas:
+  - title: Client
+    text: Venn Capital
   - title: Website
-    text: https://www.lawyerify.fr
+    text: https://www.venn-capital.com
 ---
