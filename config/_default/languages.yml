@@ -1,4 +1,13 @@
 en:
   languageName: English
   title: Sébastien Moulène
+  weight: 2
+
+fr:
+  languageName: Français
+  title: Sébastien Moulène
   weight: 1
+  permalinks:
+    projects: /projets/:slug
+    projects_tags: /projets/tags/:slug
+    projects_types: /projets/types/:slug

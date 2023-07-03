@@ -22,6 +22,7 @@
     "build": "hugo --gc --minify",
     "update": "hugo mod get -u",
     "clean": "hugo mod clean",
+    "cleanall": "hugo mod clean --all",
     "cms": "npx netlify-cms-proxy-server"
   }
 }

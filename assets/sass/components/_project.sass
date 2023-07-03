@@ -9,13 +9,16 @@
     --bs-card-cap-padding-x: 1rem
     --bs-card-cap-padding-y: 1rem
     @extend .card
-    .list-tags
+    @include media-breakpoint-up(md)
+        align-items: baseline
+        flex-direction: row
+    .list-projects_tags
         @extend .card-footer
         padding-top: 0
         li
+            --bs-badge-color: #{$gray-800}
             @extend .badge
             background-color: $gray-200
-            color: $gray-800
     .category
         &::before
             content: '—'
