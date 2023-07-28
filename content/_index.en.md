@@ -3,10 +3,13 @@ title: Home
 hero:
   title: Freelance front-end developer
   text: >-
-    Hi! I’m a french senior developer from Bordeaux, France.
+    I’m Sébastien Moulène, senior front-end developer from Bordeaux, France.
     
 
-    I have been doing this job for over twenty years and I specialize in low carbon and accessible websites.
+    I have been in this business for more than 20 years and I specialize in the design of high-performance, accessible to all and low-carbon websites.
+    
+    
+    I recently created [Un Cinq](https://uncinq.dev/) to highlight this know-how.
   cta:
     text: Some completed projects
     url: /en/projects
@@ -35,8 +38,8 @@ blocks:
       title: I’m working on an open-source project
     column: 1
     items:
-      - title: Hugolify (Hugo + Bootstrap + Decap CMS)
-        text: Jamstack solution for building easily a fast, as accessible as possible and low carbon website!
+      - title: Hugolify
+        text: Jamstack solution developed in Hugo to build a high-performance, low-carbon and accessible website as quickly as possible.
         icon: git
         cta:
           blank: true
