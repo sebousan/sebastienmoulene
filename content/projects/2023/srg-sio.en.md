@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: true
-date: 2023-01-02T10:34:08.410Z
+date: 2023-09-01T10:34:08.410Z
 title: Swissroc Industrial Opportunities
 projects_types: Editorial
 projects_tags:
@@ -10,12 +10,12 @@ projects_tags:
   - Bootstrap
   - SASS
 image:
-  src: /images/uploads/src-sio.jpg
+  src: /images/uploads/srg-sio.jpg
 datas:
   - title: Agency
     text: Digital Luxury Group
   - title: Client
     text: Swissroc
   - title: Website
-    text: https://src-sio.netlify.app/
+    text: https://srg-sio.netlify.app/
 ---
