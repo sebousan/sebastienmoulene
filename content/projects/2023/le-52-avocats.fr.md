@@ -5,6 +5,7 @@ date: 2023-07-01T10:34:08.410Z
 title: Le 52 avocats
 projects_types: Editorial
 projects_tags:
+  - Jamstack
   - Lawyerify
   - Hugolify
   - Hugo
