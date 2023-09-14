@@ -6,7 +6,7 @@ title: Global climate quest 23
 projects_types: Editorial
 projects_tags:
   - Jekyll
-  - Netlify CMS
+  - Decap CMS
   - Bootstrap
   - SASS
 image:
