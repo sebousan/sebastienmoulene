@@ -5,6 +5,7 @@ date: 2023-09-01T10:34:08.410Z
 title: Swissroc Industrial Opportunities
 projects_types: Editorial
 projects_tags:
+  - Jamstack
   - Hugo
   - Decap CMS
   - Bootstrap
