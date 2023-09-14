@@ -10,8 +10,11 @@
     --bs-card-cap-padding-y: 1rem
     @extend .card
     @include media-breakpoint-up(md)
-        align-items: baseline
-        flex-direction: row
+        .content
+            align-items: baseline
+            display: flex
+            flex-direction: row-reverse
+            justify-content: space-between
     .list-projects_tags
         @extend .card-footer
         padding-top: 0
