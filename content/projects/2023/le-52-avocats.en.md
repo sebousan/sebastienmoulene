@@ -8,7 +8,7 @@ projects_tags:
   - Lawyerify
   - Hugolify
   - Hugo
-  - Netlify CMS
+  - Decap CMS
   - Bootstrap
   - SASS
 datas:
