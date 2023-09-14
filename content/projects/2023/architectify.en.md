@@ -7,7 +7,7 @@ projects_types: Editorial
 projects_tags:
   - Hugolify
   - Hugo
-  - Netlify CMS
+  - Decap CMS
   - Bootstrap
   - SASS
 datas:
