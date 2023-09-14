@@ -8,7 +8,7 @@ projects_tags:
   - Architectify
   - Hugolify
   - Hugo
-  - Netlify CMS
+  - Decap CMS
   - Bootstrap
   - SASS
 image:
