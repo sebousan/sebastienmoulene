@@ -5,8 +5,9 @@ date: 2021-11-28T10:34:08.410Z
 title: Bouygues développement
 projects_types: Editorial
 projects_tags:
+  - Jamstack
   - Jekyll
-  - Netlify CMS
+  - Decap CMS
   - Bootstrap
   - SASS
 image:
