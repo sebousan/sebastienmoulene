@@ -5,6 +5,7 @@ date: 2023-07-02T10:34:08.410Z
 title: Tdesign Architecture
 projects_types: Editorial
 projects_tags:
+  - Jamstack
   - Architectify
   - Hugolify
   - Hugo
