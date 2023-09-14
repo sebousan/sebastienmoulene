@@ -6,7 +6,7 @@ title: Swissroc Industrial Opportunities
 projects_types: Editorial
 projects_tags:
   - Hugo
-  - Netlify CMS
+  - Decap CMS
   - Bootstrap
   - SASS
 image:
