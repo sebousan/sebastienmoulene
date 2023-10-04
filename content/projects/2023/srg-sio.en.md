@@ -14,7 +14,7 @@ image:
   src: /images/uploads/srg-sio.jpg
 datas:
   - title: Agency
-    text: Digital Luxury Group
+    text: Digital Luxury Group, Sensology
   - title: Client
     text: Swissroc
   - title: Website
