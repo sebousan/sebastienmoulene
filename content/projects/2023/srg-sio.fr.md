@@ -18,5 +18,5 @@ datas:
   - title: Client
     text: Swissroc
   - title: Site web
-    text: https://srg-sio.netlify.app/
+    text: https://www.sio-ch.com/
 ---
