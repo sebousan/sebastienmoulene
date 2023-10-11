@@ -1,7 +1,7 @@
 ---
 isIndex: false
 draft: false
-date: 2023-10-15T10:10:08.410Z
+date: 2023-10-10T10:10:08.410Z
 title: Swissroc Industrial Opportunities
 projects_types: Editorial
 projects_tags:
