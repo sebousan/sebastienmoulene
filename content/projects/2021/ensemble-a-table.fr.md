@@ -16,6 +16,8 @@ datas:
     text: Confédération des Arts de la Table
   - title: Agence
     text: Les Poupées Russes
+  - title: UI Designer
+    text: Violenn Simon
   - title: Site Web
     text: https://www.ensembleatable.fr
 ---
