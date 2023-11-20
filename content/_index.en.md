@@ -35,7 +35,8 @@ blocks:
       title: Certifications
   - type: pushes
     heading:
-      title: I’m working on an open-source project
+      title: Open-source
+      text: I work every day with open-source frameworks like Bootstrap or Hugo. I am happy to contribute to the movement by sharing my work on my Hugo framework.
     column: 1
     items:
       - title: Hugolify
@@ -45,5 +46,9 @@ blocks:
           blank: true
           text: Discover Hugolify
           url: https://www.hugolify.io
+        cta_second:
+          blank: true
+          text: Hugolify on Github
+          url: https://github.com/Hugolify/
         offset: start
 ---
