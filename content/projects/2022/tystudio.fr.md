@@ -1,6 +1,6 @@
 ---
 isIndex: false
-draft: true
+draft: false
 date: 2022-03-20T10:34:08.410Z
 title: TY Studio
 projects_types: Editorial
