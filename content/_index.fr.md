@@ -37,7 +37,8 @@ blocks:
         text: Je suis certifié en 2022 par Access42.
   - type: pushes
     heading:
-      title: Je travaille sur un projet open-source
+      title: Open-source
+      text: Je travaille tous les jours avec des frameworks open-source comme Bootstrap ou Hugo. Je suis heureux de contribuer au mouvement en partageant mon travail sur mon framework Hugo.
     column: 1
     items:
       - title: Hugolify
@@ -46,6 +47,10 @@ blocks:
         cta:
           blank: true
           text: Découvrir Hugolify
-          url: https://www.hugolify.io
+          url: https://www.hugolify.io/
+        cta_second:
+          blank: true
+          text: Hugolify sur Github
+          url: https://github.com/Hugolify/
         offset: start
 ---
