@@ -11,10 +11,12 @@ projects_tags:
   - SASS
   - Osuny
 datas:
-  - title: Studio
-    text: Noesya
   - title: Client
     text: Université Bordeaux Montaigne
+  - title: Studio
+    text: Noesya
+  - title: UI Designer
+    text: Takumi Kobayashi
   - title: Site Web
     text: https://www.iut.u-bordeaux-montaigne.fr/
 ---
