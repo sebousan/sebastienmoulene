@@ -11,7 +11,7 @@ hero:
     url: mailto:sebousan@gmail.com
   cta_second:
     blank: false
-    text: Par téléphone au 06 78 85 86 04
+    text: Par téléphone au +33 (0) 6 78 85 86 04
     url: tel:+33678858604
 blocks:
   - type: informations

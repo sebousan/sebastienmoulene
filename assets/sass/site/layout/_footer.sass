@@ -1,6 +1,4 @@
 footer[role="contentinfo"]
-    .container
-        text-align: center
     .bottom-links
         justify-content: center
     .nav-social
@@ -10,6 +8,10 @@ footer[role="contentinfo"]
     .hugolify
         display: none
     @include media-breakpoint-up(md)
+        .container
+            text-align: center
+        .top
+            display: block
         .logo + p
             max-width: 50%
             margin-left: auto
