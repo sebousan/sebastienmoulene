@@ -13,11 +13,11 @@ hero:
     J’ai récemment créé [Un Cinq](https://uncinq.dev/) pour mettre en avant ce savoir-faire.
   cta:
     text: Quelques projets réalisés
-    url: /projets
+    url: /projets/
   cta_second:
     blank: false
     text: Contactez moi
-    url: /contact
+    url: /contact/
 blocks:
   - type: informations
     column: 2
@@ -42,12 +42,12 @@ blocks:
     column: 1
     items:
       - title: Hugolify
-        text: Solution Jamstack développée en Hugo pour construire le plus rapidement possible un site Web performant, accessible à tous et bas carbone.
+        text: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
         icon: git
         cta:
           blank: true
           text: Découvrir Hugolify
-          url: https://www.hugolify.io/
+          url: https://uncinq.dev/notre-solution-et-produits/hugolify/
         cta_second:
           blank: true
           text: Hugolify sur Github
