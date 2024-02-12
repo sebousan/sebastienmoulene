@@ -8,6 +8,8 @@ projects_tags:
   - Wordpress
   - Bootstrap
   - SASS
+  - PHP
+  - Javascript
 image:
   src: /images/uploads/lmds.jpg
 datas:
