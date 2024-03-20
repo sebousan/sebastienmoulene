@@ -4,8 +4,9 @@ draft: false
 date: 2019-09-30T23:00:00.000Z
 title: Odysound
 projects_types: E-commerce
-projects_tags:
+projects_solutions:
   - Rails
+projects_tags:
   - Javascript
   - SASS
 image:

@@ -1,31 +1,38 @@
 .project
-    --bs-card-spacer-x: 1rem
-    --bs-card-spacer-y: 1rem
-    --bs-card-border-width: 0
-    --bs-card-border-radius: 4px
+    --bs-card-spacer-x: 2rem
+    --bs-card-spacer-y: 2rem
+    --bs-card-border-radius: 8px
     --bs-card-inner-border-radius: 0
     --bs-card-bg: #F8F9FA
     --bs-card-cap-bg: transparent
-    --bs-card-cap-padding-x: 1rem
-    --bs-card-cap-padding-y: 1rem
+    --bs-card-cap-padding-x: 2rem
+    --bs-card-cap-padding-y: 2rem
     @extend .card
-    @include media-breakpoint-up(md)
-        .content
-            align-items: baseline
-            display: flex
-            flex-direction: row-reverse
-            justify-content: space-between
-    .list-projects_tags
-        @extend .card-footer
-        padding-top: 0
+    box-shadow: rgba(0, 0, 0, 0.05) 0 1px 2px 0
+    .content
+        align-items: baseline
+        display: flex
+        flex-direction: column-reverse
+        justify-content: flex-end
+    .list-projects_solutions
+        @include media-breakpoint-up(md)
+            position: absolute
+            right: var(--bs-card-spacer-x)
+            top: var(--bs-card-spacer-y)
+        @include media-breakpoint-down(md)
+            padding-bottom: var(--bs-card-spacer-y)
+            padding-left: var(--bs-card-spacer-x)
         li
-            --bs-badge-color: #{$gray-800}
             @extend .badge
-            background-color: $gray-200
-    .category
-        &::before
-            content: '—'
-            margin-left: .25rem
-            margin-right: .25rem
+            background-color: white
+            border: 1px solid var(--color, #{$gray-800})
+            color: var(--color, #{$gray-800})
+    .metas
+        display: flex
+        font-size: $small-font-size
+        margin-top: .25rem
+        &,
+        time
+            color: $gray-600
     a
         @extend .stretched-link

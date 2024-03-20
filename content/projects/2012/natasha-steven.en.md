@@ -4,8 +4,9 @@ draft: false
 date: 2012-09-16T23:00:00.000Z
 title: Natacha Steven
 projects_types: Editorial
-projects_tags:
+projects_solutions:
   - Wordpress
+projects_tags:
   - PHP
   - CSS
 image:

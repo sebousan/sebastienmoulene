@@ -4,8 +4,9 @@ draft: false
 date: 2013-03-26T22:00:00.000Z
 title: Projet La Samaritaine
 projects_types: Editorial
-projects_tags:
+projects_solutions:
   - Wordpress
+projects_tags:
   - jQuery
   - Javascript
   - CSS

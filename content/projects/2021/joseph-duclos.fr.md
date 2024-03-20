@@ -4,14 +4,13 @@ draft: false
 date: 2021-09-15T22:00:00.000Z
 title: Joseph Duclos
 projects_types: E-commerce
-projects_tags:
+projects_solutions:
   - Shopify
+projects_tags:
   - Bootstrap
   - Liquid
   - SASS
 image:
   src: /images/uploads/josephduclos.jpg
-datas:
-  - title: Site Web
-    text: https://www.josephduclos.com
+projects_url: https://www.josephduclos.com
 ---

@@ -10,6 +10,7 @@ projects_tags:
   - Stylus
 image:
   src: /images/uploads/lorealparis.jpg
+place: Paris, France
 datas:
   - title: Client
     text: L’Oréal

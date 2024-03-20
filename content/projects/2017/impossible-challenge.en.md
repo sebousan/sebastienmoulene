@@ -10,6 +10,7 @@ projects_tags:
   - Stylus
 image:
   src: /images/uploads/vw.png
+place: Paris, France
 datas:
   - title: Client
     text: Volkswagen

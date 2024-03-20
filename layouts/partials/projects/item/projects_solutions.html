@@ -1,0 +1,9 @@
+{{ with .GetTerms "projects_solutions" }}
+<div class="list-projects_solutions">
+  <ul>
+    {{ range . }}
+    <li class="{{ .Title | urlize }}">{{ .Title }}</li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

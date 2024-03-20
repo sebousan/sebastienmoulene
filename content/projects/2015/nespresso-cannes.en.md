@@ -4,8 +4,9 @@ draft: false
 date: 2015-05-04T22:00:00.000Z
 title: Nespresso Cannes
 projects_types: Event
-projects_tags:
+projects_solutions:
   - Wordpress
+projects_tags:
   - jQuery
   - Javascript
   - Stylus

@@ -4,8 +4,9 @@ draft: false
 date: 2021-09-01T22:00:00.000Z
 title: Ensemble à table
 projects_types: E-commerce
-projects_tags:
+projects_solutions:
   - Rails
+projects_tags:
   - Bootstrap
   - Javascript
   - SASS

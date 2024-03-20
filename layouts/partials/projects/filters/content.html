@@ -1,0 +1,14 @@
+<div class="content">
+  {{ $projects_types := "projects/filters/projects_types.html" }}
+  {{ if templates.Exists ( printf "partials/%s" $projects_types ) }}
+    {{ partial $projects_types . }}
+  {{ end }}
+  {{ $projects_solutions := "projects/filters/projects_solutions.html" }}
+  {{ if templates.Exists ( printf "partials/%s" $projects_solutions ) }}
+    {{ partial $projects_solutions . }}
+  {{ end }}
+  {{ $projects_tags := "projects/filters/projects_tags.html" }}
+  {{ if templates.Exists ( printf "partials/%s" $projects_tags ) }}
+    {{ partial $projects_tags . }}
+  {{ end }}
+</div>

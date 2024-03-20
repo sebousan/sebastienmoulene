@@ -4,8 +4,9 @@ draft: false
 date: 2020-04-05T22:00:00.000Z
 title: Grand prix du commerce
 projects_types: Event
-projects_tags:
+projects_solutions:
   - Wordpress
+projects_tags:
   - Bootstrap
   - SASS
 image:

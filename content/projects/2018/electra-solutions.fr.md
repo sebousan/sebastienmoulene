@@ -4,8 +4,9 @@ draft: false
 date: 2018-09-23T22:00:00.000Z
 title: Electra Solutions
 projects_types: Editorial
-projects_tags:
+projects_solutions:
   - Wordpress
+projects_tags:
   - Javascript
   - Stylus
 image:

@@ -10,6 +10,7 @@ projects_tags:
   - Stylus
 image:
   src: /images/uploads/printemps.jpg
+place: Paris, France
 datas:
   - title: Client
     text: Printemps

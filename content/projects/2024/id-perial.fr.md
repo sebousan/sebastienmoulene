@@ -4,13 +4,17 @@ draft: false
 date: 2024-01-15T10:34:08.410Z
 title: Perial Investment & Development
 projects_types: Editorial
-projects_tags:
+projects_solutions:
   - Wordpress
+projects_tags:
   - Bootstrap
   - SASS
+  - Javascript
   - PHP
+projects_url: https://id.perial.com
 image:
   src: /images/uploads/perial.jpg
+place: Paris, France
 datas:
   - title: Client
     text: Perial
@@ -18,6 +22,4 @@ datas:
     text: Goodkids
   - title: Studio
     text: Noesya
-  - title: Site Web
-    text: https://id.perial.com
 ---
