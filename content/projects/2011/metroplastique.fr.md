@@ -12,4 +12,7 @@ projects_tags:
   - CSS
 image:
   src: /images/uploads/metroplastique.jpg
+datas:
+  - title: Client
+    text: Supakitch et Koralie
 ---

@@ -12,4 +12,7 @@ projects_tags:
   - CSS
 image:
   src: /images/uploads/sixpack.jpg
+datas:
+  - title: Design
+    text: Lunettes Noires
 ---
