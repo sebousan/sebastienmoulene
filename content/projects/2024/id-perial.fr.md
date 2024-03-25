@@ -8,9 +8,9 @@ projects_solutions:
   - Wordpress
 projects_tags:
   - Bootstrap
-  - SASS
   - Javascript
   - PHP
+  - SASS
 projects_url: https://id.perial.com
 image:
   src: /images/uploads/perial.jpg
