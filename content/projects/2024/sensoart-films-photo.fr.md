@@ -2,7 +2,9 @@
 isIndex: false
 draft: false
 date: 2024-03-15T10:34:08.410Z
-title: Senso Art / Films / Photos
+title: Senso Art, Films, Photo
+image:
+  src: /images/uploads/sensoart.png
 projects_types: Editorial
 projects_solutions:
   - Symfony
