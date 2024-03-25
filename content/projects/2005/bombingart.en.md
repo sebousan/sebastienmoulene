@@ -7,5 +7,5 @@ projects_types: Editorial
 projects_tags:
   - CSS
   - PHP
-  - Deisgn
+  - Design
 ---
