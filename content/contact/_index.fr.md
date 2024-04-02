@@ -4,7 +4,7 @@ title: Contact
 hero:
   title: Contactez-moi
   text: >-
-    N’hésitez pas à prendre contacte avec moi pour concevoir votre prochain site Web. Je suis disponible par téléphone ou bien par e-mail.
+    N’hésitez pas à prendre contact avec moi pour concevoir votre prochain site Web. Je suis disponible par téléphone ou bien par e-mail.
   cta:
     blank: true
     text: Contactez moi par email
