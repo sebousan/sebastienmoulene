@@ -3,6 +3,9 @@ en:
   title: Sébastien Moulène
   weight: 2
   permalinks:
+    projects: /projects/:slug
+    projects_tags: /projects/tags/:slug
+    projects_types: /projects/types/:slug
     projects_solutions: /projects/solutions/:slug
 
 fr:
