@@ -8,5 +8,7 @@ header[role="banner"]
     .nav-language
         background: $light
         border-radius: $border-radius
+        @include media-breakpoint-up(md)
+            margin-left: $nav-link-padding-x
         .dropdown-menu
             --bs-dropdown-bg: $light
