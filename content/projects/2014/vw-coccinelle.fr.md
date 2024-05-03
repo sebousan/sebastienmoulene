@@ -10,6 +10,9 @@ projects_tags:
   - SASS
 image:
   src: /images/uploads/cox.jpg
+projects_awards:
+  - CSS Design Award
+  - FWA
 datas:
   - title: Client
     text: Volkswagen
@@ -17,6 +20,4 @@ datas:
     text: DDB Paris
   - title: Studio
     text: Bonhomme
-  - title: Award
-    text: FWA, CSS Design Award
 ---

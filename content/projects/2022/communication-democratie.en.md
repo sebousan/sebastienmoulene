@@ -11,10 +11,12 @@ projects_tags:
   - Hugo
   - Bootstrap
   - SASS
+image:
+  src: /images/uploads/comdem.png
+  screenshot: true
 place: Paris, France
 datas:
   - title: Studio
     text: Noesya
-  - title: Website
-    text: https://www.communication-democratie.org/
+projects_url: https://www.communication-democratie.org/
 ---

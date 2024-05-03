@@ -12,6 +12,14 @@ projects_tags:
   - Decap CMS
   - Bootstrap
   - SASS
+image:
+  src: /images/uploads/miriam.png
+  screenshot: true
 place: Paris, France
 projects_url: https://www.miriamlasserre.com
+datas:
+  - title: Client
+    text: Miriam Lasserre
+  - title: AD
+    text: Noémie Cédille
 ---

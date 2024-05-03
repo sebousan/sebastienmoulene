@@ -9,7 +9,7 @@ projects_tags:
   - Design
 image:
   src: /images/uploads/gbc.jpg
-datas:
-  - title: Award
-    text: FWA
+  screenshot: true
+projects_awards:
+  - FWA
 ---

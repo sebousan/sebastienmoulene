@@ -1,7 +1,7 @@
 <div class="content">
-  {{ $projects_types := "projects/filters/projects_types.html" }}
-  {{ if templates.Exists ( printf "partials/%s" $projects_types ) }}
-    {{ partial $projects_types . }}
+  {{ $projects_awards := "projects/filters/projects_awards.html" }}
+  {{ if templates.Exists ( printf "partials/%s" $projects_awards ) }}
+    {{ partial $projects_awards . }}
   {{ end }}
   {{ $projects_solutions := "projects/filters/projects_solutions.html" }}
   {{ if templates.Exists ( printf "partials/%s" $projects_solutions ) }}
@@ -10,5 +10,9 @@
   {{ $projects_tags := "projects/filters/projects_tags.html" }}
   {{ if templates.Exists ( printf "partials/%s" $projects_tags ) }}
     {{ partial $projects_tags . }}
+  {{ end }}
+  {{ $projects_types := "projects/filters/projects_types.html" }}
+  {{ if templates.Exists ( printf "partials/%s" $projects_types ) }}
+    {{ partial $projects_types . }}
   {{ end }}
 </div>

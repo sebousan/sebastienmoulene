@@ -1,14 +1,6 @@
 .project
-    --bs-card-spacer-x: 2rem
-    --bs-card-spacer-y: 2rem
-    --bs-card-border-radius: 8px
-    --bs-card-inner-border-radius: 0
-    --bs-card-bg: #F8F9FA
-    --bs-card-cap-bg: transparent
-    --bs-card-cap-padding-x: 2rem
-    --bs-card-cap-padding-y: 2rem
     @extend .card
-    box-shadow: rgba(0, 0, 0, 0.05) 0 1px 2px 0
+    box-shadow: $shadow
     .content
         align-items: baseline
         display: flex
@@ -29,12 +21,5 @@
             color: var(--color, #{$gray-800})
             margin-left: 0.5rem
             margin-right: 0
-    .metas
-        display: flex
-        font-size: $small-font-size
-        margin-top: .25rem
-        &,
-        time
-            color: $text-muted
     a
         @extend .stretched-link

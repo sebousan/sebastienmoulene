@@ -10,8 +10,11 @@ projects_tags:
   - Smarty
   - SASS
 image:
-  src: /images/uploads/roquebert.jpg
+  src: /images/uploads/roquebert.png
+  screenshot: true
+place: Bordeaux, France
 datas:
   - title: Studio
     text: Rue Pavée
+projects_url: https://www.roquebert.fr/fr/
 ---

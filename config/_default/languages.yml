@@ -4,9 +4,10 @@ en:
   weight: 2
   permalinks:
     projects: /projects/:slug
+    projects_awards: /projects/awards/:slug
+    projects_solutions: /projects/solutions/:slug
     projects_tags: /projects/tags/:slug
     projects_types: /projects/types/:slug
-    projects_solutions: /projects/solutions/:slug
 
 fr:
   languageName: Français
@@ -14,6 +15,7 @@ fr:
   weight: 1
   permalinks:
     projects: /projets/:slug
+    projects_awards: /projets/awards/:slug
+    projects_solutions: /projets/solutions/:slug
     projects_tags: /projets/tags/:slug
     projects_types: /projets/types/:slug
-    projects_solutions: /projets/solutions/:slug

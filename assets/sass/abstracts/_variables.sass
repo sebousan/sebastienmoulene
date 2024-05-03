@@ -5,6 +5,7 @@ $footer-background-color: transparent
 $footer-color: #000000  
 $hero-min-height: 300px    
 $global-spacing: 2rem
+$shadow: rgba(0, 0, 0, 0.05) 0 1px 2px 0
 
 $decapcms-color: #ff0080
 $hugo-color: #ff4088
@@ -17,6 +18,7 @@ $shopify-color: #15c064
 $symfony-color: #1f2937
 $wordpress-color: #3858e9
 
+
 // https://github.com/twbs/bootstrap/blob/v5.3.3/scss/_variables.scss
 
 // Color
@@ -27,10 +29,22 @@ $body-color: black
 $light: #E8E8E8
 $text-muted: #666
 
+// Font
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-weight-normal: 400
+$font-weight-bold: 600
+$headings-font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$headings-font-weight: 500
+$headings-margin-bottom: 1rem
+$h1-font-size: 2rem
+$h2-font-size: 1.5rem
+$h3-font-size: 1.5rem
+$small-font-size: .75rem
+
 // Border
 $border-radius: 4px
 $border-radius-sm: $border-radius
-$border-radius-lg: $border-radius
+$border-radius-lg: 8px
 $border-radius-xl: $border-radius
 $border-radius-2xl: $border-radius
 
@@ -44,19 +58,21 @@ $btn-close-opacity: 1
 $btn-padding-y: .75rem
 $btn-padding-x:  1rem
 
+// Card
+$card-border-radius: $border-radius-lg
+$card-bg: #F8F9FA
+$card-spacer-y: 2rem
+$card-spacer-x: 2rem
+
 // Container
 $container-max-widths: (sm: 540px, md: 720px, lg: 768px)
 
-// Font
-$font-family-sans-serif: Gotham, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-weight-normal: 300
-$font-weight-bold: 500
-$headings-font-weight: 500
-$headings-margin-bottom: 1rem
-$h1-font-size: 2rem
-$h2-font-size: 1.5rem
-$h3-font-size: 1.5rem
-$small-font-size: .75rem
+// Dropdown
+$dropdown-bg: $light
+$dropdown-border-width: 0
+$dropdown-color: black
+$dropdown-font-size: $small-font-size
+$dropdown-min-width: 0
 
 // Navbar
 $navbar-padding-y: 1.5rem

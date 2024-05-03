@@ -12,7 +12,7 @@ hero:
     
     J’ai récemment créé [Un Cinq](https://uncinq.dev/) pour mettre en avant ce savoir-faire.
   cta:
-    text: Quelques projets réalisés
+    text: Projets réalisés
     url: /projets/
   cta_second:
     blank: false
@@ -35,6 +35,7 @@ blocks:
         icon: universal-access-circle
         title: Développer des sites Web accessibles
         text: Je suis certifié en 2022 par Access42.
+  
   - type: pushes
     heading:
       title: Open-source
@@ -53,4 +54,9 @@ blocks:
           text: Hugolify sur Github
           url: https://github.com/Hugolify/
         offset: start
+  - type: latest
+    section: projects
+    show_more: false
+    heading:
+      title: Derniers projets réalisés
 ---

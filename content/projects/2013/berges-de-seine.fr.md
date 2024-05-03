@@ -12,6 +12,7 @@ projects_tags:
   - CSS
 image:
   src: /images/uploads/lesberges.jpg
+place: Paris, France
 datas:
   - title: Client
     text: Ville de Paris

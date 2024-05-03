@@ -5,10 +5,9 @@ header[role="banner"]
         position: static
     .logo
         @include font-size(1.25rem)
-    .nav-language
+    .nav-language:last-child
         background: $light
         border-radius: $border-radius
         @include media-breakpoint-up(md)
             margin-left: $nav-link-padding-x
-        .dropdown-menu
-            --bs-dropdown-bg: $light
+            margin-right: 0

@@ -10,6 +10,7 @@ projects_tags:
   - jQuery
   - Javascript
   - CSS
+place: Paris, France
 image:
   src: /images/uploads/lecinq.jpg
 ---

@@ -13,13 +13,13 @@ projects_tags:
   - Bootstrap
   - SASS
 image:
-  src: /images/uploads/srg-sio.jpg
+  src: /images/uploads/srg-sio.png
+  screenshot: true
 place: Geneva, Switzerland
+projects_url: https://www.sio-ch.com/
 datas:
-  - title: Agencies
-    text: Digital Luxury Group, Sensology
   - title: Client
     text: Swissroc
-  - title: Website
-    text: https://www.sio-ch.com/
+  - title: Agencies
+    text: Digital Luxury Group, Sensology
 ---

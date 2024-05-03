@@ -10,8 +10,12 @@ projects_tags:
   - jQuery
   - Javascript
   - CSS
+  - WPML
+projects_awards:
+  - Awwwards
 image:
-  src: /images/uploads/samaritaine.jpg
+  src: /images/uploads/la-samaritaine.jpg
+  screenshot: true
 datas:
   - title: Client
     text: LVMH

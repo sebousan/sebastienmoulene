@@ -9,6 +9,7 @@ projects_solutions:
 projects_tags:
   - PHP
   - CSS
+place: Paris, France
 image:
   src: /images/uploads/natacha.jpg
 ---

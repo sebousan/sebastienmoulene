@@ -1,0 +1,26 @@
+{{ $current := . | default false }}
+{{ $tax := "projects_awards" | default false }}
+{{ if $tax }}
+  {{ $the_tax := index site.Taxonomies $tax }}
+  {{ with $the_tax }}
+    {{ $nTaxs := $the_tax | len }}
+    {{ $i18n := printf "%s.title" $tax }}
+    <div class="list list-{{ $tax }}">
+      <p>{{ i18n $i18n $nTaxs }}</p>
+      <ol>
+        {{ range $taxonomy_term, $taxonomy := . }}
+          {{- $page := partial "func/GetRealContext" .Page -}}
+          <li class="{{ $page.Title | urlize }}">
+            {{- $title := partial "func/PrepareHTML" $page.Title -}}
+            {{- if not $page.File -}}
+              {{- $title = $title | humanize -}}
+            {{- end -}}
+            <a href="{{ .Page.Permalink }}">
+              {{- $title -}}
+            </a>
+          </li>
+        {{ end }}
+      </ol>
+    </div>
+  {{ end }}
+{{ end }}

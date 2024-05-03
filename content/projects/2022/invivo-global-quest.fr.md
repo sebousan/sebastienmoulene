@@ -16,10 +16,9 @@ image:
   src: /images/uploads/invivoglobalquest.jpg
 place: Paris, France
 datas:
-  - title: Agence
-    text: Maddyness
   - title: Client
     text: Invivo
-  - title: Site Web
-    text: https://www.invivoglobalquest.com/
+  - title: Agence
+    text: Maddyness
+projects_url: https://www.invivoglobalquest.com/
 ---

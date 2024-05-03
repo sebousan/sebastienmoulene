@@ -14,7 +14,11 @@ projects_tags:
   - Bootstrap
   - SASS
 image:
-  src: /images/uploads/tdesign.jpg
+  src: /images/uploads/tdesign.png
+  screenshot: true
 place: Bordeaux, France
 projects_url: https://www.tdesignarchitecture.com
+datas:
+  - title: Client
+    text: Frédéric Thet
 ---

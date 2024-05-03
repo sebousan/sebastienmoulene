@@ -9,7 +9,11 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/sonia.jpg
+  src: /images/uploads/soniaby-2014.jpg
+  screenshot: true
+projects_awards:
+  - Awwwards
+  - FWA
 datas:
   - title: Client
     text: Sonia Rykiel
@@ -17,6 +21,4 @@ datas:
     text: 84.Paris
   - title: Studio
     text: Bonhomme
-  - title: Award
-    text: Awwwards, FWA
 ---

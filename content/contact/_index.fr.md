@@ -7,12 +7,10 @@ hero:
     N’hésitez pas à prendre contact avec moi pour concevoir votre prochain site Web. Je suis disponible par téléphone ou bien par e-mail.
   cta:
     blank: true
-    text: Contactez moi par email
+    text: Envoyez-moi un email
     url: mailto:sebousan@gmail.com
-  cta_second:
-    blank: false
-    text: Par téléphone au +33 (0) 6 78 85 86 04
-    url: tel:+33678858604
+  image:
+    src: /images/uploads/sebastien-moulene.jpg
 blocks:
   - type: informations
     column: 3
@@ -36,4 +34,14 @@ blocks:
           text: Me suivre
           blank: true
           url: https://twitter.com/sebousan
+  - type: pushes
+    column: 1
+    items:
+      - title: Un Cinq
+        text: Nous développons des sites Web pérennes, accessibles à tous et à faible émission de carbone.
+        cta:
+          blank: true
+          text: Découvrir Un Cinq
+          url: https://uncinq.dev/
+        
 ---

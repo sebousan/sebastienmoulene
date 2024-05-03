@@ -9,8 +9,8 @@ projects_solutions:
 projects_tags:
   - Jamstack
   - Hugo
+  - Bootstrap
   - SASS
-  - Osuny
 place: Paris, France
 datas:
   - title: Studio

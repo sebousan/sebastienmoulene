@@ -1,9 +1,9 @@
 ---
 title: Home
 hero:
-  title: Freelance front-end developer
+  title: Senior freelance front-end developer.
   text: >-
-    I’m Sébastien Moulène, senior front-end developer from Bordeaux, France.
+    I'm Sébastien Moulène, a senior front-end developer living in Bordeaux, France.
     
 
     I have been in this business for more than 20 years and I specialize in the design of high-performance, accessible to all and low-carbon websites.
@@ -11,11 +11,11 @@ hero:
     
     I recently created [Un Cinq](https://uncinq.dev/) to highlight this know-how.
   cta:
-    text: Some completed projects
-    url: /en/projects
+    text: Realized projects
+    url: /en/projects/
   cta_second:
     text: Contact me
-    url: /en/contact
+    url: /en/contact/
 blocks:
   - type: informations
     column: 2
@@ -45,10 +45,15 @@ blocks:
         cta:
           blank: true
           text: Discover Hugolify
-          url: https://www.hugolify.io
+          url: https://www.hugolify.io/
         cta_second:
           blank: true
           text: Hugolify on Github
           url: https://github.com/Hugolify/
         offset: start
+  - type: latest
+    section: projects
+    show_more: false
+    heading:
+      title: Latest projects
 ---

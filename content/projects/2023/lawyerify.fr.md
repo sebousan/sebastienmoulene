@@ -12,6 +12,13 @@ projects_tags:
   - Decap CMS
   - Bootstrap
   - SASS
+  - Design
+image:
+  src: /images/uploads/lawyerify.png
+  screenshot: true
 place: Bordeaux, France
 projects_url: https://www.lawyerify.io
+datas:
+  - title: Client
+    text: Un Cinq
 ---

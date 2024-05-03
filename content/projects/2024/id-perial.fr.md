@@ -11,9 +11,11 @@ projects_tags:
   - Javascript
   - PHP
   - SASS
+  - ACF
 projects_url: https://id.perial.com
 image:
-  src: /images/uploads/perial.jpg
+  src: /images/uploads/perial.png
+  screenshot: true
 place: Paris, France
 datas:
   - title: Client

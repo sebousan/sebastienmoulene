@@ -1,12 +1,12 @@
 fr:
   links:
     - title: Projets
-      url: /projets
+      url: /projets/
     - title: Contact
-      url: /contact
+      url: /contact/
 en:
   links:
     - title: Projects
-      url: /en/projects
+      url: /en/projects/
     - title: Contact
-      url: /en/contact
+      url: /en/contact/

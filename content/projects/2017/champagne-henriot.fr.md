@@ -11,10 +11,10 @@ projects_tags:
   - Stylus
 image:
   src: /images/uploads/henriot.jpg
-places: Reims, france
+place: Reims, France
 datas:
   - title: Studio
-    text: 23 prod
+    text: 23prod
   - title: Site Web
     text: https://www.boutique.champagne-henriot.com/
 ---

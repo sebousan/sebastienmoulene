@@ -3,6 +3,7 @@ isIndex: false
 draft: false
 date: 2018-09-23T22:00:00.000Z
 title: Electra Solutions
+place: Dubai, UAE
 projects_types: Editorial
 projects_solutions:
   - Wordpress

@@ -9,10 +9,8 @@ hero:
     blank: true
     text: Send me an e-mail
     url: mailto:sebousan@gmail.com
-  cta_second:
-    blank: false
-    text: By phone +33 (0) 6 78 85 86 04
-    url: tel:+33678858604
+  image:
+    src: /images/uploads/sebastien-moulene.jpg
 blocks:
   - type: informations
     column: 3
@@ -36,4 +34,13 @@ blocks:
           text: Follow me
           blank: true
           url: https://twitter.com/sebousan
+  - type: pushes
+    column: 1
+    items:
+      - title: Un Cinq
+        text: We develop sustainable websites that are accessible to all and have low carbon emissions.
+        cta:
+          blank: true
+          text: Discover Un Cinq (french)
+          url: https://uncinq.dev/
 ---

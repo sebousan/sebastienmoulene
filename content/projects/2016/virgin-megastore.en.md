@@ -17,6 +17,6 @@ datas:
     text: Azur Digital
   - title: Studio
     text: Rue Pavée
-  - title: Award
-    text: Seamless Award
+projects_awards:
+  - Seamless Award
 ---
