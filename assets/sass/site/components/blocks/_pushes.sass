@@ -3,6 +3,10 @@
         border-radius: $border-radius-lg
     .push
         --push-color: white
+        @include media-breakpoint-down(md)
+            border-radius: 0
+            picture 
+                display: none
         h3
             font-size: $h3-font-size
             line-height: 1.4
