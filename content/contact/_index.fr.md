@@ -43,5 +43,7 @@ blocks:
           blank: true
           text: Découvrir Un Cinq
           url: https://uncinq.dev/
+        image:
+          src: /images/uploads/205.OK.svg
         
 ---

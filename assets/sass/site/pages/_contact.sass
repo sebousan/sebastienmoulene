@@ -6,3 +6,14 @@
         img
             border-radius: 50%
             overflow: hidden
+            @include media-breakpoint-down(md)
+                max-width: 200px
+    .push
+        @include media-breakpoint-down(md)
+            border-radius: 0
+            picture 
+                display: none
+        img
+            object-fit: contain
+            object-position: right
+            transform: scale(1.2) translate(-2rem, 2rem)
