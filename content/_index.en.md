@@ -36,7 +36,7 @@ blocks:
   - type: pushes
     heading:
       title: Open-source
-      text: I work every day with open-source frameworks like Bootstrap or Hugo. I am happy to contribute to the movement by sharing my work on my Hugo framework.
+      text: I work every day with open-source frameworks like Bootstrap or Hugo, which is why I am happy to contribute to the movement by sharing my work on my Hugo framework.
     column: 1
     items:
       - title: Hugolify
