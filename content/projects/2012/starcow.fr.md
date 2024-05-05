@@ -10,7 +10,8 @@ projects_tags:
   - Smarty
   - Stylus
 image:
-  src: /images/uploads/starcow.jpg
+  src: /images/uploads/starcow.png
+  screenshot: true
 place: Paris, France
 datas:
   - title: Studio

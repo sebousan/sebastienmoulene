@@ -11,7 +11,8 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/84.jpg
+  src: /images/uploads/84paris.png
+  screenshot: true
 place: Paris, France
 datas:
   - title: Agency
