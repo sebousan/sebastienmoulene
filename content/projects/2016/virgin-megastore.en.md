@@ -10,7 +10,8 @@ projects_tags:
   - Javascript
   - Stylus
 image:
-  src: /images/uploads/virgin.jpg
+  src: /images/uploads/virgin.png
+  screenshot: true
 place: Dubai, UAE
 datas:
   - title: Agency

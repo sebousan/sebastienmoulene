@@ -3,6 +3,7 @@ isIndex: false
 draft: false
 date: 2011-12-10T23:00:00.000Z
 title: Metroplastique
+place: Paris, France
 projects_types: E-commerce
 projects_solutions:
   - Prestashop

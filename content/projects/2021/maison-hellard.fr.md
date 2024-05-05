@@ -12,5 +12,6 @@ projects_tags:
   - Liquid
   - SASS
 image:
-  src: /images/uploads/maisonhellard.jpg
+  src: /images/uploads/maisonhellard.png
+  screenshot: true
 ---

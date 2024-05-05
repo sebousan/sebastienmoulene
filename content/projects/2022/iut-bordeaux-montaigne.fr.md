@@ -12,12 +12,15 @@ projects_tags:
   - Bootstrap
   - SASS
 projects_url: https://www.iut.u-bordeaux-montaigne.fr/
+image:
+  src: /images/uploads/iut.png
+  screenshot: true
 place: Bordeaux, France
 datas:
   - title: Client
     text: Université Bordeaux Montaigne
   - title: Studio
     text: Noesya
-  - title: UI Designer
+  - title: DA
     text: Takumi Kobayashi
 ---

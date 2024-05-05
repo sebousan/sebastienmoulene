@@ -10,7 +10,8 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/carrefour.jpg
+  src: /images/uploads/carrefour.png
+  screenshot: true
 place: Dubai, UAE
 datas:
   - title: Agence

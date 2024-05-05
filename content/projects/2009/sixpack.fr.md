@@ -3,6 +3,7 @@ isIndex: false
 draft: false
 date: 2009-08-30T23:00:00.000Z
 title: Sixpack France
+place: Avignon, France
 projects_types: E-commerce
 projects_solutions:
   - Prestashop
