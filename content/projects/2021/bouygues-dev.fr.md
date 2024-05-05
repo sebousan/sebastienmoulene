@@ -14,10 +14,10 @@ projects_tags:
   - Liquid
   - SASS
 image:
-  src: /images/uploads/bouyguesdev.jpg
+  src: /images/uploads/bouyguesdev.png
+  screenshot: true
+projects_url: https://www.bouyguesdev.fr/
 datas:
   - title: Agence
     text: Maddyness
-  - title: Site Web
-    text: https://www.bouyguesdev.fr/
 ---

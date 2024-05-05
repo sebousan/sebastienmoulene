@@ -12,6 +12,7 @@ projects_tags:
   - Liquid
   - SASS
 image:
-  src: /images/uploads/josephduclos.jpg
+  src: /images/uploads/josephduclos.png
+  screenshot: true
 projects_url: https://www.josephduclos.com
 ---

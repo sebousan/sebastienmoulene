@@ -12,7 +12,8 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/ensemble.jpg
+  src: /images/uploads/ensemble.png
+  screenshot: true
 datas:
   - title: Client
     text: Confédération des Arts de la Table
@@ -20,6 +21,5 @@ datas:
     text: Les Poupées Russes
   - title: AD
     text: Violenn Simon
-  - title: Website
-    text: https://www.ensembleatable.fr
+projects_url: https://www.ensembleatable.fr
 ---
