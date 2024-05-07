@@ -15,8 +15,5 @@ place: Jeddah, Saoudi Arabia
 datas:
   - title: Agency
     text: Keyrus
-  - title: Website
-    text: https://www.extra.com
-  - title: Location
-    text: Saoudi Arabia
+projects_url: https://www.extra.com
 ---

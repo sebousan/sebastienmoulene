@@ -15,6 +15,5 @@ place: Reims, France
 datas:
   - title: Studio
     text: 23prod
-  - title: Site Web
-    text: https://www.boutique.champagne-henriot.com/
+projects_url: https://www.boutique.champagne-henriot.com/
 ---

@@ -10,5 +10,4 @@ projects_tags:
   - SASS
 image:
   src: /images/uploads/tyrsa.jpg
-projects_url: https://www.tyrsa.fr
 ---

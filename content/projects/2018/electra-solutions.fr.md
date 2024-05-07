@@ -15,8 +15,5 @@ image:
 datas:
   - title: Studio
     text: Rue Pavée
-  - title: Site Web
-    text: https://www.electrasolutions.com
-  - title: Lieu
-    text: Dubai UAE
+# projects_url: https://www.electrasolutions.com/
 ---

@@ -14,4 +14,5 @@ image:
 datas:
   - title: Studio
     text: Rue Pavée
+projects_url: https://www.monopole-magazine.com/
 ---

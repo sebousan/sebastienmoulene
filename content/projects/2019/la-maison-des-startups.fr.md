@@ -19,6 +19,5 @@ datas:
     text: LVMH
   - title: Agence
     text: Maddyness
-  - title: Site Web
-    text: https://lamaisondesstartups.lvmh.com
+projects_url: https://lamaisondesstartups.lvmh.com
 ---

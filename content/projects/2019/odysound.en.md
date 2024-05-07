@@ -14,6 +14,4 @@ image:
 datas:
   - title: Agency
     text: Lost Mechanics
-  - title: Website
-    text: https://cinema.odysound.com
 ---

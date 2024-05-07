@@ -15,6 +15,5 @@ place: Djeddah, Arabie Saoudite
 datas:
   - title: Agence
     text: Keyrus
-  - title: Site Web
-    text: https://www.extra.com
+projects_url: https://www.extra.com
 ---

@@ -16,6 +16,5 @@ place: Dubai, UAE
 datas:
   - title: Agency
     text: Azur Digital
-  - title: Website
-    text: https://www.carrefouruae.com
+projects_url: https://www.carrefouruae.com
 ---

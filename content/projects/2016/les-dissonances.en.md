@@ -14,6 +14,7 @@ image:
 datas:
   - title: Studio
     text: Rue Pavée
-  - title: Website
-    text: http://www.lesdissonances.fr
+  - title: AD
+    text: Noémie Cédille
+projects_url: http://www.lesdissonances.fr
 ---
