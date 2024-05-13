@@ -8,6 +8,7 @@ projects_solutions:
   - SAP Hybris
 projects_tags:
   - Javascript
+  - HTML
   - Stylus
 image:
   src: /images/uploads/virgin.png

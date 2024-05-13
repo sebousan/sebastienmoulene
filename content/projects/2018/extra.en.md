@@ -8,6 +8,7 @@ projects_solutions:
   - SAP Hybris
 projects_tags:
   - Javascript
+  - HTML
   - SASS
 image:
   src: /images/uploads/extra.png

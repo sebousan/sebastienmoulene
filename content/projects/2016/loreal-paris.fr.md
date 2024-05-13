@@ -7,6 +7,7 @@ projects_types: Editorial
 projects_tags:
   - jQuery
   - Javascript
+  - HTML
   - Stylus
 image:
   src: /images/uploads/lorealparis.jpg

@@ -10,7 +10,8 @@ projects_tags:
   - Smarty
   - Stylus
 image:
-  src: /images/uploads/goudron.jpg
+  src: /images/uploads/goudron.png
+  screenshot: true
 place: Marseille, France
 datas:
   - title: Studio

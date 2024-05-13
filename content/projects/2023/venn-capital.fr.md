@@ -14,7 +14,6 @@ projects_tags:
   - Hugo
   - Decap CMS
   - Bootstrap
-  - HTML
   - SASS
   - Javascript
 projects_url: https://www.venn-capital.com

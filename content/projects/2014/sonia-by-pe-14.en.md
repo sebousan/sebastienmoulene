@@ -3,6 +3,7 @@ isIndex: false
 draft: false
 date: 2014-02-24T22:00:00.000Z
 title: Sonia By (Printemps-Été ’14)
+place: Paris, France
 projects_types: Event
 projects_tags:
   - jQuery

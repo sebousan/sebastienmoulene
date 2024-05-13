@@ -14,8 +14,8 @@ projects_tags:
   - Hugo
   - Decap CMS
   - Bootstrap
-  - Javascript
   - SASS
+  - Javascript
 projects_url: https://jcbiver.com/
 place: Geneva, Switzerland
 datas:

@@ -2,6 +2,7 @@
 isIndex: false
 draft: false
 date: 2014-03-03T22:00:00.000Z
+place: Paris, France
 title: Suivez le guide
 projects_types: Event
 projects_tags:
