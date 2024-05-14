@@ -7,6 +7,7 @@ place: Paris, France
 projects_types: Editorial
 projects_tags:
   - Webbox
+  - HTML
   - CSS
 image:
   src: /images/uploads/kerastase.jpg

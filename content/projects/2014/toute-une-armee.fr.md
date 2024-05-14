@@ -8,6 +8,7 @@ projects_types: Event
 projects_tags:
   - jQuery
   - Javascript
+  - HTML
   - SASS
 image:
   src: /images/uploads/adl.jpg

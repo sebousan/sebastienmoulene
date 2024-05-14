@@ -10,7 +10,8 @@ projects_tags:
   - Smarty
   - Stylus
 image:
-  src: /images/uploads/omc.jpg
+  src: /images/uploads/omc.png
+  screenshot: true
 place: Orléans, France
 datas:
   - title: Studio

@@ -8,6 +8,7 @@ projects_types: Editorial
 projects_tags:
   - jQuery
   - Javascript
+  - HTML
   - SASS
 image:
   src: /images/uploads/christofle.png

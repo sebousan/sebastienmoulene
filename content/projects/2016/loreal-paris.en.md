@@ -10,7 +10,8 @@ projects_tags:
   - HTML
   - Stylus
 image:
-  src: /images/uploads/lorealparis.jpg
+  src: /images/uploads/lorealparis2.jpg
+  screenshot: true
 place: Paris, France
 datas:
   - title: Client
