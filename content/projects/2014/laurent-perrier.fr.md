@@ -11,6 +11,6 @@ projects_tags:
 image:
   src: /images/uploads/lp.jpg
 datas:
-  - title: Agence
+  - title: Studio
     text: Semio Design
 ---

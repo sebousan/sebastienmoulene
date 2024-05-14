@@ -15,6 +15,8 @@ place: Paris, France
 image:
   src: /images/uploads/su.jpg
 datas:
+  - title: Client
+    tetx: Waf
   - title: Studio
     text: Rue Pavée
 ---

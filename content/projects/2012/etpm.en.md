@@ -1,22 +1,23 @@
 ---
 isIndex: false
 draft: false
-date: 2017-07-02T23:00:00.000Z
-title: Shoes-Up
+date: 2012-10-04T22:00:00.000Z
+title: ETPM
+place: Arcangues, France
 projects_types: Editorial
 projects_solutions:
   - Wordpress
 projects_tags:
-  - PHP
   - jQuery
   - Javascript
-  - Stylus
-place: Paris, France
+  - PHP
+  - CSS
 image:
-  src: /images/uploads/su.jpg
+  src: /images/uploads/etpm.png
+  screenshot: true
 datas:
   - title: Client
-    tetx: Waf
+    text: ETPM
   - title: Studio
     text: Rue Pavée
 ---

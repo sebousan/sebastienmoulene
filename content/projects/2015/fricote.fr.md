@@ -1,22 +1,20 @@
 ---
 isIndex: false
 draft: false
-date: 2017-07-02T23:00:00.000Z
-title: Shoes-Up
+date: 2015-09-04T22:00:00.000Z
+title: Fricote
+place: Paris, France
 projects_types: Editorial
 projects_solutions:
   - Wordpress
 projects_tags:
-  - PHP
   - jQuery
   - Javascript
   - Stylus
-place: Paris, France
 image:
-  src: /images/uploads/su.jpg
+  src: /images/uploads/fricote.png
+  screenshot: true
 datas:
   - title: Client
-    tetx: Waf
-  - title: Studio
-    text: Rue Pavée
+    text: Waf
 ---
