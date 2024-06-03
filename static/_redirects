@@ -1,31 +1,33 @@
-/types/corporate                /projects/editorial/
-/types/evenementiel-website     /projects/evenementiel
-/types/ecommerce                /projects
-/types/editorial                /projects/editorial/
-/types/portfolio                /projects/editorial/
-/tag/stylus                     /projects/tags/stylus/
-/tag/css3                       /projects/tags/css/
-/tags/jekyll                    /projects/tags/jekyll/
-/tags/javascript                /projects/tags/javascript/
-/tags/css                       /projects/tags/css/
-/tags/prestashop                /projects/tags/prestashop/
-/tags/shopify                   /projects/tags/shopify/
-/tags/actionscript-2            /projects/tags/actionscript-2/
-/tags/liquid                    /projects/tags/liquid/
-/tags/sap-hybris                /projects/tags/sap-hybris/
-/tags/sass                      /projects/tags/sass/
-/tags/webbox                    /projects/tags/webbox/
-/tags/wordpress                 /projects/tags/wodpress/
-/tags/jquery                    /projects/tags/jquery/
-/types/blog                     /projects/editorial/
-/tags/rails                     /projects/tags/rails/
-/tags/smarty                    /projects/tags/smarty/
-/tags/php                       /projects/tags/php/
+/types/corporate                /projets/types/editorial/
+/types/evenementiel-website     /projets/types/evenementiel
+/types/ecommerce                /projets/types/e-commerce/
+/types/editorial                /projets/types/editorial/
+/types/portfolio                /projets/types/editorial/
 
-/2015/nespresso-cannes-1            /projects/2015-nespresso-cannes/
-/2018/electra-solutions             /projects/2018-electra-solutions/
-/front-end/nespresso-cannes-2015    /projects/2015-nespresso-cannes/
-/2012/natacha-steven                /
+/tag/stylus                     /projets/tags/stylus/
+/tag/css3                       /projets/tags/css/
+/tags/jekyll                    /projets/tags/jekyll/
+/tags/javascript                /projets/tags/javascript/
+/tags/css                       /projets/tags/css/
+/tags/prestashop                /projets/tags/prestashop/
+/tags/shopify                   /projets/tags/shopify/
+/tags/actionscript-2            /projets/tags/actionscript-2/
+/tags/liquid                    /projets/tags/liquid/
+/tags/sap-hybris                /projets/tags/sap-hybris/
+/tags/sass                      /projets/tags/sass/
+/tags/webbox                    /projets/tags/webbox/
+/tags/wordpress                 /projets/tags/wodpress/
+/tags/jquery                    /projets/tags/jquery/
+/types/blog                     /projets/editorial/
+/tags/rails                     /projets/tags/rails/
+/tags/smarty                    /projets/tags/smarty/
+/tags/php                       /projets/tags/php/
+
+/2015/nespresso-cannes-1            /en/projects/nespresso-cannes-2016/
+/2018/electra-solutions             /en/projects/electra-solutions/
+/front-end/nespresso-cannes-2015    /en/projects/nespresso-cannes/
+
+/2012/natacha-steven                /projets/natacha-steven/
 
 
 /projets/tags/hugolify/         /projets/solutions/hugolify/
@@ -37,11 +39,11 @@
 /projets/tags/shopify/          /projets/solutions/shopify/
 /projets/tags/wordpress/        /projets/solutions/wordpress/
 
-/projects/tags/hugolify/         /projects/solutions/hugolify/
-/projects/tags/jekyll/           /projects/solutions/jekyll/
-/projects/tags/osuny/            /projects/solutions/osuny/
-/projects/tags/prestashop/       /projects/solutions/prestashop/
-/projects/tags/rails/            /projects/solutions/rails/
-/projects/tags/sap-hybris/       /projects/solutions/sap-hybris/
-/projects/tags/shopify/          /projects/solutions/shopify/
-/projects/tags/wordpress/        /projects/solutions/wordpress/
+/projects/tags/hugolify/         /en/projects/solutions/hugolify/
+/projects/tags/jekyll/           /en/projects/solutions/jekyll/
+/projects/tags/osuny/            /en/projects/solutions/osuny/
+/projects/tags/prestashop/       /en/projects/solutions/prestashop/
+/projects/tags/rails/            /en/projects/solutions/rails/
+/projects/tags/sap-hybris/       /en/projects/solutions/sap-hybris/
+/projects/tags/shopify/          /en/projects/solutions/shopify/
+/projects/tags/wordpress/        /en/projects/solutions/wordpress/
