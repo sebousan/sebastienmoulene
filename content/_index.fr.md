@@ -8,9 +8,6 @@ hero:
 
 
     J’exerce ce métier depuis plus de 20 ans et je me spécialise dans la conception de sites Web performants, accessibles à tous et bas carbone.
-    
-    
-    J’ai récemment créé [Un Cinq](https://uncinq.dev/) pour mettre en avant ce savoir-faire.
   cta:
     text: Projets réalisés
     url: /projets/
