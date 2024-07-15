@@ -3,6 +3,7 @@ isIndex: false
 draft: false
 date: 2013-11-20T22:00:00.000Z
 title: Les meilleurs 280™
+place: Paris, France
 projects_types: Event
 projects_tags:
   - jQuery

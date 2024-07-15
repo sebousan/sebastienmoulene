@@ -7,6 +7,7 @@ projects_types: E-commerce
 projects_solutions:
   - Rails
 projects_tags:
+  - HTML
   - Javascript
   - SASS
 image:

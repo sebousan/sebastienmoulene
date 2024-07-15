@@ -8,6 +8,7 @@ projects_solutions:
   - Hugolify
 projects_tags:
   - Jamstack
+  - Headless CMS
   - Architectify
   - Hugo
   - Decap CMS

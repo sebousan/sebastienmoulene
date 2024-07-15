@@ -9,6 +9,7 @@ projects_solutions:
   - Jekyll
 projects_tags:
   - Jamstack
+  - Headless CMS
   - Decap CMS
   - Bootstrap
   - Liquid

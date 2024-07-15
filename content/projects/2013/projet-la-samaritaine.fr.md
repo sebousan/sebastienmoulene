@@ -3,6 +3,7 @@ isIndex: false
 draft: false
 date: 2013-03-26T22:00:00.000Z
 title: Projet La Samaritaine
+place: Paris, France
 projects_types: Editorial
 projects_solutions:
   - Wordpress

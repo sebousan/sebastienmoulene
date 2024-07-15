@@ -8,6 +8,7 @@ projects_types: Editorial
 projects_solutions:
   - Wordpress
 projects_tags:
+  - HTML
   - Javascript
   - SASS
 image:

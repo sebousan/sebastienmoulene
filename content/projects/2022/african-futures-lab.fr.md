@@ -11,6 +11,7 @@ projects_solutions:
   - Osuny
 projects_tags:
   - Jamstack
+  - Headless CMS
   - Hugo
   - Bootstrap
   - SASS

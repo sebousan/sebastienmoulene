@@ -11,6 +11,7 @@ projects_solutions:
   - Hugolify
 projects_tags:
   - Jamstack
+  - Headless CMS
   - Lawyerify
   - Hugo
   - Decap CMS

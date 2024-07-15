@@ -8,6 +8,7 @@ place: Paris, France
 projects_solutions:
   - Wordpress
 projects_tags:
+  - HTML
   - Javascript
   - SASS
 image:

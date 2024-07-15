@@ -11,6 +11,7 @@ projects_solutions:
   - Jekyll
 projects_tags:
   - Jamstack
+  - Headless CMS
   - Liquid
   - SASS
 projects_url: https://www.tystudio.com/

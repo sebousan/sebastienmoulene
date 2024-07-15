@@ -7,6 +7,7 @@ projects_types: Editorial
 projects_solutions:
   - Wordpress
 projects_tags:
+  - HTML
   - Stylus
 place: Bordeaux, France
 image:

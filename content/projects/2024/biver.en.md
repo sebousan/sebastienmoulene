@@ -11,6 +11,7 @@ projects_solutions:
   - Hugolify
 projects_tags:
   - Jamstack
+  - Headless CMS
   - Hugo
   - Decap CMS
   - Bootstrap

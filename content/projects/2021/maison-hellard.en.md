@@ -8,7 +8,6 @@ place: Assat, France
 projects_solutions:
   - Shopify
 projects_tags:
-  - Shopify
   - Bootstrap
   - Liquid
   - SASS
