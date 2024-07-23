@@ -5,8 +5,7 @@ go 1.19
 require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
-	github.com/hugolify/hugolify-netlify-cms v1.8.3 // indirect
-	github.com/hugolify/hugolify-theme v1.15.3 // indirect
+	github.com/hugolify/hugolify-theme v1.15.4 // indirect
 	github.com/hugolify/hugolify-theme-projects v1.1.21 // indirect
 	github.com/hugolify/hugolify-theme-projects-tags v1.0.13 // indirect
 	github.com/hugolify/hugolify-theme-projects-types v1.0.10 // indirect
