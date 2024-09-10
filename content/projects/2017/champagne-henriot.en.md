@@ -11,6 +11,7 @@ projects_tags:
   - Stylus
 image:
   src: /images/uploads/henriot.png
+  screenshot: true
 place: Reims, France
 datas:
   - title: Studio
