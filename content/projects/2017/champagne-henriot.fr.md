@@ -10,7 +10,7 @@ projects_tags:
   - Smarty
   - Stylus
 image:
-  src: /images/uploads/henriot.jpg
+  src: /images/uploads/henriot.png
 place: Reims, France
 datas:
   - title: Studio
