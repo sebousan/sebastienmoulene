@@ -11,7 +11,7 @@ hero:
   image:
     src: /images/uploads/398.Make-It-Rain.svg
 blocks:
-  - type: prices
+  - type: comparison
     heading:
       title: Site Web avec Hugolify
     column: 3
