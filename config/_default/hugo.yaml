@@ -11,5 +11,6 @@ imaging:
 markup:
   tableOfContents:
     ordered: true
-paginate: 100
+pagination:
+  pagerSize: 100
 removePathAccents: true
