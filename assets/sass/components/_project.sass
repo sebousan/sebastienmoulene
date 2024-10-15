@@ -1,17 +1,18 @@
 .project
     @extend .card
     box-shadow: $shadow
+    height: 100%
     .content
         align-items: baseline
         display: flex
         flex-direction: column-reverse
         justify-content: flex-end
     .list-projects_solutions
-        @include media-breakpoint-up(md)
+        @include media-breakpoint-up(lg)
             position: absolute
             right: var(--bs-card-spacer-x)
             top: var(--bs-card-spacer-y)
-        @include media-breakpoint-down(md)
+        @include media-breakpoint-down(lg)
             padding-bottom: var(--bs-card-spacer-y)
             padding-left: var(--bs-card-spacer-x)
         li
@@ -19,7 +20,8 @@
             background-color: white
             border: 1px solid var(--color, #{$gray-800})
             color: var(--color, #{$gray-800})
-            margin-left: 0.5rem
-            margin-right: 0
+            margin-right: 0.5rem
+            &:last-child
+                margin-right: 0
     a
         @extend .stretched-link
