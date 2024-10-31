@@ -1,16 +1,16 @@
-name: Scheduled Deploy to Netlify
+#name: Scheduled Deploy to Netlify
 
-on:
-  schedule:
-    - cron: '20 15 * * *'  # Tous les jours à 15h UTC
+#on:
+#  schedule:
+#    - cron: '0 15 * * *'  # Tous les jours à 15h UTC
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
+#jobs:
+#  deploy:
+#    runs-on: ubuntu-latest
 
-    steps:
-      - name: Send deploy request to Netlify
-        env:
-          NETLIFY_WEBHOOK_URL: ${{ secrets.NETLIFY_WEBHOOK_URL }}
-        run: |
-          curl -X POST -d {} $NETLIFY_WEBHOOK_URL
+#    steps:
+#      - name: Send deploy request to Netlify
+#        env:
+#          NETLIFY_WEBHOOK_URL: ${{ secrets.NETLIFY_WEBHOOK_URL }}
+#        run: |
+#          curl -X POST -d {} $NETLIFY_WEBHOOK_URL
