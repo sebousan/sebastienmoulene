@@ -2,7 +2,7 @@ name: Scheduled Deploy to Netlify
 
 on:
   schedule:
-    - cron: '7 14 * * *'  # Tous les jours à 15h UTC
+    - cron: '11 14 * * *'  # Tous les jours à 15h UTC
 
 jobs:
   deploy:
