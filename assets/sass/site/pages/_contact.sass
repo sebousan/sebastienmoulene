@@ -1,15 +1,22 @@
 .section-contact
-    .hero-content
-        @extend .col-xl-8
-    .hero-media
-        margin-left: 0
+    .hero
+        overflow: hidden
+        .row
+            align-items: flex-start
+            flex-wrap: nowrap
+        &-content
+            width: 66.66666667%
+            @extend .col-xl-8
+        &-media
+            margin-left: 0
+            @include media-breakpoint-up(md)
+                width: 33.33333333%
+            img
+                border-radius: 50%
+                overflow: hidden
+                @include media-breakpoint-down(md)
+                    max-width: 200px
+        .btn
+            white-space: nowrap
         img
-            border-radius: 50%
-            overflow: hidden
-            @include media-breakpoint-down(md)
-                max-width: 200px
-    .push
-        img
-            object-fit: contain
-            object-position: right
-            transform: scale(1.2) translate(-2rem, 2rem)
+            margin-top: 0

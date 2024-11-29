@@ -1,10 +1,10 @@
 ---
 isIndex: false
 draft: false
-date: 2024-03-15T10:34:08.410Z
-title: Senso Art, Films, Photo, AI
+date: 2024-11-26T10:34:08.410Z
+title: Sensology
 image:
-  src: /images/uploads/sensoart.png
+  src: /images/uploads/sensology.png
   screenshot: true
 projects_types: Editorial
 projects_solutions:
@@ -14,11 +14,9 @@ projects_tags:
   - Javascript
   - SASS
   - Twig
-projects_url: https://www.senso.art
+projects_url: https://www.sensology.io
 place: Paris, France
 datas:
   - title: Client
     text: Senso
-  - title: Backend development
-    text: 23Prod
 ---

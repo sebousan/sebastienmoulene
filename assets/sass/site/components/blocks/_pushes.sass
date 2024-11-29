@@ -11,5 +11,18 @@
             font-size: $h3-font-size
             line-height: 1.4
             margin-bottom: .5rem
-        .btn::before
-            content: ""
+        p
+            @include media-breakpoint-up(md)
+                max-width: 65%
+        .btn
+            --bs-btn-bg: #fff
+            --bs-btn-border-color: #fff
+            --bs-btn-hover-bg: #efecec
+            --bs-btn-hover-border-color: #efecec
+            &::before
+                content: ""
+                margin-right: 0
+        img
+            object-fit: contain
+            object-position: right
+            transform: scale(1.2) translate(-2rem, 2rem)

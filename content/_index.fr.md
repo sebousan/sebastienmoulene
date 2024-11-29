@@ -41,16 +41,12 @@ blocks:
     items:
       - title: Hugolify
         text: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
-        icon: git
+        image:
+          src: /images/uploads/181.Nodes.svg
         cta:
           blank: true
           text: Découvrir Hugolify
           url: https://uncinq.dev/notre-solution-et-produits/hugolify/
-        cta_second:
-          blank: true
-          text: Hugolify sur Github
-          url: https://github.com/Hugolify/
-        offset: start
   - type: latest
     section: projects
     show_more: false

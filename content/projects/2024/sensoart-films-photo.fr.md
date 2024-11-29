@@ -2,7 +2,7 @@
 isIndex: false
 draft: false
 date: 2024-03-15T10:34:08.410Z
-title: Senso Art, Films, Photo
+title: Senso Art, Films, Photo, AI
 image:
   src: /images/uploads/sensoart.png
   screenshot: true
