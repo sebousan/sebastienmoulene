@@ -23,11 +23,12 @@
 /tags/smarty                    /projets/tags/smarty/
 /tags/php                       /projets/tags/php/
 
+/projects/2014-volkwagen-coccinelle/    /projets/volkswagen-coccinelle/
+/2012/natacha-steven                /projets/natacha-steven/
+
 /2015/nespresso-cannes-1            /en/projects/nespresso-cannes-2016/
 /2018/electra-solutions             /en/projects/electra-solutions/
 /front-end/nespresso-cannes-2015    /en/projects/nespresso-cannes/
-
-/2012/natacha-steven                /projets/natacha-steven/
 
 
 /projets/tags/hugolify/         /projets/solutions/hugolify/
@@ -47,5 +48,19 @@
 /projects/tags/sap-hybris/       /en/projects/solutions/sap-hybris/
 /projects/tags/shopify/          /en/projects/solutions/shopify/
 /projects/tags/wordpress/        /en/projects/solutions/wordpress/
+
+/en/projects_tags/design/           /en/projects/tags/design/
+/en/projects/page/4/                /en/projects/
+/en/projects/tags/javascript/page/2/    /en/projects/tags/javascript/
+/en/projects/tags/javascript/page/3/    /en/projects/tags/javascript/
+/en/projects/types/editorial/page/2/    /en/projects/types/editorial/
+/en/projects/types/editorial/page/5/    /en/projects/types/editorial/
+/en/projects/2014-tyrsa/            /en/projects/tyrsa/
+/en/projects/2021-joseph-duclos/    /en/projects/joseph-duclos/
+/en/projects/2007-mafia-k1-fry/     /en/projects/mafia-k1-fry/
+/en/projects/2015-280.tv/           /en/projects/280.tv/
+/en/projects/2022/african-futures-lab/ /en/projects/african-futures-lab/
+/en/projects/2022-global-climate-quest-23/ /en/projects/global-climate-quest-23/
+/en/projects_tags/javascript/       /en/projects/tags/javascript/
 
 /tarifs/                         https://uncinq.dev/notre-solution-et-produits/hugolify/forfaits/
