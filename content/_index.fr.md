@@ -47,9 +47,13 @@ blocks:
           blank: true
           text: Découvrir Hugolify
           url: https://uncinq.dev/notre-solution-et-produits/hugolify/
-  - type: latest
+  - type: selected-projects
     section: projects
     show_more: false
     heading:
       title: Derniers projets réalisés
+    items:
+      - Biver
+      - Senso Art, Films, Photo, AI
+      - Perial Investment & Development
 ---
