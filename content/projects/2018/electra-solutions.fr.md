@@ -11,7 +11,8 @@ projects_tags:
   - Javascript
   - Stylus
 image:
-  src: /images/uploads/electra.jpg
+  src: /images/uploads/electra.png
+  screenshot: true
 datas:
   - title: Studio
     text: Rue Pavée

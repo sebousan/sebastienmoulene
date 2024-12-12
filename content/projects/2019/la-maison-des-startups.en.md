@@ -13,7 +13,8 @@ projects_tags:
   - Javascript
   - ACF
 image:
-  src: /images/uploads/lmds.jpg
+  src: /images/uploads/lmds.png
+  screenshot: true
 datas:
   - title: Client
     text: LVMH

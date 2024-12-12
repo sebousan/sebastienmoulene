@@ -12,5 +12,6 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/canb.jpg
+  src: /images/uploads/canb.png
+  screenshot: true
 ---

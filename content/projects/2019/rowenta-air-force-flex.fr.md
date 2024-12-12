@@ -12,6 +12,7 @@ projects_tags:
   - Stylus
 image:
   src: /images/uploads/rowenta.png
+  screenshot: true
 datas:
   - title: Client
     text: Rowenta

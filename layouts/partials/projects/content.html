@@ -1,6 +1,6 @@
 <div class="content">
   {{ partial "projects/featured-image" . }}
-  {{ partial "projects/body" . }}
+  {{ partial "commons/description" . }}
   {{ with .Params.projects_url }}
   <a href="{{ . | safeURL }}" class="btn" target="_blank">{{ i18n "projects.discover" }}</a>
   {{ end }}
