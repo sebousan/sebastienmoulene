@@ -39,7 +39,7 @@ blocks:
       text: I work every day with open-source frameworks like Bootstrap or Hugo, which is why I am happy to contribute to the movement by sharing my work on my Hugo framework.
     column: 1
     items:
-      - title: Hugolify
+      - title: Hugolify, Hugo framework 
         text: Jamstack solution developed in Hugo to build a high-performance, low-carbon and accessible website as quickly as possible.
         icon: git
         cta:

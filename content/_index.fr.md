@@ -39,7 +39,7 @@ blocks:
       text: Je travaille tous les jours avec des frameworks open-source comme Bootstrap ou Hugo, c'est pour quoi je suis heureux de contribuer au mouvement en partageant mon travail sur mon framework Hugo.
     column: 1
     items:
-      - title: Hugolify
+      - title: Hugolify, framework Hugo
         text: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
         image:
           src: /images/uploads/181.Nodes.svg
