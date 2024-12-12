@@ -4,6 +4,7 @@ draft: false
 date: 2019-12-18T23:00:00.000Z
 title: La maison des startups
 projects_types: Editorial
+place: Paris, France
 projects_solutions:
   - Wordpress
 projects_tags:

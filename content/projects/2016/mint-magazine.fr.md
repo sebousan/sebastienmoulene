@@ -11,5 +11,9 @@ projects_tags:
   - Stylus
 place: Paris, France
 image:
-  src: /images/uploads/mint.jpg
+  src: /images/uploads/mint.png
+  screenshot: true
+datas:
+  - title: DA
+    text: Noémie Cédille
 ---

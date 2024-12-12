@@ -13,7 +13,8 @@ projects_tags:
   - Stylus
 place: Paris, France
 image:
-  src: /images/uploads/su.jpg
+  src: /images/uploads/shoesup.png
+  screenshot: true
 datas:
   - title: Client
     tetx: Waf

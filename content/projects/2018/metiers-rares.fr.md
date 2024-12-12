@@ -1,9 +1,8 @@
 ---
 isIndex: false
 draft: false
-date: 2019-12-18T23:00:00.000Z
-title: Rowenta Air Force Flex Animal
-place: Paris, France
+date: 2018-10-02T23:00:00.000Z
+title: Métiers Rares
 projects_types: Event
 projects_solutions:
   - Wordpress
@@ -12,11 +11,12 @@ projects_tags:
   - Javascript
   - Stylus
 image:
-  src: /images/uploads/rowenta.png
+  src: /images/uploads/metiersrares.png
   screenshot: true
+place: Paris, France
 datas:
   - title: Client
-    text: Rowenta
+    text: Chaumet
   - title: Agence
-    text: Evolve
+    text: Bonjour Paris
 ---
