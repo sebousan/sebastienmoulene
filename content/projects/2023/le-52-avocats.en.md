@@ -9,10 +9,10 @@ image:
 projects_types: Editorial
 projects_solutions:
   - Hugolify
+  - Lawyerify
 projects_tags:
   - Jamstack
   - Headless CMS
-  - Lawyerify
   - Hugo
   - Decap CMS
   - Bootstrap
