@@ -6,10 +6,10 @@ title: Tdesign Architecture
 projects_types: Editorial
 projects_solutions:
   - Hugolify
+  - Architectify
 projects_tags:
   - Jamstack
   - Headless CMS
-  - Architectify
   - Hugo
   - Decap CMS
   - Bootstrap
