@@ -2,12 +2,8 @@
 isIndex: true
 title: Accueil
 hero:
-  title: Développeur front-end senior indépendant.
-  text: >-
-    Je suis Sébastien Moulène, un développeur front-end senior vivant à Bordeaux en France.
-
-
-    J’exerce ce métier depuis plus de 20 ans et je me spécialise dans la conception de sites Web performants, accessibles à tous et bas carbone.
+  title: Développeur front-end senior indépendant spécialisé dans la conception de sites Web performants.
+  text: Vivant à Bordeaux, en France, j’exerce ce métier depuis plus de 20 ans et je me spécialise dans la conception de sites Web performants (Core Web Vitals), accessibles à tous et bas carbone.
   cta:
     text: Projets réalisés
     url: /projets/
