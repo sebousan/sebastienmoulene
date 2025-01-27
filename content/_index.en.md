@@ -1,15 +1,8 @@
 ---
 title: Home
 hero:
-  title: Senior freelance front-end developer.
-  text: >-
-    I'm Sébastien Moulène, a senior front-end developer living in Bordeaux, France.
-    
-
-    I have been in this business for more than 20 years and I specialize in the design of high-performance, accessible to all and low-carbon websites.
-    
-    
-    I recently created [Un Cinq](https://uncinq.dev/) to highlight this know-how.
+  title: Senior freelance front-end developer specializing in high-performance website.
+  text: Living in Bordeaux, France, I have been working in this field for over 20 years, specializing in high-performance websites (Core Web Vitals / Google PageSpeed), accessible to everyone, and low-carbon.
   cta:
     text: Realized projects
     url: /en/projects/
