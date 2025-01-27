@@ -9,7 +9,7 @@ hero:
     url: /projets/
   cta_second:
     blank: false
-    text: Contactez moi
+    text: Me contacter
     url: /contact/
 blocks:
   - type: informations

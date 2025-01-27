@@ -2,18 +2,18 @@
 isPage: true
 title: Contact
 hero:
-  title: Contactez-moi
+  title: Me contacter
   text: >-
     N’hésitez pas à prendre contact avec moi pour concevoir votre prochain site Web. Je suis disponible par e-mail.
   cta:
     blank: true
-    text: Envoyez-moi un email
+    text: M’envoyer un email
     url: mailto:sebousan@gmail.com
   image:
     src: /images/uploads/sebastien-moulene.jpg
 blocks:
   - type: informations
-    column: 3
+    column: 2
     background: false
     items:
       - title: Github
@@ -28,12 +28,12 @@ blocks:
           text: Me suivre
           blank: true
           url: https://www.linkedin.com/in/sebastienmoulene
-      - title: Twitter
-        icon: twitter
-        cta:
-          text: Me suivre
-          blank: true
-          url: https://twitter.com/sebousan
+      # - title: Twitter
+      #   icon: twitter
+      #   cta:
+      #     text: Me suivre
+      #     blank: true
+      #     url: https://twitter.com/sebousan
 
   - type: pushes
     column: 1

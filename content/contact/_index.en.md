@@ -13,7 +13,7 @@ hero:
     src: /images/uploads/sebastien-moulene.jpg
 blocks:
   - type: informations
-    column: 3
+    column: 2
     background: false
     items:
       - title: Github
@@ -28,12 +28,12 @@ blocks:
           text: Follow me
           blank: true
           url: https://www.linkedin.com/in/sebastienmoulene
-      - title: Github
-        icon: twitter
-        cta:
-          text: Follow me
-          blank: true
-          url: https://twitter.com/sebousan
+      # - title: Github
+      #   icon: twitter
+      #   cta:
+      #     text: Follow me
+      #     blank: true
+      #     url: https://twitter.com/sebousan
   - type: pushes
     column: 1
     items:
