@@ -3,7 +3,7 @@ content:
   - name: projects
     label: Projects
     type: collection
-    path: 'projects'
+    path: 'content/projects'
     view:
       fields: [ title, date ]
     fields:
