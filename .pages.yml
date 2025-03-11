@@ -1,0 +1,19 @@
+media: assets/images/uploads
+content:
+  - name: projects
+    label: Projects
+    type: collection
+    path: 'projects'
+    view:
+      fields: [ title, date ]
+    fields:
+      - name: date
+        label: Date
+        type: date
+        default: true
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
