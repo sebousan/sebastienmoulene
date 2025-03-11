@@ -20,3 +20,10 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: image
+        label: Image
+        type: object
+        fields:
+          - name: src
+            label: Image
+            type: image
