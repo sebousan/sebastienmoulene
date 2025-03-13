@@ -2,7 +2,7 @@
 
 content:
 - create: true
-  description: All news
+  description: All projects
   editor:
     preview: false
   fields:
@@ -78,10 +78,10 @@ content:
     type: string
   filename: '{year}/{month}/{fields.title}.md'
   i18n: true
-  label: News
-  label_singular: New
-  name: posts
-  path: content/posts
+  label: projects
+  label_singular: project
+  name: projects
+  path: content/projects
   type: collection
 media:
   input: static/images/uploads
