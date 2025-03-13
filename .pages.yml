@@ -123,7 +123,7 @@ content:
       name: ctas
       required: false
       summary: '{{fields.text}}'
-      type: oject
+      type: object
     - collapsed: true
       fields:
       - choose_url: false
@@ -185,7 +185,7 @@ content:
     list: true
     name: blocks
     required: false
-    type: oject
+    type: object
     types:
     - collapsed: false
       fields:
@@ -350,7 +350,7 @@ content:
           name: arguments
           required: false
           summary: '{{text}}'
-          type: oject
+          type: object
         - i18n: true
           label: Is highlighted?
           name: is_highlighted
@@ -391,7 +391,7 @@ content:
         list: true
         name: items
         required: false
-        type: oject
+        type: object
       - default: false
         i18n: duplicate
         label: With a background?
@@ -471,7 +471,7 @@ content:
         name: ctas
         required: false
         summary: '{{fields.text}}'
-        type: oject
+        type: object
       - default: false
         i18n: duplicate
         label: With a background?
@@ -567,7 +567,7 @@ content:
         list: true
         name: items
         required: false
-        type: oject
+        type: object
       - default: false
         i18n: duplicate
         label: With a background?
@@ -649,7 +649,7 @@ content:
         name: ctas
         required: false
         summary: '{{fields.text}}'
-        type: oject
+        type: object
       - collapsed: true
         fields:
         - choose_url: false
@@ -811,7 +811,7 @@ content:
         list: true
         name: items
         required: false
-        type: oject
+        type: object
       - default: false
         i18n: duplicate
         label: With a background?
@@ -1062,7 +1062,7 @@ content:
           list: true
           name: options
           required: false
-          type: oject
+          type: object
         - i18n: duplicate
           label: Required
           name: required
@@ -1111,7 +1111,7 @@ content:
         name: items
         required: false
         summary: '{{label}}'
-        type: oject
+        type: object
       - default: false
         i18n: duplicate
         label: With a background?
@@ -1208,7 +1208,7 @@ content:
         list: true
         name: gallery
         required: false
-        type: oject
+        type: object
       - default: false
         i18n: duplicate
         label: With a background?
@@ -1302,7 +1302,7 @@ content:
         list: true
         name: images
         required: false
-        type: oject
+        type: object
       - default: false
         i18n: duplicate
         label: With a background?
@@ -1443,7 +1443,7 @@ content:
         list: true
         name: items
         required: false
-        type: oject
+        type: object
       - default: false
         i18n: duplicate
         label: With a background?
@@ -1543,7 +1543,7 @@ content:
         name: ctas
         required: false
         summary: '{{fields.text}}'
-        type: oject
+        type: object
       - default: false
         i18n: duplicate
         label: With a background?
@@ -1701,7 +1701,7 @@ content:
         list: true
         name: items
         required: false
-        type: oject
+        type: object
       - i18n: duplicate
         label: Layout
         name: layout
@@ -1860,7 +1860,7 @@ content:
           list: true
           name: responsive
           required: false
-          type: oject
+          type: object
         hint: Only for carousel display
         i18n: true
         label: Carousel configuration
@@ -2034,7 +2034,7 @@ content:
           list: true
           name: hiddens
           required: false
-          type: oject
+          type: object
         i18n: true
         label: Form
         name: form
@@ -2111,7 +2111,7 @@ content:
         name: ctas
         required: false
         summary: '{{fields.text}}'
-        type: oject
+        type: object
       - default: large
         i18n: duplicate
         label: Grid
@@ -2317,7 +2317,7 @@ content:
         list: true
         name: items
         required: false
-        type: oject
+        type: object
       - i18n: duplicate
         label: Layout
         name: layout
@@ -2476,7 +2476,7 @@ content:
           list: true
           name: responsive
           required: false
-          type: oject
+          type: object
         hint: Only for carousel display
         i18n: true
         label: Carousel configuration
@@ -2766,7 +2766,7 @@ content:
         list: true
         name: items
         required: false
-        type: oject
+        type: object
       - i18n: duplicate
         label: Layout
         name: layout
@@ -2925,7 +2925,7 @@ content:
           list: true
           name: responsive
           required: false
-          type: oject
+          type: object
         hint: Only for carousel display
         i18n: true
         label: Carousel configuration
@@ -3010,7 +3010,7 @@ content:
         list: true
         name: items
         required: false
-        type: oject
+        type: object
       - default: false
         i18n: duplicate
         label: With a background?
