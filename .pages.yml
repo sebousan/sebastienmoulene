@@ -161,18 +161,7 @@ content:
       name: image
       required: false
       type: object
-    - i18n: duplicate
-      label: Alignment
-      name: align
-      options:
-      - label: Start
-        value: start
-      - label: Center
-        value: center
-      - label: End
-        value: end
-      required: false
-      type: select
+    
     i18n: true
     label: Hero
     name: hero
