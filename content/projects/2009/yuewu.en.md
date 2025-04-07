@@ -5,6 +5,8 @@ date: 2009-07-30T23:00:00.000Z
 title: Yue Wu
 place: Paris, France
 projects_types: Editorial
+projects_solutions:
+  - Flash
 projects_tags:
   - ActionScript 2
   - CSS
