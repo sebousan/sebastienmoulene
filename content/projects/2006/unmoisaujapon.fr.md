@@ -6,6 +6,7 @@ title: Un mois au Japon
 description: Création d'un blog personnel pour mon séjour de 40 jours au Japon.
 place: Paris, France
 projects_types: Editorial
+projects_url: https://www.unmoisaujapon.com/
 projects_tags:
   - CSS
   - PHP
