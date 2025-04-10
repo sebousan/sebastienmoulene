@@ -5,6 +5,7 @@ date: 2006-04-01T21:00:00.000Z
 title: Un mois au Japon
 place: Paris, France
 projects_types: Editorial
+projects_url: https://www.unmoisaujapon.com/
 projects_tags:
   - CSS
   - PHP
