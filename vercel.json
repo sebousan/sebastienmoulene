@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/static-build" }
+  ],
+  "env": {
+    "HUGO_VERSION": "0.146.4",
+    "GO_VERSION": "1.24.2"
+  },
+  "buildCommand": "yarn build",
+  "outputDirectory": "public",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "0",
+        "X-Content-Type-Options": "nosniff"
+      },
+      "dest": "/$1"
+    }
+  ]
+}
