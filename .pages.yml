@@ -181,7 +181,7 @@ content:
     name: body
     required: false
     type: rich-text
-  - blockKey: blocks
+  - blockKey: type
     blocks:
     - collapsed: false
       fields:
@@ -3934,7 +3934,7 @@ content:
     name: hero
     required: false
     type: object
-  - blockKey: blocks
+  - blockKey: type
     blocks:
     - collapsed: false
       fields:
