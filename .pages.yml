@@ -1,10 +1,6 @@
 media:
-  input: "static/images/uploads"
-  output: "/images/uploads"# to change# replace
-
-# replace with regex
-
-
+  input: /assets/images/uploads
+  output: /images/uploads
 
 collections:
 - editor:
