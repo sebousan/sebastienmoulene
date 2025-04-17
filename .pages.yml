@@ -1,5 +1,5 @@
 media:
-  input: assets/images/uploads
+  input: /assets/images/uploads
   output: /images/uploads
 
 content:
@@ -181,15 +181,8 @@ content:
     name: body
     required: false
     type: rich-text
-  - collapsed: false
-    i18n: true
-    label: Blocs
-    label_singular: Bloc
-    list: true
-    name: blocks
-    required: false
-    type: object
-    types:
+  - blockKey: blocks
+    blocks:
     - collapsed: false
       fields:
       - collapsed: true
@@ -236,6 +229,14 @@ content:
       required: false
       summary: '{{heading.title}}'
       type: object
+    collapsed: false
+    i18n: true
+    label: Blocs
+    label_singular: Bloc
+    list: true
+    name: blocks
+    required: false
+    type: block
   - hint: Leave empty to automate with the title. **Be carefull to SEO impact.**
     i18n: true
     label: Slug
@@ -460,15 +461,8 @@ content:
     name: hero
     required: false
     type: object
-  - collapsed: false
-    i18n: true
-    label: Blocs
-    label_singular: Bloc
-    list: true
-    name: blocks
-    required: false
-    type: object
-    types:
+  - blockKey: blocks
+    blocks:
     - collapsed: false
       fields:
       - collapsed: true
@@ -515,6 +509,14 @@ content:
       required: false
       summary: '{{heading.title}}'
       type: object
+    collapsed: false
+    i18n: true
+    label: Blocs
+    label_singular: Bloc
+    list: true
+    name: blocks
+    required: false
+    type: block
   - hint: Leave empty to automate with the title. **Be carefull to SEO impact.**
     i18n: true
     label: Slug
