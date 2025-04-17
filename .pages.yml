@@ -2,7 +2,7 @@ media:
   input: /assets/images/uploads
   output: /images/uploads
 
-collections:
+content:
 - editor:
     preview: false
   files:
