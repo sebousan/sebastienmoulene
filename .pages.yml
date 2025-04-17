@@ -217,6 +217,3347 @@ content:
         required: false
         summary: '{{title}}'
         type: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: Audio en format MP3
+          i18n: duplicate
+          label: MP3
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: mp3
+          path: /assets/audios
+          public_type: collection
+          required: false
+          type: file
+        - choose_url: false
+          hint: Audio en format OGG
+          i18n: duplicate
+          label: OGG
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: ogg
+          path: /assets/audios
+          public_type: collection
+          required: false
+          type: file
+        - default: false
+          i18n: duplicate
+          label: Autoplay
+          name: autoplay
+          required: false
+          type: boolean
+        - default: false
+          i18n: duplicate
+          label: Boucle
+          name: loop
+          required: false
+          type: boolean
+        - i18n: true
+          label: Transcription
+          name: transcription
+          required: false
+          type: text
+        i18n: true
+        label: Audio
+        name: audio
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Audio
+      name: audio
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        editor_components: []
+        i18n: true
+        label: Texte
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        type: rich-text
+      - default: light
+        i18n: duplicate
+        label: État
+        name: state
+        options:
+          values:
+          - label: Danger
+            value: danger
+          - label: Dark
+            value: dark
+          - label: Info
+            value: info
+          - label: Light
+            value: light
+          - label: Primary
+            value: primary
+          - label: Secondary
+            value: secondary
+          - label: Success
+            value: success
+          - label: Warning
+            value: warning
+        required: true
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Alerte
+      name: alert
+      required: false
+      summary: '{{text_markdown}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - default:
+          - bar
+          label: Type de graphique
+          multiple: false
+          name: type
+          options:
+            values:
+            - label: Barre
+              value: bar
+            - label: Tarte
+              value: pie
+            - label: Ligne
+              value: line
+            - label: Polaire
+              value: polarArea
+            - label: Radar
+              value: radar
+          type: select
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Label
+            name: label
+            required: false
+            type: string
+          - i18n: true
+            label: Valeur
+            name: value
+            required: false
+            type: string
+          - allowInput: true
+            enableAlpha: true
+            i18n: duplicate
+            label: Couleur
+            name: color
+            required: false
+            type: color
+          i18n: true
+          label: Items
+          label_singular: Item
+          list: true
+          name: items
+          required: false
+          type: object
+        i18n: true
+        label: Chart
+        name: chart
+        required: false
+        type: object
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Graphique
+      name: chart
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 3
+        i18n: duplicate
+        label: Colonne
+        max: 6
+        min: 1
+        name: column
+        type: number
+        value_type: int
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - hint: Afficher un badge
+          i18n: true
+          label: Badge
+          name: badge
+          required: false
+          type: string
+        - collapsed: false
+          fields:
+          - hint: 'exemple : 300000 (pour 300 000 €)'
+            i18n: duplicate
+            label: Prix
+            name: price
+            required: false
+            type: number
+          - hint: 'Montant de la réduction, exemple : 30%'
+            i18n: duplicate
+            label: Réduction
+            name: discount
+            pattern:
+              message: La valeur seulement (sans la devise)
+              regex: ^[0-9]*(%?)$
+            required: false
+            type: string
+          - i18n: duplicate
+            label: Cacher le prix
+            name: hide_price
+            required: false
+            type: boolean
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          i18n: true
+          label: Offre
+          name: offer
+          required: false
+          type: object
+        - collapsed: true
+          fields:
+          - hint: Nom de l’icon provenant de https://icons.getbootstrap.com/
+            i18n: duplicate
+            label: Icone
+            name: icon
+            required: false
+            type: string
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          i18n: true
+          label: Arguments
+          label_singular: Argument
+          list: true
+          name: arguments
+          required: false
+          summary: '{{text}}'
+          type: object
+        - i18n: true
+          label: Mis en avant ?
+          name: is_highlighted
+          required: false
+          type: boolean
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          - i18n: true
+            label: URL
+            name: url
+            required: false
+            type: string
+          - hint: Enter code lang (e.g. fr) if different of the current page language
+            i18n: true
+            label: Langue
+            name: lang
+            required: false
+            type: string
+          - i18n: true
+            label: Nouvelle fenêtre ?
+            name: blank
+            required: false
+            type: boolean
+          i18n: true
+          label: CTA
+          name: cta
+          required: false
+          summary: '{{text}}'
+          type: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Comparaison
+      name: comparison
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - allow_add: true
+        collapsed: true
+        fields:
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Langue
+          name: lang
+          required: false
+          type: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          type: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        list: true
+        max: 2
+        min: 0
+        name: ctas
+        required: false
+        summary: '{{fields.text}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Appel à l’action
+      name: cta
+      required: false
+      summary: '{{cta.text}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 3
+        i18n: duplicate
+        label: Colonne
+        max: 6
+        min: 1
+        name: column
+        type: number
+        value_type: int
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Prefix
+          name: prefix
+          required: false
+          type: string
+        - i18n: true
+          label: Valeur
+          name: value
+          required: false
+          type: number
+        - hint: 'exemple : %'
+          i18n: true
+          label: Suffix
+          name: suffix
+          required: false
+          type: string
+        - default: 100
+          hint: ""
+          i18n: duplicate
+          label: Limite
+          name: limit
+          required: true
+          type: number
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Données
+      name: datas
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - default: ltr
+        i18n: duplicate
+        label: Direction
+        name: direction
+        options:
+          values:
+          - label: Texte à gauche / image à droite
+            value: ltr
+          - label: Image à gauche / texte à droite
+            value: rtl
+        type: select
+      - i18n: true
+        label: Sur-titre
+        name: surtitle
+        required: false
+        type: string
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        type: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        editor_components: []
+        i18n: true
+        label: Texte
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        type: rich-text
+      - allow_add: true
+        collapsed: true
+        fields:
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Langue
+          name: lang
+          required: false
+          type: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          type: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        list: true
+        max: 2
+        min: 0
+        name: ctas
+        required: false
+        summary: '{{fields.text}}'
+        type: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: duplicate
+          label: Image
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: src
+          path: /images/uploads
+          public_type: collection
+          required: false
+          type: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image
+            décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          type: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          type: rich-text
+        i18n: true
+        label: Image
+        name: image
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Éditorial
+      name: editorial
+      required: false
+      summary: '{{title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - i18n: duplicate
+        label: Embed
+        name: embed
+        required: false
+        type: text
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Embed
+      name: embed
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: FAQ
+      name: faq
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: duplicate
+          label: Image
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: src
+          path: /images/uploads
+          public_type: collection
+          required: false
+          type: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image
+            décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          type: string
+        - i18n: true
+          label: Légende
+          name: legend
+          required: false
+          type: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          type: rich-text
+        - default: false
+          hint: Ajoute un faux navigateur autour de l’image
+          i18n: duplicate
+          label: Capture d’écran ?
+          name: screenshot
+          required: false
+          type: boolean
+        i18n: true
+        label: Figure
+        name: figure
+        required: false
+        type: object
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - i18n: duplicate
+        label: Offset
+        name: offset
+        options:
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
+        required: false
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Figure
+      name: figure
+      required: false
+      summary: '{{title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - i18n: duplicate
+        label: Offset
+        name: offset
+        options:
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
+        required: false
+        type: select
+      - i18n: true
+        label: Nom
+        name: name
+        required: false
+        type: string
+      - i18n: true
+        label: Texte du bouton d’envoie
+        name: submit
+        required: false
+        type: string
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Label
+          name: label
+          required: false
+          type: string
+        - default: text
+          i18n: duplicate
+          label: Type
+          name: type
+          options:
+            values:
+            - label: Email
+              value: email
+            - label: Select
+              value: select
+            - label: Téléphone
+              value: tel
+            - label: Texte
+              value: text
+            - label: Zone de texte
+              value: textarea
+          type: select
+        - fields:
+          - i18n: true
+            label: Titre
+            name: title
+            required: false
+            type: string
+          - i18n: true
+            label: Valeur
+            name: value
+            required: false
+            type: string
+          hint: Seulement pour les champs select
+          i18n: true
+          label: Options
+          label_singular: Option
+          list: true
+          name: options
+          required: false
+          type: object
+        - i18n: duplicate
+          label: Requis
+          name: required
+          required: false
+          type: boolean
+        - i18n: duplicate
+          label: Champ en pleine largeur ?
+          name: full
+          required: false
+          type: boolean
+        - i18n: true
+          label: Placeholder
+          name: placeholder
+          required: false
+          type: string
+        - i18n: duplicate
+          label: Autocomplete
+          name: autocomplete
+          options:
+            values:
+            - label: Email
+              value: email
+            - label: Tel
+              value: tel
+            - label: ""
+              value: honorific-prefix
+            - label: Prénom
+              value: given-name
+            - label: Nom de famille
+              value: family-name
+            - label: Nom
+              value: name
+            - label: Rue
+              value: street-address
+            - label: Ville
+              value: address-level2
+            - label: État
+              value: address-level1
+            - label: Code postal
+              value: postal-code
+            - label: Nom du pays
+              value: country-name
+            - label: Entreprise
+              value: organization
+          required: false
+          type: select
+        i18n: true
+        label: Champs
+        label_singular: Champ
+        list: true
+        name: items
+        required: false
+        summary: '{{label}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Formulaire
+      name: form
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 3
+        i18n: duplicate
+        label: Colonne
+        max: 6
+        min: 1
+        name: column
+        type: number
+        value_type: int
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: duplicate
+          label: Image
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: src
+          path: /images/uploads
+          public_type: collection
+          required: false
+          type: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image
+            décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          type: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          type: rich-text
+        - i18n: true
+          label: Légende
+          name: legend
+          required: false
+          type: string
+        i18n: true
+        label: Galerie
+        list: true
+        name: gallery
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Galerie
+      name: gallery
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: duplicate
+          label: Image
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: src
+          path: /images/uploads
+          public_type: collection
+          required: false
+          type: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image
+            décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          type: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          type: rich-text
+        - i18n: true
+          label: Légende
+          name: legend
+          required: false
+          type: string
+        - i18n: duplicate
+          label: Moitié ?
+          name: half
+          required: false
+          type: boolean
+        i18n: true
+        label: Images
+        list: true
+        name: images
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Images
+      name: images
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 3
+        i18n: duplicate
+        label: Colonne
+        max: 6
+        min: 1
+        name: column
+        type: number
+        value_type: int
+      - collapsed: true
+        fields:
+        - hint: Nom de l’icon provenant de https://icons.getbootstrap.com/
+          i18n: duplicate
+          label: Icone
+          name: icon
+          required: false
+          type: string
+        - collapsed: true
+          fields:
+          - choose_url: false
+            hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+            i18n: duplicate
+            label: Image
+            media_library:
+              config:
+                max_file_size: 700000
+            media_type: collection
+            name: src
+            path: /images/uploads
+            public_type: collection
+            required: false
+            type: image
+          - hint: Pour une image qui transmet des informations (laisser vide si image
+              décorative)
+            i18n: true
+            label: Texte alternatif
+            name: alt
+            required: false
+            type: string
+          - hint: Positionne au centre et n’est pas recadré
+            i18n: duplicate
+            label: Logo ?
+            name: isLogo
+            required: false
+            type: boolean
+          i18n: true
+          label: Image
+          name: image
+          required: false
+          type: object
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          - i18n: true
+            label: URL
+            name: url
+            required: false
+            type: string
+          - hint: Enter code lang (e.g. fr) if different of the current page language
+            i18n: true
+            label: Langue
+            name: lang
+            required: false
+            type: string
+          - i18n: true
+            label: Nouvelle fenêtre ?
+            name: blank
+            required: false
+            type: boolean
+          i18n: true
+          label: CTA
+          name: cta
+          required: false
+          summary: '{{text}}'
+          type: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Informations
+      name: informations
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 4
+        hint: Nombre d’items à afficher
+        i18n: duplicate
+        label: Count
+        max: 10
+        min: 1
+        name: count
+        required: true
+        step: 1
+        type: number
+      - default: 5
+        hint: ""
+        i18n: duplicate
+        label: Limite
+        max: 10
+        min: 1
+        name: limit
+        required: true
+        step: 1
+        type: number
+      - allow_add: true
+        collapsed: true
+        fields:
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Langue
+          name: lang
+          required: false
+          type: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          type: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        list: true
+        max: 2
+        min: 0
+        name: ctas
+        required: false
+        summary: '{{fields.text}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Instagram
+      name: instagram
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - hint: Choix de la section à afficher
+        i18n: duplicate
+        label: Section
+        name: section
+        options:
+          values:
+          - label: Pages
+            value: pages
+          - label: Projects
+            value: projects
+          - label: Projects tags
+            value: projects_tags
+          - label: Projects types
+            value: projects_types
+        required: false
+        type: select
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
+        type: select
+      - default: 4
+        hint: Nombre d’items à afficher
+        i18n: duplicate
+        label: Count
+        max: 10
+        min: 1
+        name: count
+        required: true
+        step: 1
+        type: number
+      - default: true
+        i18n: duplicate
+        label: Plus d’items ?
+        name: show_more
+        required: false
+        type: boolean
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Derniers items
+      name: latest
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: duplicate
+          label: Image
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: src
+          path: /images/uploads
+          public_type: collection
+          required: false
+          type: image
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
+        type: select
+      - collapsed: true
+        fields:
+        - collapsed: false
+          fields:
+          - hint: Positionner le slide actif au centre ?
+            i18n: duplicate
+            label: Focus
+            name: focus
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Autoplay
+            name: autoplay
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Flèches
+            name: arrows
+            required: false
+            type: boolean
+          - default: false
+            i18n: duplicate
+            label: Pagination
+            name: pagination
+            required: false
+            type: boolean
+          - i18n: duplicate
+            label: Type de carrousel
+            name: type
+            options:
+              values:
+              - slide
+              - loop
+              - fade
+            required: false
+            type: select
+          - hint: Nombre de slide à afficher
+            i18n: duplicate
+            label: Par page
+            min: 1
+            name: perPage
+            required: false
+            type: number
+          - hint: Padding left/right of the carousel. In rem value
+            i18n: duplicate
+            label: Padding
+            min: 0
+            name: padding
+            required: false
+            type: number
+          - hint: L’écart entre les slides. Exprimé en rem.
+            i18n: duplicate
+            label: Gap
+            min: 0
+            name: gap
+            required: false
+            type: number
+          i18n: true
+          label: Paramêtres
+          name: params
+          required: false
+          type: object
+        - collapsed: true
+          fields:
+          - default: 640
+            i18n: duplicate
+            label: Breakpoints
+            label_singular: Breakpoint
+            name: breakpoints
+            options:
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
+            required: false
+            type: select
+          - collapsed: false
+            fields:
+            - hint: Positionner le slide actif au centre ?
+              i18n: duplicate
+              label: Focus
+              name: focus
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Autoplay
+              name: autoplay
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Flèches
+              name: arrows
+              required: false
+              type: boolean
+            - default: false
+              i18n: duplicate
+              label: Pagination
+              name: pagination
+              required: false
+              type: boolean
+            - i18n: duplicate
+              label: Type de carrousel
+              name: type
+              options:
+                values:
+                - slide
+                - loop
+                - fade
+              required: false
+              type: select
+            - hint: Nombre de slide à afficher
+              i18n: duplicate
+              label: Par page
+              min: 1
+              name: perPage
+              required: false
+              type: number
+            - hint: Padding left/right of the carousel. In rem value
+              i18n: duplicate
+              label: Padding
+              min: 0
+              name: padding
+              required: false
+              type: number
+            - hint: L’écart entre les slides. Exprimé en rem.
+              i18n: duplicate
+              label: Gap
+              min: 0
+              name: gap
+              required: false
+              type: number
+            i18n: true
+            label: Paramêtres
+            name: params
+            required: false
+            type: object
+          i18n: true
+          label: Responsive
+          list: true
+          name: responsive
+          required: false
+          type: object
+        hint: Seulement pour un affichage en carrousel
+        i18n: true
+        label: Configuration carrousel
+        name: carousel
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Logos
+      name: logos
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        hint: Only if you have places already saved (this will disable the marker
+          below)
+        i18n: duplicate
+        label: Affiche tous les lieux ?
+        name: show_places
+        required: false
+        type: boolean
+      - collapsed: true
+        fields:
+        - label: Latitude
+          name: lat
+          required: false
+          type: number
+          value_type: float
+        - label: Longitude
+          name: lng
+          required: false
+          type: number
+          value_type: float
+        hint: 'Trouvez facilement les coordonnées : https://www.latlong.net/convert-address-to-lat-long.html'
+        label: Coordonnées géographique
+        name: coordinates
+        required: false
+        type: object
+      - default: 13
+        i18n: duplicate
+        label: Zoom
+        max: 20
+        min: 1
+        name: zoom
+        required: true
+        type: number
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Carte
+      name: map
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: false
+        fields:
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Nom
+            name: name
+            required: false
+            type: string
+          - i18n: true
+            label: Valeur
+            name: value
+            required: false
+            type: string
+          i18n: true
+          label: Champs cachés
+          label_singular: Champ caché
+          list: true
+          name: hiddens
+          required: false
+          type: object
+        i18n: true
+        label: Formulaire
+        name: form
+        required: true
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Newsletter
+      name: newsletter
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Sur-titre
+        name: surtitle
+        required: false
+        type: string
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        type: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        editor_components: []
+        i18n: true
+        label: Texte
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        type: rich-text
+      - allow_add: true
+        collapsed: true
+        fields:
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Langue
+          name: lang
+          required: false
+          type: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          type: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        list: true
+        max: 2
+        min: 0
+        name: ctas
+        required: false
+        summary: '{{fields.text}}'
+        type: object
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - i18n: duplicate
+        label: Offset
+        name: offset
+        options:
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
+        required: false
+        type: select
+      - i18n: duplicate
+        label: Alignement
+        name: align
+        options:
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
+        required: false
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Paragraphe
+      name: paragraph
+      required: false
+      summary: '{{title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 1
+        i18n: duplicate
+        label: Colonne
+        max: 2
+        min: 1
+        name: column
+        type: number
+        value_type: int
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          - i18n: true
+            label: URL
+            name: url
+            required: false
+            type: string
+          - hint: Enter code lang (e.g. fr) if different of the current page language
+            i18n: true
+            label: Langue
+            name: lang
+            required: false
+            type: string
+          - i18n: true
+            label: Nouvelle fenêtre ?
+            name: blank
+            required: false
+            type: boolean
+          i18n: true
+          label: CTA
+          name: cta
+          required: false
+          summary: '{{text}}'
+          type: object
+        - i18n: duplicate
+          label: Offset
+          name: offset
+          options:
+            values:
+            - label: Start
+              value: start
+            - label: Center
+              value: center
+            - label: End
+              value: end
+          required: false
+          type: select
+        - hint: Ajoute un fond derrière les textes
+          i18n: duplicate
+          label: Carte ?
+          name: card
+          required: false
+          type: boolean
+        - allowInput: true
+          enableAlpha: true
+          i18n: duplicate
+          label: Couleur
+          name: color
+          required: false
+          type: color
+        - collapsed: true
+          fields:
+          - choose_url: false
+            hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+            i18n: duplicate
+            label: Image
+            media_library:
+              config:
+                max_file_size: 700000
+            media_type: collection
+            name: src
+            path: /images/uploads
+            public_type: collection
+            required: false
+            type: image
+          - hint: Pour une image qui transmet des informations (laisser vide si image
+              décorative)
+            i18n: true
+            label: Texte alternatif
+            name: alt
+            required: false
+            type: string
+          - buttons:
+            - link
+            editor_components: []
+            i18n: true
+            label: Crédit
+            minimal: true
+            modes:
+            - rich_text
+            name: credit
+            required: false
+            type: rich-text
+          i18n: true
+          label: Image
+          name: image
+          required: false
+          type: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
+        type: select
+      - collapsed: true
+        fields:
+        - collapsed: false
+          fields:
+          - hint: Positionner le slide actif au centre ?
+            i18n: duplicate
+            label: Focus
+            name: focus
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Autoplay
+            name: autoplay
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Flèches
+            name: arrows
+            required: false
+            type: boolean
+          - default: false
+            i18n: duplicate
+            label: Pagination
+            name: pagination
+            required: false
+            type: boolean
+          - i18n: duplicate
+            label: Type de carrousel
+            name: type
+            options:
+              values:
+              - slide
+              - loop
+              - fade
+            required: false
+            type: select
+          - hint: Nombre de slide à afficher
+            i18n: duplicate
+            label: Par page
+            min: 1
+            name: perPage
+            required: false
+            type: number
+          - hint: Padding left/right of the carousel. In rem value
+            i18n: duplicate
+            label: Padding
+            min: 0
+            name: padding
+            required: false
+            type: number
+          - hint: L’écart entre les slides. Exprimé en rem.
+            i18n: duplicate
+            label: Gap
+            min: 0
+            name: gap
+            required: false
+            type: number
+          i18n: true
+          label: Paramêtres
+          name: params
+          required: false
+          type: object
+        - collapsed: true
+          fields:
+          - default: 640
+            i18n: duplicate
+            label: Breakpoints
+            label_singular: Breakpoint
+            name: breakpoints
+            options:
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
+            required: false
+            type: select
+          - collapsed: false
+            fields:
+            - hint: Positionner le slide actif au centre ?
+              i18n: duplicate
+              label: Focus
+              name: focus
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Autoplay
+              name: autoplay
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Flèches
+              name: arrows
+              required: false
+              type: boolean
+            - default: false
+              i18n: duplicate
+              label: Pagination
+              name: pagination
+              required: false
+              type: boolean
+            - i18n: duplicate
+              label: Type de carrousel
+              name: type
+              options:
+                values:
+                - slide
+                - loop
+                - fade
+              required: false
+              type: select
+            - hint: Nombre de slide à afficher
+              i18n: duplicate
+              label: Par page
+              min: 1
+              name: perPage
+              required: false
+              type: number
+            - hint: Padding left/right of the carousel. In rem value
+              i18n: duplicate
+              label: Padding
+              min: 0
+              name: padding
+              required: false
+              type: number
+            - hint: L’écart entre les slides. Exprimé en rem.
+              i18n: duplicate
+              label: Gap
+              min: 0
+              name: gap
+              required: false
+              type: number
+            i18n: true
+            label: Paramêtres
+            name: params
+            required: false
+            type: object
+          i18n: true
+          label: Responsive
+          list: true
+          name: responsive
+          required: false
+          type: object
+        hint: Seulement pour un affichage en carrousel
+        i18n: true
+        label: Configuration carrousel
+        name: carousel
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Notifications
+      name: pushes
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - buttons:
+        - bold
+        - italic
+        - link
+        editor_components: []
+        i18n: true
+        label: Citation
+        minimal: true
+        modes:
+        - rich_text
+        name: quote
+        required: false
+        type: rich-text
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - collapsed: true
+          fields:
+          - choose_url: false
+            hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+            i18n: duplicate
+            label: Image
+            media_library:
+              config:
+                max_file_size: 700000
+            media_type: collection
+            name: src
+            path: /images/uploads
+            public_type: collection
+            required: false
+            type: image
+          - hint: Pour une image qui transmet des informations (laisser vide si image
+              décorative)
+            i18n: true
+            label: Texte alternatif
+            name: alt
+            required: false
+            type: string
+          - buttons:
+            - link
+            editor_components: []
+            i18n: true
+            label: Crédit
+            minimal: true
+            modes:
+            - rich_text
+            name: credit
+            required: false
+            type: rich-text
+          i18n: true
+          label: Image
+          name: image
+          required: false
+          type: object
+        i18n: true
+        label: Auteur
+        name: author
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Citation
+      name: quote
+      required: false
+      summary: '{{quote}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: pages
+        hidden: true
+        name: section
+        type: boolean
+      - collection: pages
+        display_fields:
+        - title
+        hint: ""
+        i18n: duplicate
+        label: Pages
+        label_singular: Page
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        type: relation
+        value_field: '{fields.title}.md'
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
+        type: select
+      - default: true
+        i18n: duplicate
+        label: Plus d’items ?
+        name: show_more
+        required: false
+        type: boolean
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Sélection Pages
+      name: selected-pages
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: projects
+        hidden: true
+        name: section
+        type: boolean
+      - collection: projects
+        display_fields:
+        - title
+        hint: ""
+        i18n: duplicate
+        label: Projets
+        label_singular: Projet
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        type: relation
+        value_field: '{fields.title}.md'
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
+        type: select
+      - default: true
+        i18n: duplicate
+        label: Plus d’items ?
+        name: show_more
+        required: false
+        type: boolean
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Sélection Projets
+      name: selected-projects
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: projects_tags
+        hidden: true
+        name: section
+        type: boolean
+      - collection: projects_tags
+        display_fields:
+        - title
+        hint: ""
+        i18n: duplicate
+        label: Tags
+        label_singular: Tag
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        type: relation
+        value_field: '{fields.title}.md'
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
+        type: select
+      - default: true
+        i18n: duplicate
+        label: Plus d’items ?
+        name: show_more
+        required: false
+        type: boolean
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Sélection Tags
+      name: selected-projects_tags
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: projects_types
+        hidden: true
+        name: section
+        type: boolean
+      - collection: projects_types
+        display_fields:
+        - title
+        hint: ""
+        i18n: duplicate
+        label: Types
+        label_singular: Type
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        type: relation
+        value_field: '{fields.title}.md'
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
+        type: select
+      - default: true
+        i18n: duplicate
+        label: Plus d’items ?
+        name: show_more
+        required: false
+        type: boolean
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Sélection Types
+      name: selected-projects_types
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - buttons:
+          - bold
+          - italic
+          - link
+          editor_components: []
+          i18n: true
+          label: Citation
+          minimal: true
+          modes:
+          - rich_text
+          name: quote
+          required: false
+          type: rich-text
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Titre
+            name: title
+            required: false
+            type: string
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          - collapsed: true
+            fields:
+            - choose_url: false
+              hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+              i18n: duplicate
+              label: Image
+              media_library:
+                config:
+                  max_file_size: 700000
+              media_type: collection
+              name: src
+              path: /images/uploads
+              public_type: collection
+              required: false
+              type: image
+            - hint: Pour une image qui transmet des informations (laisser vide si
+                image décorative)
+              i18n: true
+              label: Texte alternatif
+              name: alt
+              required: false
+              type: string
+            - buttons:
+              - link
+              editor_components: []
+              i18n: true
+              label: Crédit
+              minimal: true
+              modes:
+              - rich_text
+              name: credit
+              required: false
+              type: rich-text
+            i18n: true
+            label: Image
+            name: image
+            required: false
+            type: object
+          i18n: true
+          label: Auteur
+          name: author
+          required: false
+          type: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        type: object
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
+        type: select
+      - collapsed: true
+        fields:
+        - collapsed: false
+          fields:
+          - hint: Positionner le slide actif au centre ?
+            i18n: duplicate
+            label: Focus
+            name: focus
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Autoplay
+            name: autoplay
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Flèches
+            name: arrows
+            required: false
+            type: boolean
+          - default: false
+            i18n: duplicate
+            label: Pagination
+            name: pagination
+            required: false
+            type: boolean
+          - i18n: duplicate
+            label: Type de carrousel
+            name: type
+            options:
+              values:
+              - slide
+              - loop
+              - fade
+            required: false
+            type: select
+          - hint: Nombre de slide à afficher
+            i18n: duplicate
+            label: Par page
+            min: 1
+            name: perPage
+            required: false
+            type: number
+          - hint: Padding left/right of the carousel. In rem value
+            i18n: duplicate
+            label: Padding
+            min: 0
+            name: padding
+            required: false
+            type: number
+          - hint: L’écart entre les slides. Exprimé en rem.
+            i18n: duplicate
+            label: Gap
+            min: 0
+            name: gap
+            required: false
+            type: number
+          i18n: true
+          label: Paramêtres
+          name: params
+          required: false
+          type: object
+        - collapsed: true
+          fields:
+          - default: 640
+            i18n: duplicate
+            label: Breakpoints
+            label_singular: Breakpoint
+            name: breakpoints
+            options:
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
+            required: false
+            type: select
+          - collapsed: false
+            fields:
+            - hint: Positionner le slide actif au centre ?
+              i18n: duplicate
+              label: Focus
+              name: focus
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Autoplay
+              name: autoplay
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Flèches
+              name: arrows
+              required: false
+              type: boolean
+            - default: false
+              i18n: duplicate
+              label: Pagination
+              name: pagination
+              required: false
+              type: boolean
+            - i18n: duplicate
+              label: Type de carrousel
+              name: type
+              options:
+                values:
+                - slide
+                - loop
+                - fade
+              required: false
+              type: select
+            - hint: Nombre de slide à afficher
+              i18n: duplicate
+              label: Par page
+              min: 1
+              name: perPage
+              required: false
+              type: number
+            - hint: Padding left/right of the carousel. In rem value
+              i18n: duplicate
+              label: Padding
+              min: 0
+              name: padding
+              required: false
+              type: number
+            - hint: L’écart entre les slides. Exprimé en rem.
+              i18n: duplicate
+              label: Gap
+              min: 0
+              name: gap
+              required: false
+              type: number
+            i18n: true
+            label: Paramêtres
+            name: params
+            required: false
+            type: object
+          i18n: true
+          label: Responsive
+          list: true
+          name: responsive
+          required: false
+          type: object
+        hint: Seulement pour un affichage en carrousel
+        i18n: true
+        label: Configuration carrousel
+        name: carousel
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Témoignages
+      name: testimonials
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Chronologie
+      name: timeline
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
       - default: false
         i18n: duplicate
         label: Avec un background ?
@@ -226,6 +3567,138 @@ content:
       i18n: true
       label: Titre
       name: title
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: Vidéo en format MP4
+          i18n: duplicate
+          label: MP4
+          media_library:
+            config:
+              max_file_size: 5000000
+          media_type: collection
+          name: mp4
+          path: /assets/videos
+          public_type: collection
+          required: false
+          type: file
+        - choose_url: false
+          hint: Vidéo en format WEBM
+          i18n: duplicate
+          label: WEBM
+          media_library:
+            config:
+              max_file_size: 5000000
+          media_type: collection
+          name: webm
+          path: /assets/videos
+          public_type: collection
+          required: false
+          type: file
+        - default: true
+          i18n: duplicate
+          label: Contrôles
+          name: controls
+          required: false
+          type: boolean
+        - default: false
+          i18n: duplicate
+          label: Autoplay
+          name: autoplay
+          required: false
+          type: boolean
+        - default: false
+          i18n: duplicate
+          label: Boucle
+          name: loop
+          required: false
+          type: boolean
+        - default: false
+          hint: Ajoute un faux navigateur autour de l’image
+          i18n: duplicate
+          label: Capture d’écran ?
+          name: screenshot
+          required: false
+          type: boolean
+        - i18n: true
+          label: Légende
+          name: legend
+          required: false
+          type: string
+        - i18n: true
+          label: Transcription
+          name: transcription
+          required: false
+          type: text
+        i18n: true
+        label: Vidéo
+        name: video
+        required: false
+        type: object
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Vidéo
+      name: video
       required: false
       summary: '{{heading.title}}'
       type: object
@@ -497,6 +3970,3347 @@ content:
         required: false
         summary: '{{title}}'
         type: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: Audio en format MP3
+          i18n: duplicate
+          label: MP3
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: mp3
+          path: /assets/audios
+          public_type: collection
+          required: false
+          type: file
+        - choose_url: false
+          hint: Audio en format OGG
+          i18n: duplicate
+          label: OGG
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: ogg
+          path: /assets/audios
+          public_type: collection
+          required: false
+          type: file
+        - default: false
+          i18n: duplicate
+          label: Autoplay
+          name: autoplay
+          required: false
+          type: boolean
+        - default: false
+          i18n: duplicate
+          label: Boucle
+          name: loop
+          required: false
+          type: boolean
+        - i18n: true
+          label: Transcription
+          name: transcription
+          required: false
+          type: text
+        i18n: true
+        label: Audio
+        name: audio
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Audio
+      name: audio
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        editor_components: []
+        i18n: true
+        label: Texte
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        type: rich-text
+      - default: light
+        i18n: duplicate
+        label: État
+        name: state
+        options:
+          values:
+          - label: Danger
+            value: danger
+          - label: Dark
+            value: dark
+          - label: Info
+            value: info
+          - label: Light
+            value: light
+          - label: Primary
+            value: primary
+          - label: Secondary
+            value: secondary
+          - label: Success
+            value: success
+          - label: Warning
+            value: warning
+        required: true
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Alerte
+      name: alert
+      required: false
+      summary: '{{text_markdown}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - default:
+          - bar
+          label: Type de graphique
+          multiple: false
+          name: type
+          options:
+            values:
+            - label: Barre
+              value: bar
+            - label: Tarte
+              value: pie
+            - label: Ligne
+              value: line
+            - label: Polaire
+              value: polarArea
+            - label: Radar
+              value: radar
+          type: select
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Label
+            name: label
+            required: false
+            type: string
+          - i18n: true
+            label: Valeur
+            name: value
+            required: false
+            type: string
+          - allowInput: true
+            enableAlpha: true
+            i18n: duplicate
+            label: Couleur
+            name: color
+            required: false
+            type: color
+          i18n: true
+          label: Items
+          label_singular: Item
+          list: true
+          name: items
+          required: false
+          type: object
+        i18n: true
+        label: Chart
+        name: chart
+        required: false
+        type: object
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Graphique
+      name: chart
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 3
+        i18n: duplicate
+        label: Colonne
+        max: 6
+        min: 1
+        name: column
+        type: number
+        value_type: int
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - hint: Afficher un badge
+          i18n: true
+          label: Badge
+          name: badge
+          required: false
+          type: string
+        - collapsed: false
+          fields:
+          - hint: 'exemple : 300000 (pour 300 000 €)'
+            i18n: duplicate
+            label: Prix
+            name: price
+            required: false
+            type: number
+          - hint: 'Montant de la réduction, exemple : 30%'
+            i18n: duplicate
+            label: Réduction
+            name: discount
+            pattern:
+              message: La valeur seulement (sans la devise)
+              regex: ^[0-9]*(%?)$
+            required: false
+            type: string
+          - i18n: duplicate
+            label: Cacher le prix
+            name: hide_price
+            required: false
+            type: boolean
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          i18n: true
+          label: Offre
+          name: offer
+          required: false
+          type: object
+        - collapsed: true
+          fields:
+          - hint: Nom de l’icon provenant de https://icons.getbootstrap.com/
+            i18n: duplicate
+            label: Icone
+            name: icon
+            required: false
+            type: string
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          i18n: true
+          label: Arguments
+          label_singular: Argument
+          list: true
+          name: arguments
+          required: false
+          summary: '{{text}}'
+          type: object
+        - i18n: true
+          label: Mis en avant ?
+          name: is_highlighted
+          required: false
+          type: boolean
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          - i18n: true
+            label: URL
+            name: url
+            required: false
+            type: string
+          - hint: Enter code lang (e.g. fr) if different of the current page language
+            i18n: true
+            label: Langue
+            name: lang
+            required: false
+            type: string
+          - i18n: true
+            label: Nouvelle fenêtre ?
+            name: blank
+            required: false
+            type: boolean
+          i18n: true
+          label: CTA
+          name: cta
+          required: false
+          summary: '{{text}}'
+          type: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Comparaison
+      name: comparison
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - allow_add: true
+        collapsed: true
+        fields:
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Langue
+          name: lang
+          required: false
+          type: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          type: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        list: true
+        max: 2
+        min: 0
+        name: ctas
+        required: false
+        summary: '{{fields.text}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Appel à l’action
+      name: cta
+      required: false
+      summary: '{{cta.text}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 3
+        i18n: duplicate
+        label: Colonne
+        max: 6
+        min: 1
+        name: column
+        type: number
+        value_type: int
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Prefix
+          name: prefix
+          required: false
+          type: string
+        - i18n: true
+          label: Valeur
+          name: value
+          required: false
+          type: number
+        - hint: 'exemple : %'
+          i18n: true
+          label: Suffix
+          name: suffix
+          required: false
+          type: string
+        - default: 100
+          hint: ""
+          i18n: duplicate
+          label: Limite
+          name: limit
+          required: true
+          type: number
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Données
+      name: datas
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - default: ltr
+        i18n: duplicate
+        label: Direction
+        name: direction
+        options:
+          values:
+          - label: Texte à gauche / image à droite
+            value: ltr
+          - label: Image à gauche / texte à droite
+            value: rtl
+        type: select
+      - i18n: true
+        label: Sur-titre
+        name: surtitle
+        required: false
+        type: string
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        type: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        editor_components: []
+        i18n: true
+        label: Texte
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        type: rich-text
+      - allow_add: true
+        collapsed: true
+        fields:
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Langue
+          name: lang
+          required: false
+          type: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          type: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        list: true
+        max: 2
+        min: 0
+        name: ctas
+        required: false
+        summary: '{{fields.text}}'
+        type: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: duplicate
+          label: Image
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: src
+          path: /images/uploads
+          public_type: collection
+          required: false
+          type: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image
+            décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          type: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          type: rich-text
+        i18n: true
+        label: Image
+        name: image
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Éditorial
+      name: editorial
+      required: false
+      summary: '{{title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - i18n: duplicate
+        label: Embed
+        name: embed
+        required: false
+        type: text
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Embed
+      name: embed
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: FAQ
+      name: faq
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: duplicate
+          label: Image
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: src
+          path: /images/uploads
+          public_type: collection
+          required: false
+          type: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image
+            décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          type: string
+        - i18n: true
+          label: Légende
+          name: legend
+          required: false
+          type: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          type: rich-text
+        - default: false
+          hint: Ajoute un faux navigateur autour de l’image
+          i18n: duplicate
+          label: Capture d’écran ?
+          name: screenshot
+          required: false
+          type: boolean
+        i18n: true
+        label: Figure
+        name: figure
+        required: false
+        type: object
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - i18n: duplicate
+        label: Offset
+        name: offset
+        options:
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
+        required: false
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Figure
+      name: figure
+      required: false
+      summary: '{{title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - i18n: duplicate
+        label: Offset
+        name: offset
+        options:
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
+        required: false
+        type: select
+      - i18n: true
+        label: Nom
+        name: name
+        required: false
+        type: string
+      - i18n: true
+        label: Texte du bouton d’envoie
+        name: submit
+        required: false
+        type: string
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Label
+          name: label
+          required: false
+          type: string
+        - default: text
+          i18n: duplicate
+          label: Type
+          name: type
+          options:
+            values:
+            - label: Email
+              value: email
+            - label: Select
+              value: select
+            - label: Téléphone
+              value: tel
+            - label: Texte
+              value: text
+            - label: Zone de texte
+              value: textarea
+          type: select
+        - fields:
+          - i18n: true
+            label: Titre
+            name: title
+            required: false
+            type: string
+          - i18n: true
+            label: Valeur
+            name: value
+            required: false
+            type: string
+          hint: Seulement pour les champs select
+          i18n: true
+          label: Options
+          label_singular: Option
+          list: true
+          name: options
+          required: false
+          type: object
+        - i18n: duplicate
+          label: Requis
+          name: required
+          required: false
+          type: boolean
+        - i18n: duplicate
+          label: Champ en pleine largeur ?
+          name: full
+          required: false
+          type: boolean
+        - i18n: true
+          label: Placeholder
+          name: placeholder
+          required: false
+          type: string
+        - i18n: duplicate
+          label: Autocomplete
+          name: autocomplete
+          options:
+            values:
+            - label: Email
+              value: email
+            - label: Tel
+              value: tel
+            - label: ""
+              value: honorific-prefix
+            - label: Prénom
+              value: given-name
+            - label: Nom de famille
+              value: family-name
+            - label: Nom
+              value: name
+            - label: Rue
+              value: street-address
+            - label: Ville
+              value: address-level2
+            - label: État
+              value: address-level1
+            - label: Code postal
+              value: postal-code
+            - label: Nom du pays
+              value: country-name
+            - label: Entreprise
+              value: organization
+          required: false
+          type: select
+        i18n: true
+        label: Champs
+        label_singular: Champ
+        list: true
+        name: items
+        required: false
+        summary: '{{label}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Formulaire
+      name: form
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 3
+        i18n: duplicate
+        label: Colonne
+        max: 6
+        min: 1
+        name: column
+        type: number
+        value_type: int
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: duplicate
+          label: Image
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: src
+          path: /images/uploads
+          public_type: collection
+          required: false
+          type: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image
+            décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          type: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          type: rich-text
+        - i18n: true
+          label: Légende
+          name: legend
+          required: false
+          type: string
+        i18n: true
+        label: Galerie
+        list: true
+        name: gallery
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Galerie
+      name: gallery
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: duplicate
+          label: Image
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: src
+          path: /images/uploads
+          public_type: collection
+          required: false
+          type: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image
+            décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          type: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          type: rich-text
+        - i18n: true
+          label: Légende
+          name: legend
+          required: false
+          type: string
+        - i18n: duplicate
+          label: Moitié ?
+          name: half
+          required: false
+          type: boolean
+        i18n: true
+        label: Images
+        list: true
+        name: images
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Images
+      name: images
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 3
+        i18n: duplicate
+        label: Colonne
+        max: 6
+        min: 1
+        name: column
+        type: number
+        value_type: int
+      - collapsed: true
+        fields:
+        - hint: Nom de l’icon provenant de https://icons.getbootstrap.com/
+          i18n: duplicate
+          label: Icone
+          name: icon
+          required: false
+          type: string
+        - collapsed: true
+          fields:
+          - choose_url: false
+            hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+            i18n: duplicate
+            label: Image
+            media_library:
+              config:
+                max_file_size: 700000
+            media_type: collection
+            name: src
+            path: /images/uploads
+            public_type: collection
+            required: false
+            type: image
+          - hint: Pour une image qui transmet des informations (laisser vide si image
+              décorative)
+            i18n: true
+            label: Texte alternatif
+            name: alt
+            required: false
+            type: string
+          - hint: Positionne au centre et n’est pas recadré
+            i18n: duplicate
+            label: Logo ?
+            name: isLogo
+            required: false
+            type: boolean
+          i18n: true
+          label: Image
+          name: image
+          required: false
+          type: object
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          - i18n: true
+            label: URL
+            name: url
+            required: false
+            type: string
+          - hint: Enter code lang (e.g. fr) if different of the current page language
+            i18n: true
+            label: Langue
+            name: lang
+            required: false
+            type: string
+          - i18n: true
+            label: Nouvelle fenêtre ?
+            name: blank
+            required: false
+            type: boolean
+          i18n: true
+          label: CTA
+          name: cta
+          required: false
+          summary: '{{text}}'
+          type: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Informations
+      name: informations
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 4
+        hint: Nombre d’items à afficher
+        i18n: duplicate
+        label: Count
+        max: 10
+        min: 1
+        name: count
+        required: true
+        step: 1
+        type: number
+      - default: 5
+        hint: ""
+        i18n: duplicate
+        label: Limite
+        max: 10
+        min: 1
+        name: limit
+        required: true
+        step: 1
+        type: number
+      - allow_add: true
+        collapsed: true
+        fields:
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Langue
+          name: lang
+          required: false
+          type: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          type: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        list: true
+        max: 2
+        min: 0
+        name: ctas
+        required: false
+        summary: '{{fields.text}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Instagram
+      name: instagram
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - hint: Choix de la section à afficher
+        i18n: duplicate
+        label: Section
+        name: section
+        options:
+          values:
+          - label: Pages
+            value: pages
+          - label: Projects
+            value: projects
+          - label: Projects tags
+            value: projects_tags
+          - label: Projects types
+            value: projects_types
+        required: false
+        type: select
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
+        type: select
+      - default: 4
+        hint: Nombre d’items à afficher
+        i18n: duplicate
+        label: Count
+        max: 10
+        min: 1
+        name: count
+        required: true
+        step: 1
+        type: number
+      - default: true
+        i18n: duplicate
+        label: Plus d’items ?
+        name: show_more
+        required: false
+        type: boolean
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Derniers items
+      name: latest
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: duplicate
+          label: Image
+          media_library:
+            config:
+              max_file_size: 700000
+          media_type: collection
+          name: src
+          path: /images/uploads
+          public_type: collection
+          required: false
+          type: image
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
+        type: select
+      - collapsed: true
+        fields:
+        - collapsed: false
+          fields:
+          - hint: Positionner le slide actif au centre ?
+            i18n: duplicate
+            label: Focus
+            name: focus
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Autoplay
+            name: autoplay
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Flèches
+            name: arrows
+            required: false
+            type: boolean
+          - default: false
+            i18n: duplicate
+            label: Pagination
+            name: pagination
+            required: false
+            type: boolean
+          - i18n: duplicate
+            label: Type de carrousel
+            name: type
+            options:
+              values:
+              - slide
+              - loop
+              - fade
+            required: false
+            type: select
+          - hint: Nombre de slide à afficher
+            i18n: duplicate
+            label: Par page
+            min: 1
+            name: perPage
+            required: false
+            type: number
+          - hint: Padding left/right of the carousel. In rem value
+            i18n: duplicate
+            label: Padding
+            min: 0
+            name: padding
+            required: false
+            type: number
+          - hint: L’écart entre les slides. Exprimé en rem.
+            i18n: duplicate
+            label: Gap
+            min: 0
+            name: gap
+            required: false
+            type: number
+          i18n: true
+          label: Paramêtres
+          name: params
+          required: false
+          type: object
+        - collapsed: true
+          fields:
+          - default: 640
+            i18n: duplicate
+            label: Breakpoints
+            label_singular: Breakpoint
+            name: breakpoints
+            options:
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
+            required: false
+            type: select
+          - collapsed: false
+            fields:
+            - hint: Positionner le slide actif au centre ?
+              i18n: duplicate
+              label: Focus
+              name: focus
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Autoplay
+              name: autoplay
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Flèches
+              name: arrows
+              required: false
+              type: boolean
+            - default: false
+              i18n: duplicate
+              label: Pagination
+              name: pagination
+              required: false
+              type: boolean
+            - i18n: duplicate
+              label: Type de carrousel
+              name: type
+              options:
+                values:
+                - slide
+                - loop
+                - fade
+              required: false
+              type: select
+            - hint: Nombre de slide à afficher
+              i18n: duplicate
+              label: Par page
+              min: 1
+              name: perPage
+              required: false
+              type: number
+            - hint: Padding left/right of the carousel. In rem value
+              i18n: duplicate
+              label: Padding
+              min: 0
+              name: padding
+              required: false
+              type: number
+            - hint: L’écart entre les slides. Exprimé en rem.
+              i18n: duplicate
+              label: Gap
+              min: 0
+              name: gap
+              required: false
+              type: number
+            i18n: true
+            label: Paramêtres
+            name: params
+            required: false
+            type: object
+          i18n: true
+          label: Responsive
+          list: true
+          name: responsive
+          required: false
+          type: object
+        hint: Seulement pour un affichage en carrousel
+        i18n: true
+        label: Configuration carrousel
+        name: carousel
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Logos
+      name: logos
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        hint: Only if you have places already saved (this will disable the marker
+          below)
+        i18n: duplicate
+        label: Affiche tous les lieux ?
+        name: show_places
+        required: false
+        type: boolean
+      - collapsed: true
+        fields:
+        - label: Latitude
+          name: lat
+          required: false
+          type: number
+          value_type: float
+        - label: Longitude
+          name: lng
+          required: false
+          type: number
+          value_type: float
+        hint: 'Trouvez facilement les coordonnées : https://www.latlong.net/convert-address-to-lat-long.html'
+        label: Coordonnées géographique
+        name: coordinates
+        required: false
+        type: object
+      - default: 13
+        i18n: duplicate
+        label: Zoom
+        max: 20
+        min: 1
+        name: zoom
+        required: true
+        type: number
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Carte
+      name: map
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: false
+        fields:
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Nom
+            name: name
+            required: false
+            type: string
+          - i18n: true
+            label: Valeur
+            name: value
+            required: false
+            type: string
+          i18n: true
+          label: Champs cachés
+          label_singular: Champ caché
+          list: true
+          name: hiddens
+          required: false
+          type: object
+        i18n: true
+        label: Formulaire
+        name: form
+        required: true
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Newsletter
+      name: newsletter
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Sur-titre
+        name: surtitle
+        required: false
+        type: string
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        type: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        editor_components: []
+        i18n: true
+        label: Texte
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        type: rich-text
+      - allow_add: true
+        collapsed: true
+        fields:
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - i18n: true
+          label: URL
+          name: url
+          required: false
+          type: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Langue
+          name: lang
+          required: false
+          type: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          type: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        list: true
+        max: 2
+        min: 0
+        name: ctas
+        required: false
+        summary: '{{fields.text}}'
+        type: object
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - i18n: duplicate
+        label: Offset
+        name: offset
+        options:
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
+        required: false
+        type: select
+      - i18n: duplicate
+        label: Alignement
+        name: align
+        options:
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
+        required: false
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Paragraphe
+      name: paragraph
+      required: false
+      summary: '{{title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: 1
+        i18n: duplicate
+        label: Colonne
+        max: 2
+        min: 1
+        name: column
+        type: number
+        value_type: int
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          - i18n: true
+            label: URL
+            name: url
+            required: false
+            type: string
+          - hint: Enter code lang (e.g. fr) if different of the current page language
+            i18n: true
+            label: Langue
+            name: lang
+            required: false
+            type: string
+          - i18n: true
+            label: Nouvelle fenêtre ?
+            name: blank
+            required: false
+            type: boolean
+          i18n: true
+          label: CTA
+          name: cta
+          required: false
+          summary: '{{text}}'
+          type: object
+        - i18n: duplicate
+          label: Offset
+          name: offset
+          options:
+            values:
+            - label: Start
+              value: start
+            - label: Center
+              value: center
+            - label: End
+              value: end
+          required: false
+          type: select
+        - hint: Ajoute un fond derrière les textes
+          i18n: duplicate
+          label: Carte ?
+          name: card
+          required: false
+          type: boolean
+        - allowInput: true
+          enableAlpha: true
+          i18n: duplicate
+          label: Couleur
+          name: color
+          required: false
+          type: color
+        - collapsed: true
+          fields:
+          - choose_url: false
+            hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+            i18n: duplicate
+            label: Image
+            media_library:
+              config:
+                max_file_size: 700000
+            media_type: collection
+            name: src
+            path: /images/uploads
+            public_type: collection
+            required: false
+            type: image
+          - hint: Pour une image qui transmet des informations (laisser vide si image
+              décorative)
+            i18n: true
+            label: Texte alternatif
+            name: alt
+            required: false
+            type: string
+          - buttons:
+            - link
+            editor_components: []
+            i18n: true
+            label: Crédit
+            minimal: true
+            modes:
+            - rich_text
+            name: credit
+            required: false
+            type: rich-text
+          i18n: true
+          label: Image
+          name: image
+          required: false
+          type: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
+        type: select
+      - collapsed: true
+        fields:
+        - collapsed: false
+          fields:
+          - hint: Positionner le slide actif au centre ?
+            i18n: duplicate
+            label: Focus
+            name: focus
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Autoplay
+            name: autoplay
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Flèches
+            name: arrows
+            required: false
+            type: boolean
+          - default: false
+            i18n: duplicate
+            label: Pagination
+            name: pagination
+            required: false
+            type: boolean
+          - i18n: duplicate
+            label: Type de carrousel
+            name: type
+            options:
+              values:
+              - slide
+              - loop
+              - fade
+            required: false
+            type: select
+          - hint: Nombre de slide à afficher
+            i18n: duplicate
+            label: Par page
+            min: 1
+            name: perPage
+            required: false
+            type: number
+          - hint: Padding left/right of the carousel. In rem value
+            i18n: duplicate
+            label: Padding
+            min: 0
+            name: padding
+            required: false
+            type: number
+          - hint: L’écart entre les slides. Exprimé en rem.
+            i18n: duplicate
+            label: Gap
+            min: 0
+            name: gap
+            required: false
+            type: number
+          i18n: true
+          label: Paramêtres
+          name: params
+          required: false
+          type: object
+        - collapsed: true
+          fields:
+          - default: 640
+            i18n: duplicate
+            label: Breakpoints
+            label_singular: Breakpoint
+            name: breakpoints
+            options:
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
+            required: false
+            type: select
+          - collapsed: false
+            fields:
+            - hint: Positionner le slide actif au centre ?
+              i18n: duplicate
+              label: Focus
+              name: focus
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Autoplay
+              name: autoplay
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Flèches
+              name: arrows
+              required: false
+              type: boolean
+            - default: false
+              i18n: duplicate
+              label: Pagination
+              name: pagination
+              required: false
+              type: boolean
+            - i18n: duplicate
+              label: Type de carrousel
+              name: type
+              options:
+                values:
+                - slide
+                - loop
+                - fade
+              required: false
+              type: select
+            - hint: Nombre de slide à afficher
+              i18n: duplicate
+              label: Par page
+              min: 1
+              name: perPage
+              required: false
+              type: number
+            - hint: Padding left/right of the carousel. In rem value
+              i18n: duplicate
+              label: Padding
+              min: 0
+              name: padding
+              required: false
+              type: number
+            - hint: L’écart entre les slides. Exprimé en rem.
+              i18n: duplicate
+              label: Gap
+              min: 0
+              name: gap
+              required: false
+              type: number
+            i18n: true
+            label: Paramêtres
+            name: params
+            required: false
+            type: object
+          i18n: true
+          label: Responsive
+          list: true
+          name: responsive
+          required: false
+          type: object
+        hint: Seulement pour un affichage en carrousel
+        i18n: true
+        label: Configuration carrousel
+        name: carousel
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Notifications
+      name: pushes
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - buttons:
+        - bold
+        - italic
+        - link
+        editor_components: []
+        i18n: true
+        label: Citation
+        minimal: true
+        modes:
+        - rich_text
+        name: quote
+        required: false
+        type: rich-text
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          type: string
+        - collapsed: true
+          fields:
+          - choose_url: false
+            hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+            i18n: duplicate
+            label: Image
+            media_library:
+              config:
+                max_file_size: 700000
+            media_type: collection
+            name: src
+            path: /images/uploads
+            public_type: collection
+            required: false
+            type: image
+          - hint: Pour une image qui transmet des informations (laisser vide si image
+              décorative)
+            i18n: true
+            label: Texte alternatif
+            name: alt
+            required: false
+            type: string
+          - buttons:
+            - link
+            editor_components: []
+            i18n: true
+            label: Crédit
+            minimal: true
+            modes:
+            - rich_text
+            name: credit
+            required: false
+            type: rich-text
+          i18n: true
+          label: Image
+          name: image
+          required: false
+          type: object
+        i18n: true
+        label: Auteur
+        name: author
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Citation
+      name: quote
+      required: false
+      summary: '{{quote}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: pages
+        hidden: true
+        name: section
+        type: boolean
+      - collection: pages
+        display_fields:
+        - title
+        hint: ""
+        i18n: duplicate
+        label: Pages
+        label_singular: Page
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        type: relation
+        value_field: '{fields.title}.md'
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
+        type: select
+      - default: true
+        i18n: duplicate
+        label: Plus d’items ?
+        name: show_more
+        required: false
+        type: boolean
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Sélection Pages
+      name: selected-pages
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: projects
+        hidden: true
+        name: section
+        type: boolean
+      - collection: projects
+        display_fields:
+        - title
+        hint: ""
+        i18n: duplicate
+        label: Projets
+        label_singular: Projet
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        type: relation
+        value_field: '{fields.title}.md'
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
+        type: select
+      - default: true
+        i18n: duplicate
+        label: Plus d’items ?
+        name: show_more
+        required: false
+        type: boolean
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Sélection Projets
+      name: selected-projects
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: projects_tags
+        hidden: true
+        name: section
+        type: boolean
+      - collection: projects_tags
+        display_fields:
+        - title
+        hint: ""
+        i18n: duplicate
+        label: Tags
+        label_singular: Tag
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        type: relation
+        value_field: '{fields.title}.md'
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
+        type: select
+      - default: true
+        i18n: duplicate
+        label: Plus d’items ?
+        name: show_more
+        required: false
+        type: boolean
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Sélection Tags
+      name: selected-projects_tags
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: projects_types
+        hidden: true
+        name: section
+        type: boolean
+      - collection: projects_types
+        display_fields:
+        - title
+        hint: ""
+        i18n: duplicate
+        label: Types
+        label_singular: Type
+        multiple: true
+        name: items
+        required: true
+        search_fields:
+        - title
+        type: relation
+        value_field: '{fields.title}.md'
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
+        type: select
+      - default: true
+        i18n: duplicate
+        label: Plus d’items ?
+        name: show_more
+        required: false
+        type: boolean
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Sélection Types
+      name: selected-projects_types
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - buttons:
+          - bold
+          - italic
+          - link
+          editor_components: []
+          i18n: true
+          label: Citation
+          minimal: true
+          modes:
+          - rich_text
+          name: quote
+          required: false
+          type: rich-text
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Titre
+            name: title
+            required: false
+            type: string
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            type: string
+          - collapsed: true
+            fields:
+            - choose_url: false
+              hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+              i18n: duplicate
+              label: Image
+              media_library:
+                config:
+                  max_file_size: 700000
+              media_type: collection
+              name: src
+              path: /images/uploads
+              public_type: collection
+              required: false
+              type: image
+            - hint: Pour une image qui transmet des informations (laisser vide si
+                image décorative)
+              i18n: true
+              label: Texte alternatif
+              name: alt
+              required: false
+              type: string
+            - buttons:
+              - link
+              editor_components: []
+              i18n: true
+              label: Crédit
+              minimal: true
+              modes:
+              - rich_text
+              name: credit
+              required: false
+              type: rich-text
+            i18n: true
+            label: Image
+            name: image
+            required: false
+            type: object
+          i18n: true
+          label: Auteur
+          name: author
+          required: false
+          type: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        type: object
+      - i18n: duplicate
+        label: Affichage
+        name: layout
+        options:
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
+        type: select
+      - collapsed: true
+        fields:
+        - collapsed: false
+          fields:
+          - hint: Positionner le slide actif au centre ?
+            i18n: duplicate
+            label: Focus
+            name: focus
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Autoplay
+            name: autoplay
+            required: false
+            type: boolean
+          - default: true
+            i18n: duplicate
+            label: Flèches
+            name: arrows
+            required: false
+            type: boolean
+          - default: false
+            i18n: duplicate
+            label: Pagination
+            name: pagination
+            required: false
+            type: boolean
+          - i18n: duplicate
+            label: Type de carrousel
+            name: type
+            options:
+              values:
+              - slide
+              - loop
+              - fade
+            required: false
+            type: select
+          - hint: Nombre de slide à afficher
+            i18n: duplicate
+            label: Par page
+            min: 1
+            name: perPage
+            required: false
+            type: number
+          - hint: Padding left/right of the carousel. In rem value
+            i18n: duplicate
+            label: Padding
+            min: 0
+            name: padding
+            required: false
+            type: number
+          - hint: L’écart entre les slides. Exprimé en rem.
+            i18n: duplicate
+            label: Gap
+            min: 0
+            name: gap
+            required: false
+            type: number
+          i18n: true
+          label: Paramêtres
+          name: params
+          required: false
+          type: object
+        - collapsed: true
+          fields:
+          - default: 640
+            i18n: duplicate
+            label: Breakpoints
+            label_singular: Breakpoint
+            name: breakpoints
+            options:
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
+            required: false
+            type: select
+          - collapsed: false
+            fields:
+            - hint: Positionner le slide actif au centre ?
+              i18n: duplicate
+              label: Focus
+              name: focus
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Autoplay
+              name: autoplay
+              required: false
+              type: boolean
+            - default: true
+              i18n: duplicate
+              label: Flèches
+              name: arrows
+              required: false
+              type: boolean
+            - default: false
+              i18n: duplicate
+              label: Pagination
+              name: pagination
+              required: false
+              type: boolean
+            - i18n: duplicate
+              label: Type de carrousel
+              name: type
+              options:
+                values:
+                - slide
+                - loop
+                - fade
+              required: false
+              type: select
+            - hint: Nombre de slide à afficher
+              i18n: duplicate
+              label: Par page
+              min: 1
+              name: perPage
+              required: false
+              type: number
+            - hint: Padding left/right of the carousel. In rem value
+              i18n: duplicate
+              label: Padding
+              min: 0
+              name: padding
+              required: false
+              type: number
+            - hint: L’écart entre les slides. Exprimé en rem.
+              i18n: duplicate
+              label: Gap
+              min: 0
+              name: gap
+              required: false
+              type: number
+            i18n: true
+            label: Paramêtres
+            name: params
+            required: false
+            type: object
+          i18n: true
+          label: Responsive
+          list: true
+          name: responsive
+          required: false
+          type: object
+        hint: Seulement pour un affichage en carrousel
+        i18n: true
+        label: Configuration carrousel
+        name: carousel
+        required: false
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Témoignages
+      name: testimonials
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: Items
+        label_singular: Item
+        list: true
+        name: items
+        required: false
+        summary: '{{title}}'
+        type: object
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Chronologie
+      name: timeline
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
       - default: false
         i18n: duplicate
         label: Avec un background ?
@@ -506,6 +7320,138 @@ content:
       i18n: true
       label: Titre
       name: title
+      required: false
+      summary: '{{heading.title}}'
+      type: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          type: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          type: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          type: rich-text
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{title}}'
+        type: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: Vidéo en format MP4
+          i18n: duplicate
+          label: MP4
+          media_library:
+            config:
+              max_file_size: 5000000
+          media_type: collection
+          name: mp4
+          path: /assets/videos
+          public_type: collection
+          required: false
+          type: file
+        - choose_url: false
+          hint: Vidéo en format WEBM
+          i18n: duplicate
+          label: WEBM
+          media_library:
+            config:
+              max_file_size: 5000000
+          media_type: collection
+          name: webm
+          path: /assets/videos
+          public_type: collection
+          required: false
+          type: file
+        - default: true
+          i18n: duplicate
+          label: Contrôles
+          name: controls
+          required: false
+          type: boolean
+        - default: false
+          i18n: duplicate
+          label: Autoplay
+          name: autoplay
+          required: false
+          type: boolean
+        - default: false
+          i18n: duplicate
+          label: Boucle
+          name: loop
+          required: false
+          type: boolean
+        - default: false
+          hint: Ajoute un faux navigateur autour de l’image
+          i18n: duplicate
+          label: Capture d’écran ?
+          name: screenshot
+          required: false
+          type: boolean
+        - i18n: true
+          label: Légende
+          name: legend
+          required: false
+          type: string
+        - i18n: true
+          label: Transcription
+          name: transcription
+          required: false
+          type: text
+        i18n: true
+        label: Vidéo
+        name: video
+        required: false
+        type: object
+      - default: large
+        i18n: duplicate
+        label: Grid
+        name: grid
+        options:
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
+        required: true
+        type: select
+      - default: false
+        i18n: duplicate
+        label: Avec un background ?
+        name: background
+        required: false
+        type: boolean
+      i18n: true
+      label: Vidéo
+      name: video
       required: false
       summary: '{{heading.title}}'
       type: object
