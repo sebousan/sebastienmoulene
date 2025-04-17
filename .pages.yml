@@ -1,8 +1,12 @@
 media:
   input: "static/images/uploads"
-  output: "/images/uploads"
+  output: "/images/uploads"# to change# replace
 
-content:
+# replace with regex
+
+
+
+collections:
 - editor:
     preview: false
   files:
@@ -255,22 +259,23 @@ content:
       label: État
       name: state
       options:
-      - label: Danger
-        value: danger
-      - label: Dark
-        value: dark
-      - label: Info
-        value: info
-      - label: Light
-        value: light
-      - label: Primary
-        value: primary
-      - label: Secondary
-        value: secondary
-      - label: Success
-        value: success
-      - label: Warning
-        value: warning
+        values:
+        - label: Danger
+          value: danger
+        - label: Dark
+          value: dark
+        - label: Info
+          value: info
+        - label: Light
+          value: light
+        - label: Primary
+          value: primary
+        - label: Secondary
+          value: secondary
+        - label: Success
+          value: success
+        - label: Warning
+          value: warning
       required: true
       type: select
     file: data/banner.yml
@@ -520,12 +525,13 @@ content:
       label: Alignement
       name: align
       options:
-      - label: Start
-        value: start
-      - label: Center
-        value: center
-      - label: End
-        value: end
+        values:
+        - label: Start
+          value: start
+        - label: Center
+          value: center
+        - label: End
+          value: end
       required: false
       type: select
     i18n: true
@@ -533,8 +539,15 @@ content:
     name: hero
     required: false
     type: object
-  - blockKey: blocks
-    blocks:
+  - collapsed: false
+    i18n: true
+    label: Blocs
+    label_singular: Bloc
+    list: true
+    name: blocks
+    required: false
+    type: object
+    types:
     - collapsed: false
       fields:
       - collapsed: true
@@ -652,22 +665,23 @@ content:
         label: État
         name: state
         options:
-        - label: Danger
-          value: danger
-        - label: Dark
-          value: dark
-        - label: Info
-          value: info
-        - label: Light
-          value: light
-        - label: Primary
-          value: primary
-        - label: Secondary
-          value: secondary
-        - label: Success
-          value: success
-        - label: Warning
-          value: warning
+          values:
+          - label: Danger
+            value: danger
+          - label: Dark
+            value: dark
+          - label: Info
+            value: info
+          - label: Light
+            value: light
+          - label: Primary
+            value: primary
+          - label: Secondary
+            value: secondary
+          - label: Success
+            value: success
+          - label: Warning
+            value: warning
         required: true
         type: select
       - default: false
@@ -729,16 +743,17 @@ content:
           multiple: false
           name: type
           options:
-          - label: Barre
-            value: bar
-          - label: Tarte
-            value: pie
-          - label: Ligne
-            value: line
-          - label: Polaire
-            value: polarArea
-          - label: Radar
-            value: radar
+            values:
+            - label: Barre
+              value: bar
+            - label: Tarte
+              value: pie
+            - label: Ligne
+              value: line
+            - label: Polaire
+              value: polarArea
+            - label: Radar
+              value: radar
           type: select
         - collapsed: true
           fields:
@@ -776,16 +791,17 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - default: false
@@ -1151,10 +1167,11 @@ content:
         label: Direction
         name: direction
         options:
-        - label: Texte à gauche / image à droite
-          value: ltr
-        - label: Image à gauche / texte à droite
-          value: rtl
+          values:
+          - label: Texte à gauche / image à droite
+            value: ltr
+          - label: Image à gauche / texte à droite
+            value: rtl
         type: select
       - i18n: true
         label: Sur-titre
@@ -1479,28 +1496,30 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - i18n: duplicate
         label: Offset
         name: offset
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - default: false
@@ -1554,28 +1573,30 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - i18n: duplicate
         label: Offset
         name: offset
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - i18n: true
@@ -1600,16 +1621,17 @@ content:
           label: Type
           name: type
           options:
-          - label: Email
-            value: email
-          - label: Select
-            value: select
-          - label: Téléphone
-            value: tel
-          - label: Texte
-            value: text
-          - label: Zone de texte
-            value: textarea
+            values:
+            - label: Email
+              value: email
+            - label: Select
+              value: select
+            - label: Téléphone
+              value: tel
+            - label: Texte
+              value: text
+            - label: Zone de texte
+              value: textarea
           type: select
         - fields:
           - i18n: true
@@ -1649,30 +1671,31 @@ content:
           label: Autocomplete
           name: autocomplete
           options:
-          - label: Email
-            value: email
-          - label: Tel
-            value: tel
-          - label: ""
-            value: honorific-prefix
-          - label: Prénom
-            value: given-name
-          - label: Nom de famille
-            value: family-name
-          - label: Nom
-            value: name
-          - label: Rue
-            value: street-address
-          - label: Ville
-            value: address-level2
-          - label: État
-            value: address-level1
-          - label: Code postal
-            value: postal-code
-          - label: Nom du pays
-            value: country-name
-          - label: Entreprise
-            value: organization
+            values:
+            - label: Email
+              value: email
+            - label: Tel
+              value: tel
+            - label: ""
+              value: honorific-prefix
+            - label: Prénom
+              value: given-name
+            - label: Nom de famille
+              value: family-name
+            - label: Nom
+              value: name
+            - label: Rue
+              value: street-address
+            - label: Ville
+              value: address-level2
+            - label: État
+              value: address-level1
+            - label: Code postal
+              value: postal-code
+            - label: Nom du pays
+              value: country-name
+            - label: Entreprise
+              value: organization
           required: false
           type: select
         i18n: true
@@ -2169,26 +2192,28 @@ content:
         label: Section
         name: section
         options:
-        - label: Config
-          value: config
-        - label: Pages
-          value: pages
-        - label: Projects
-          value: projects
-        - label: Projects tags
-          value: projects_tags
-        - label: Projects types
-          value: projects_types
+          values:
+          - label: Config
+            value: config
+          - label: Pages
+            value: pages
+          - label: Projects
+            value: projects
+          - label: Projects tags
+            value: projects_tags
+          - label: Projects types
+            value: projects_types
         required: false
         type: select
       - i18n: duplicate
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: 4
         hint: Nombre d’items à afficher
@@ -2289,10 +2314,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Carrousel
-          value: carousel
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
         type: select
       - collapsed: true
         fields:
@@ -2326,9 +2352,10 @@ content:
             label: Type de carrousel
             name: type
             options:
-            - slide
-            - loop
-            - fade
+              values:
+              - slide
+              - loop
+              - fade
             required: false
             type: select
           - hint: Nombre de slide à afficher
@@ -2365,16 +2392,17 @@ content:
             label_singular: Breakpoint
             name: breakpoints
             options:
-            - label: Mobile
-              value: 640
-            - label: Tablet
-              value: 768
-            - label: Wide tablet
-              value: 1024
-            - label: Laptop
-              value: 1280
-            - label: Desktop
-              value: 1440
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
             required: false
             type: select
           - collapsed: false
@@ -2407,9 +2435,10 @@ content:
               label: Type de carrousel
               name: type
               options:
-              - slide
-              - loop
-              - fade
+                values:
+                - slide
+                - loop
+                - fade
               required: false
               type: select
             - hint: Nombre de slide à afficher
@@ -2534,16 +2563,17 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - default: false
@@ -2700,40 +2730,43 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - i18n: duplicate
         label: Offset
         name: offset
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - i18n: duplicate
         label: Alignement
         name: align
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - default: false
@@ -2835,12 +2868,13 @@ content:
           label: Offset
           name: offset
           options:
-          - label: Start
-            value: start
-          - label: Center
-            value: center
-          - label: End
-            value: end
+            values:
+            - label: Start
+              value: start
+            - label: Center
+              value: center
+            - label: End
+              value: end
           required: false
           type: select
         - hint: Ajoute un fond derrière les textes
@@ -2906,10 +2940,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Carrousel
-          value: carousel
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
         type: select
       - collapsed: true
         fields:
@@ -2943,9 +2978,10 @@ content:
             label: Type de carrousel
             name: type
             options:
-            - slide
-            - loop
-            - fade
+              values:
+              - slide
+              - loop
+              - fade
             required: false
             type: select
           - hint: Nombre de slide à afficher
@@ -2982,16 +3018,17 @@ content:
             label_singular: Breakpoint
             name: breakpoints
             options:
-            - label: Mobile
-              value: 640
-            - label: Tablet
-              value: 768
-            - label: Wide tablet
-              value: 1024
-            - label: Laptop
-              value: 1280
-            - label: Desktop
-              value: 1440
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
             required: false
             type: select
           - collapsed: false
@@ -3024,9 +3061,10 @@ content:
               label: Type de carrousel
               name: type
               options:
-              - slide
-              - loop
-              - fade
+                values:
+                - slide
+                - loop
+                - fade
               required: false
               type: select
             - hint: Nombre de slide à afficher
@@ -3217,10 +3255,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -3296,10 +3335,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -3375,10 +3415,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -3454,10 +3495,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -3592,10 +3634,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Carrousel
-          value: carousel
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
         type: select
       - collapsed: true
         fields:
@@ -3629,9 +3672,10 @@ content:
             label: Type de carrousel
             name: type
             options:
-            - slide
-            - loop
-            - fade
+              values:
+              - slide
+              - loop
+              - fade
             required: false
             type: select
           - hint: Nombre de slide à afficher
@@ -3668,16 +3712,17 @@ content:
             label_singular: Breakpoint
             name: breakpoints
             options:
-            - label: Mobile
-              value: 640
-            - label: Tablet
-              value: 768
-            - label: Wide tablet
-              value: 1024
-            - label: Laptop
-              value: 1280
-            - label: Desktop
-              value: 1440
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
             required: false
             type: select
           - collapsed: false
@@ -3710,9 +3755,10 @@ content:
               label: Type de carrousel
               name: type
               options:
-              - slide
-              - loop
-              - fade
+                values:
+                - slide
+                - loop
+                - fade
               required: false
               type: select
             - hint: Nombre de slide à afficher
@@ -3998,16 +4044,17 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - default: false
@@ -4022,14 +4069,6 @@ content:
       required: false
       summary: '{{heading.title}}'
       type: object
-    collapsed: false
-    i18n: true
-    label: Blocs
-    label_singular: Bloc
-    list: true
-    name: blocks
-    required: false
-    type: block
   i18n: true
   label: Index
   label_singular: Index
@@ -4195,12 +4234,13 @@ content:
       label: Alignement
       name: align
       options:
-      - label: Start
-        value: start
-      - label: Center
-        value: center
-      - label: End
-        value: end
+        values:
+        - label: Start
+          value: start
+        - label: Center
+          value: center
+        - label: End
+          value: end
       required: false
       type: select
     i18n: true
@@ -4213,8 +4253,15 @@ content:
     name: body
     required: false
     type: rich-text
-  - blockKey: blocks
-    blocks:
+  - collapsed: false
+    i18n: true
+    label: Blocs
+    label_singular: Bloc
+    list: true
+    name: blocks
+    required: false
+    type: object
+    types:
     - collapsed: false
       fields:
       - collapsed: true
@@ -4332,22 +4379,23 @@ content:
         label: État
         name: state
         options:
-        - label: Danger
-          value: danger
-        - label: Dark
-          value: dark
-        - label: Info
-          value: info
-        - label: Light
-          value: light
-        - label: Primary
-          value: primary
-        - label: Secondary
-          value: secondary
-        - label: Success
-          value: success
-        - label: Warning
-          value: warning
+          values:
+          - label: Danger
+            value: danger
+          - label: Dark
+            value: dark
+          - label: Info
+            value: info
+          - label: Light
+            value: light
+          - label: Primary
+            value: primary
+          - label: Secondary
+            value: secondary
+          - label: Success
+            value: success
+          - label: Warning
+            value: warning
         required: true
         type: select
       - default: false
@@ -4409,16 +4457,17 @@ content:
           multiple: false
           name: type
           options:
-          - label: Barre
-            value: bar
-          - label: Tarte
-            value: pie
-          - label: Ligne
-            value: line
-          - label: Polaire
-            value: polarArea
-          - label: Radar
-            value: radar
+            values:
+            - label: Barre
+              value: bar
+            - label: Tarte
+              value: pie
+            - label: Ligne
+              value: line
+            - label: Polaire
+              value: polarArea
+            - label: Radar
+              value: radar
           type: select
         - collapsed: true
           fields:
@@ -4456,16 +4505,17 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - default: false
@@ -4831,10 +4881,11 @@ content:
         label: Direction
         name: direction
         options:
-        - label: Texte à gauche / image à droite
-          value: ltr
-        - label: Image à gauche / texte à droite
-          value: rtl
+          values:
+          - label: Texte à gauche / image à droite
+            value: ltr
+          - label: Image à gauche / texte à droite
+            value: rtl
         type: select
       - i18n: true
         label: Sur-titre
@@ -5159,28 +5210,30 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - i18n: duplicate
         label: Offset
         name: offset
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - default: false
@@ -5234,28 +5287,30 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - i18n: duplicate
         label: Offset
         name: offset
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - i18n: true
@@ -5280,16 +5335,17 @@ content:
           label: Type
           name: type
           options:
-          - label: Email
-            value: email
-          - label: Select
-            value: select
-          - label: Téléphone
-            value: tel
-          - label: Texte
-            value: text
-          - label: Zone de texte
-            value: textarea
+            values:
+            - label: Email
+              value: email
+            - label: Select
+              value: select
+            - label: Téléphone
+              value: tel
+            - label: Texte
+              value: text
+            - label: Zone de texte
+              value: textarea
           type: select
         - fields:
           - i18n: true
@@ -5329,30 +5385,31 @@ content:
           label: Autocomplete
           name: autocomplete
           options:
-          - label: Email
-            value: email
-          - label: Tel
-            value: tel
-          - label: ""
-            value: honorific-prefix
-          - label: Prénom
-            value: given-name
-          - label: Nom de famille
-            value: family-name
-          - label: Nom
-            value: name
-          - label: Rue
-            value: street-address
-          - label: Ville
-            value: address-level2
-          - label: État
-            value: address-level1
-          - label: Code postal
-            value: postal-code
-          - label: Nom du pays
-            value: country-name
-          - label: Entreprise
-            value: organization
+            values:
+            - label: Email
+              value: email
+            - label: Tel
+              value: tel
+            - label: ""
+              value: honorific-prefix
+            - label: Prénom
+              value: given-name
+            - label: Nom de famille
+              value: family-name
+            - label: Nom
+              value: name
+            - label: Rue
+              value: street-address
+            - label: Ville
+              value: address-level2
+            - label: État
+              value: address-level1
+            - label: Code postal
+              value: postal-code
+            - label: Nom du pays
+              value: country-name
+            - label: Entreprise
+              value: organization
           required: false
           type: select
         i18n: true
@@ -5849,26 +5906,28 @@ content:
         label: Section
         name: section
         options:
-        - label: Config
-          value: config
-        - label: Pages
-          value: pages
-        - label: Projects
-          value: projects
-        - label: Projects tags
-          value: projects_tags
-        - label: Projects types
-          value: projects_types
+          values:
+          - label: Config
+            value: config
+          - label: Pages
+            value: pages
+          - label: Projects
+            value: projects
+          - label: Projects tags
+            value: projects_tags
+          - label: Projects types
+            value: projects_types
         required: false
         type: select
       - i18n: duplicate
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: 4
         hint: Nombre d’items à afficher
@@ -5969,10 +6028,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Carrousel
-          value: carousel
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
         type: select
       - collapsed: true
         fields:
@@ -6006,9 +6066,10 @@ content:
             label: Type de carrousel
             name: type
             options:
-            - slide
-            - loop
-            - fade
+              values:
+              - slide
+              - loop
+              - fade
             required: false
             type: select
           - hint: Nombre de slide à afficher
@@ -6045,16 +6106,17 @@ content:
             label_singular: Breakpoint
             name: breakpoints
             options:
-            - label: Mobile
-              value: 640
-            - label: Tablet
-              value: 768
-            - label: Wide tablet
-              value: 1024
-            - label: Laptop
-              value: 1280
-            - label: Desktop
-              value: 1440
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
             required: false
             type: select
           - collapsed: false
@@ -6087,9 +6149,10 @@ content:
               label: Type de carrousel
               name: type
               options:
-              - slide
-              - loop
-              - fade
+                values:
+                - slide
+                - loop
+                - fade
               required: false
               type: select
             - hint: Nombre de slide à afficher
@@ -6214,16 +6277,17 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - default: false
@@ -6380,40 +6444,43 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - i18n: duplicate
         label: Offset
         name: offset
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - i18n: duplicate
         label: Alignement
         name: align
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - default: false
@@ -6515,12 +6582,13 @@ content:
           label: Offset
           name: offset
           options:
-          - label: Start
-            value: start
-          - label: Center
-            value: center
-          - label: End
-            value: end
+            values:
+            - label: Start
+              value: start
+            - label: Center
+              value: center
+            - label: End
+              value: end
           required: false
           type: select
         - hint: Ajoute un fond derrière les textes
@@ -6586,10 +6654,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Carrousel
-          value: carousel
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
         type: select
       - collapsed: true
         fields:
@@ -6623,9 +6692,10 @@ content:
             label: Type de carrousel
             name: type
             options:
-            - slide
-            - loop
-            - fade
+              values:
+              - slide
+              - loop
+              - fade
             required: false
             type: select
           - hint: Nombre de slide à afficher
@@ -6662,16 +6732,17 @@ content:
             label_singular: Breakpoint
             name: breakpoints
             options:
-            - label: Mobile
-              value: 640
-            - label: Tablet
-              value: 768
-            - label: Wide tablet
-              value: 1024
-            - label: Laptop
-              value: 1280
-            - label: Desktop
-              value: 1440
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
             required: false
             type: select
           - collapsed: false
@@ -6704,9 +6775,10 @@ content:
               label: Type de carrousel
               name: type
               options:
-              - slide
-              - loop
-              - fade
+                values:
+                - slide
+                - loop
+                - fade
               required: false
               type: select
             - hint: Nombre de slide à afficher
@@ -6897,10 +6969,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -6976,10 +7049,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -7055,10 +7129,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -7134,10 +7209,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -7272,10 +7348,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Carrousel
-          value: carousel
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
         type: select
       - collapsed: true
         fields:
@@ -7309,9 +7386,10 @@ content:
             label: Type de carrousel
             name: type
             options:
-            - slide
-            - loop
-            - fade
+              values:
+              - slide
+              - loop
+              - fade
             required: false
             type: select
           - hint: Nombre de slide à afficher
@@ -7348,16 +7426,17 @@ content:
             label_singular: Breakpoint
             name: breakpoints
             options:
-            - label: Mobile
-              value: 640
-            - label: Tablet
-              value: 768
-            - label: Wide tablet
-              value: 1024
-            - label: Laptop
-              value: 1280
-            - label: Desktop
-              value: 1440
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
             required: false
             type: select
           - collapsed: false
@@ -7390,9 +7469,10 @@ content:
               label: Type de carrousel
               name: type
               options:
-              - slide
-              - loop
-              - fade
+                values:
+                - slide
+                - loop
+                - fade
               required: false
               type: select
             - hint: Nombre de slide à afficher
@@ -7678,16 +7758,17 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - default: false
@@ -7702,14 +7783,6 @@ content:
       required: false
       summary: '{{heading.title}}'
       type: object
-    collapsed: false
-    i18n: true
-    label: Blocs
-    label_singular: Bloc
-    list: true
-    name: blocks
-    required: false
-    type: block
   - hint: Leave empty to automate with the title. **Be carefull to SEO impact.**
     i18n: true
     label: Slug
@@ -7920,12 +7993,13 @@ content:
       label: Alignement
       name: align
       options:
-      - label: Start
-        value: start
-      - label: Center
-        value: center
-      - label: End
-        value: end
+        values:
+        - label: Start
+          value: start
+        - label: Center
+          value: center
+        - label: End
+          value: end
       required: false
       type: select
     i18n: true
@@ -7933,8 +8007,15 @@ content:
     name: hero
     required: false
     type: object
-  - blockKey: blocks
-    blocks:
+  - collapsed: false
+    i18n: true
+    label: Blocs
+    label_singular: Bloc
+    list: true
+    name: blocks
+    required: false
+    type: object
+    types:
     - collapsed: false
       fields:
       - collapsed: true
@@ -8052,22 +8133,23 @@ content:
         label: État
         name: state
         options:
-        - label: Danger
-          value: danger
-        - label: Dark
-          value: dark
-        - label: Info
-          value: info
-        - label: Light
-          value: light
-        - label: Primary
-          value: primary
-        - label: Secondary
-          value: secondary
-        - label: Success
-          value: success
-        - label: Warning
-          value: warning
+          values:
+          - label: Danger
+            value: danger
+          - label: Dark
+            value: dark
+          - label: Info
+            value: info
+          - label: Light
+            value: light
+          - label: Primary
+            value: primary
+          - label: Secondary
+            value: secondary
+          - label: Success
+            value: success
+          - label: Warning
+            value: warning
         required: true
         type: select
       - default: false
@@ -8129,16 +8211,17 @@ content:
           multiple: false
           name: type
           options:
-          - label: Barre
-            value: bar
-          - label: Tarte
-            value: pie
-          - label: Ligne
-            value: line
-          - label: Polaire
-            value: polarArea
-          - label: Radar
-            value: radar
+            values:
+            - label: Barre
+              value: bar
+            - label: Tarte
+              value: pie
+            - label: Ligne
+              value: line
+            - label: Polaire
+              value: polarArea
+            - label: Radar
+              value: radar
           type: select
         - collapsed: true
           fields:
@@ -8176,16 +8259,17 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - default: false
@@ -8551,10 +8635,11 @@ content:
         label: Direction
         name: direction
         options:
-        - label: Texte à gauche / image à droite
-          value: ltr
-        - label: Image à gauche / texte à droite
-          value: rtl
+          values:
+          - label: Texte à gauche / image à droite
+            value: ltr
+          - label: Image à gauche / texte à droite
+            value: rtl
         type: select
       - i18n: true
         label: Sur-titre
@@ -8879,28 +8964,30 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - i18n: duplicate
         label: Offset
         name: offset
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - default: false
@@ -8954,28 +9041,30 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - i18n: duplicate
         label: Offset
         name: offset
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - i18n: true
@@ -9000,16 +9089,17 @@ content:
           label: Type
           name: type
           options:
-          - label: Email
-            value: email
-          - label: Select
-            value: select
-          - label: Téléphone
-            value: tel
-          - label: Texte
-            value: text
-          - label: Zone de texte
-            value: textarea
+            values:
+            - label: Email
+              value: email
+            - label: Select
+              value: select
+            - label: Téléphone
+              value: tel
+            - label: Texte
+              value: text
+            - label: Zone de texte
+              value: textarea
           type: select
         - fields:
           - i18n: true
@@ -9049,30 +9139,31 @@ content:
           label: Autocomplete
           name: autocomplete
           options:
-          - label: Email
-            value: email
-          - label: Tel
-            value: tel
-          - label: ""
-            value: honorific-prefix
-          - label: Prénom
-            value: given-name
-          - label: Nom de famille
-            value: family-name
-          - label: Nom
-            value: name
-          - label: Rue
-            value: street-address
-          - label: Ville
-            value: address-level2
-          - label: État
-            value: address-level1
-          - label: Code postal
-            value: postal-code
-          - label: Nom du pays
-            value: country-name
-          - label: Entreprise
-            value: organization
+            values:
+            - label: Email
+              value: email
+            - label: Tel
+              value: tel
+            - label: ""
+              value: honorific-prefix
+            - label: Prénom
+              value: given-name
+            - label: Nom de famille
+              value: family-name
+            - label: Nom
+              value: name
+            - label: Rue
+              value: street-address
+            - label: Ville
+              value: address-level2
+            - label: État
+              value: address-level1
+            - label: Code postal
+              value: postal-code
+            - label: Nom du pays
+              value: country-name
+            - label: Entreprise
+              value: organization
           required: false
           type: select
         i18n: true
@@ -9569,26 +9660,28 @@ content:
         label: Section
         name: section
         options:
-        - label: Config
-          value: config
-        - label: Pages
-          value: pages
-        - label: Projects
-          value: projects
-        - label: Projects tags
-          value: projects_tags
-        - label: Projects types
-          value: projects_types
+          values:
+          - label: Config
+            value: config
+          - label: Pages
+            value: pages
+          - label: Projects
+            value: projects
+          - label: Projects tags
+            value: projects_tags
+          - label: Projects types
+            value: projects_types
         required: false
         type: select
       - i18n: duplicate
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: 4
         hint: Nombre d’items à afficher
@@ -9689,10 +9782,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Carrousel
-          value: carousel
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
         type: select
       - collapsed: true
         fields:
@@ -9726,9 +9820,10 @@ content:
             label: Type de carrousel
             name: type
             options:
-            - slide
-            - loop
-            - fade
+              values:
+              - slide
+              - loop
+              - fade
             required: false
             type: select
           - hint: Nombre de slide à afficher
@@ -9765,16 +9860,17 @@ content:
             label_singular: Breakpoint
             name: breakpoints
             options:
-            - label: Mobile
-              value: 640
-            - label: Tablet
-              value: 768
-            - label: Wide tablet
-              value: 1024
-            - label: Laptop
-              value: 1280
-            - label: Desktop
-              value: 1440
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
             required: false
             type: select
           - collapsed: false
@@ -9807,9 +9903,10 @@ content:
               label: Type de carrousel
               name: type
               options:
-              - slide
-              - loop
-              - fade
+                values:
+                - slide
+                - loop
+                - fade
               required: false
               type: select
             - hint: Nombre de slide à afficher
@@ -9934,16 +10031,17 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - default: false
@@ -10100,40 +10198,43 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - i18n: duplicate
         label: Offset
         name: offset
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - i18n: duplicate
         label: Alignement
         name: align
         options:
-        - label: Start
-          value: start
-        - label: Center
-          value: center
-        - label: End
-          value: end
+          values:
+          - label: Start
+            value: start
+          - label: Center
+            value: center
+          - label: End
+            value: end
         required: false
         type: select
       - default: false
@@ -10235,12 +10336,13 @@ content:
           label: Offset
           name: offset
           options:
-          - label: Start
-            value: start
-          - label: Center
-            value: center
-          - label: End
-            value: end
+            values:
+            - label: Start
+              value: start
+            - label: Center
+              value: center
+            - label: End
+              value: end
           required: false
           type: select
         - hint: Ajoute un fond derrière les textes
@@ -10306,10 +10408,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Carrousel
-          value: carousel
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
         type: select
       - collapsed: true
         fields:
@@ -10343,9 +10446,10 @@ content:
             label: Type de carrousel
             name: type
             options:
-            - slide
-            - loop
-            - fade
+              values:
+              - slide
+              - loop
+              - fade
             required: false
             type: select
           - hint: Nombre de slide à afficher
@@ -10382,16 +10486,17 @@ content:
             label_singular: Breakpoint
             name: breakpoints
             options:
-            - label: Mobile
-              value: 640
-            - label: Tablet
-              value: 768
-            - label: Wide tablet
-              value: 1024
-            - label: Laptop
-              value: 1280
-            - label: Desktop
-              value: 1440
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
             required: false
             type: select
           - collapsed: false
@@ -10424,9 +10529,10 @@ content:
               label: Type de carrousel
               name: type
               options:
-              - slide
-              - loop
-              - fade
+                values:
+                - slide
+                - loop
+                - fade
               required: false
               type: select
             - hint: Nombre de slide à afficher
@@ -10617,10 +10723,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -10696,10 +10803,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -10775,10 +10883,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -10854,10 +10963,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Liste
-          value: list
+          values:
+          - label: Grille
+            value: grid
+          - label: Liste
+            value: list
         type: select
       - default: true
         i18n: duplicate
@@ -10992,10 +11102,11 @@ content:
         label: Affichage
         name: layout
         options:
-        - label: Grille
-          value: grid
-        - label: Carrousel
-          value: carousel
+          values:
+          - label: Grille
+            value: grid
+          - label: Carrousel
+            value: carousel
         type: select
       - collapsed: true
         fields:
@@ -11029,9 +11140,10 @@ content:
             label: Type de carrousel
             name: type
             options:
-            - slide
-            - loop
-            - fade
+              values:
+              - slide
+              - loop
+              - fade
             required: false
             type: select
           - hint: Nombre de slide à afficher
@@ -11068,16 +11180,17 @@ content:
             label_singular: Breakpoint
             name: breakpoints
             options:
-            - label: Mobile
-              value: 640
-            - label: Tablet
-              value: 768
-            - label: Wide tablet
-              value: 1024
-            - label: Laptop
-              value: 1280
-            - label: Desktop
-              value: 1440
+              values:
+              - label: Mobile
+                value: 640
+              - label: Tablet
+                value: 768
+              - label: Wide tablet
+                value: 1024
+              - label: Laptop
+                value: 1280
+              - label: Desktop
+                value: 1440
             required: false
             type: select
           - collapsed: false
@@ -11110,9 +11223,10 @@ content:
               label: Type de carrousel
               name: type
               options:
-              - slide
-              - loop
-              - fade
+                values:
+                - slide
+                - loop
+                - fade
               required: false
               type: select
             - hint: Nombre de slide à afficher
@@ -11398,16 +11512,17 @@ content:
         label: Grid
         name: grid
         options:
-        - label: Small
-          value: small
-        - label: Medium
-          value: medium
-        - label: Large
-          value: large
-        - label: Container
-          value: container
-        - label: Full
-          value: full
+          values:
+          - label: Small
+            value: small
+          - label: Medium
+            value: medium
+          - label: Large
+            value: large
+          - label: Container
+            value: container
+          - label: Full
+            value: full
         required: true
         type: select
       - default: false
@@ -11422,14 +11537,6 @@ content:
       required: false
       summary: '{{heading.title}}'
       type: object
-    collapsed: false
-    i18n: true
-    label: Blocs
-    label_singular: Bloc
-    list: true
-    name: blocks
-    required: false
-    type: block
   - hint: Leave empty to automate with the title. **Be carefull to SEO impact.**
     i18n: true
     label: Slug
