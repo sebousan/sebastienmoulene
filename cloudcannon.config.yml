@@ -13,15 +13,15 @@ collections_config:
       description: true
       blocks: true
     _inputs:
+      title:
+        type: text
+        comment: "Titre de la page"
       date:
         type: datetime
         comment: "Date de publication"
       draft:
         type: boolean
         comment: "Brouillon"
-      title:
-        type: text
-        comment: "Titre de la page"
       description:
         type: markdown
         comment: "Description de la page"
