@@ -1,0 +1,88 @@
+source: /
+collections_config:
+  pages:
+    path: content/pages
+    output: true
+    icon: file
+    filter:
+      fields: [title, date, draft, description, blocks]
+    _editables:
+      title: true
+      date: true
+      draft: true
+      description: true
+      blocks: true
+    _inputs:
+      date:
+        type: datetime
+        comment: "Date de publication"
+      draft:
+        type: boolean
+        comment: "Brouillon"
+      title:
+        type: text
+        comment: "Titre de la page"
+      description:
+        type: markdown
+        comment: "Description de la page"
+      blocks:
+        type: collection
+        comment: "Liste de blocs pour composer la page"
+        options:
+          structures:
+            - name: image
+              fields:
+                - name: src
+                  type: image
+                  comment: "URL de l'image"
+                - name: alt
+                  type: text
+                  comment: "Texte alternatif pour l'image"
+                - name: caption
+                  type: text
+                  comment: "Légende de l'image"
+            - name: carousel
+              fields:
+                - name: images
+                  type: list
+                  comment: "Liste d'images pour le carousel"
+                  fields:
+                    - name: src
+                      type: image
+                      comment: "URL de l'image"
+                    - name: alt
+                      type: text
+                      comment: "Texte alternatif pour l'image"
+                    - name: caption
+                      type: text
+                      comment: "Légende de l'image"
+            - name: video
+              fields:
+                - name: src
+                  type: file
+                  comment: "URL de la vidéo"
+                - name: type
+                  type: select
+                  comment: "Type de vidéo"
+                  options:
+                    - label: MP4
+                      value: mp4
+                    - label: WEBM
+                      value: webm
+                - name: controls
+                  type: boolean
+                  comment: "Afficher les contrôles de la vidéo"
+                - name: autoplay
+                  type: boolean
+                  comment: "Lecture automatique"
+                - name: loop
+                  type: boolean
+                  comment: "Boucler la vidéo"
+                - name: muted
+                  type: boolean
+                  comment: "Vidéo muette"
+            - name: text
+              fields:
+                - name: content
+                  type: markdown
+                  comment: "Contenu textuel"

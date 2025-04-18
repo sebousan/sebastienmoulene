@@ -4,7 +4,8 @@ title: Contact
 hero:
   title: Contact me
   text: >-
-    Do not hesitate to contact me to design your next website. I am available by phone or by e-mail.
+    Do not hesitate to contact me to design your next website. I am available by
+    phone or by e-mail.
   cta:
     blank: true
     text: Send me an e-mail
@@ -28,17 +29,13 @@ blocks:
           text: Follow me
           blank: true
           url: https://www.linkedin.com/in/sebastienmoulene
-      # - title: Github
-      #   icon: twitter
-      #   cta:
-      #     text: Follow me
-      #     blank: true
-      #     url: https://twitter.com/sebousan
   - type: pushes
     column: 1
     items:
       - title: Un Cinq
-        text: We develop sustainable websites that are accessible to all and have low carbon emissions.
+        text: >-
+          We develop sustainable websites that are accessible to all and have
+          low carbon emissions.
         cta:
           blank: true
           text: Discover Un Cinq (french)
