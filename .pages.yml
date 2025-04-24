@@ -47,11 +47,9 @@ content:
     name: projects_types
     options:
       collection: projects_types
-      label:
-      - title
+      label: title
       multiple: true
-      search:
-      - title
+      search: title
       value: '{fields.title}.md'
     required: false
     type: reference
@@ -62,11 +60,9 @@ content:
     name: projects_tags
     options:
       collection: projects_tags
-      label:
-      - title
+      label: title
       multiple: true
-      search:
-      - title
+      search: title
       value: '{fields.title}.md'
     required: false
     type: reference
