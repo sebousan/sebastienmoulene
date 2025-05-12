@@ -2,5 +2,5 @@
   {{ with .Params.place }}
   <p>{{ . }}</p>
   {{ end }}
-  <p>{{ partial "commons/time" (dict "date" .Date "format" "2006") }}</p>
+  <p>{{ partial "commons/time.html" (dict "date" .Date "format" "2006") }}</p>
 </div>
