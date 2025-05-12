@@ -8,6 +8,11 @@ content:
   description: Tous les projets
   editor:
     preview: false
+  view:
+    mode: tree 
+    node:
+      filename: _index.md
+      dir: true
   fields:
   - default: false
     hidden: true
