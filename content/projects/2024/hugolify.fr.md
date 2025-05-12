@@ -3,6 +3,7 @@ isIndex: false
 draft: false
 date: 2024-02-20T10:34:08.410Z
 title: Hugolify
+description: Solution Jamstack open-source pour créer facilement un site Web rapide, le plus accessible possible et à faible émission de carbone.
 projects_types: Editorial
 projects_solutions:
   - Hugolify
