@@ -27,7 +27,7 @@ content:
     label: Date
     name: date
     options:
-      format: yyyy-MM-dd'T'HH:mm:ssXXX
+      format: yyyy-MM-dd'T'HH:mm:ssX
       time: true
     required: true
     type: date
@@ -50,11 +50,7 @@ content:
     name: projects_types
     options:
       collection: projects_types
-      image: '{image.src}'
-      label: '{title}'
       multiple: true
-      search: title
-      value: '{slug}'
     required: false
     type: reference
   - hint: ""
@@ -64,11 +60,7 @@ content:
     name: projects_tags
     options:
       collection: projects_tags
-      image: '{image.src}'
-      label: '{title}'
       multiple: true
-      search: title
-      value: '{slug}'
     required: false
     type: reference
   - collapsed: true
@@ -396,4 +388,3 @@ content:
     depth: 2
   path: content/projects_types
   type: collection
-
