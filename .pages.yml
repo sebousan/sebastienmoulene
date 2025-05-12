@@ -48,7 +48,6 @@ content:
     options:
       collection: projects_types
       image: '{image.src}'
-      label: '{name}'
       multiple: true
       search: title
       value: '{slug}'
@@ -62,7 +61,6 @@ content:
     options:
       collection: projects_tags
       image: '{image.src}'
-      label: '{field.title}'
       multiple: true
       search: title
       value: '{slug}'
@@ -393,4 +391,3 @@ content:
     depth: 2
   path: content/projects_types
   type: collection
-
