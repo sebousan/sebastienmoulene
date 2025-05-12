@@ -8,11 +8,6 @@ content:
   description: Tous les projets
   editor:
     preview: false
-  view:
-    mode: tree 
-    node:
-      filename: _index.md
-      dir: true
   fields:
   - default: false
     hidden: true
@@ -55,7 +50,7 @@ content:
       label: title
       multiple: true
       search: title
-      value: '{title}'
+      value: '{fields.title}.md'
     required: false
     type: reference
   - hint: ""
@@ -68,7 +63,7 @@ content:
       label: title
       multiple: true
       search: title
-      value: '{title}'
+      value: '{fields.title}.md'
     required: false
     type: reference
   - collapsed: true
@@ -196,17 +191,18 @@ content:
       name: image
       required: false
       type: object
-    - i18n: duplicate
+    - hint: ""
+      i18n: duplicate
       label: Alignement
       name: align
       options:
-      - label: Start
-        value: start
-      - label: Center
-        value: center
-      - label: End
-        value: end
-      required: false
+        values:
+        - label: Start
+          value: start
+        - label: Center
+          value: center
+        - label: End
+          value: end
       type: select
     i18n: true
     label: Hero
@@ -395,3 +391,4 @@ content:
     depth: 2
   path: content/projects_types
   type: collection
+
