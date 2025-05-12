@@ -51,7 +51,7 @@ content:
       label: '{title}'
       multiple: true
       search: title
-      value: '{fields.title}.md'
+      value: '{slug}'
     required: false
     type: reference
   - hint: ""
@@ -65,7 +65,7 @@ content:
       label: '{title}'
       multiple: true
       search: title
-      value: '{fields.title}.md'
+      value: '{slug}'
     required: false
     type: reference
   - collapsed: true
