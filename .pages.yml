@@ -28,6 +28,8 @@ content:
     name: date
     required: true
     type: date
+    options:
+      time: true
   - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
     i18n: true
     label: Titre de la page
