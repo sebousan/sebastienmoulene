@@ -26,10 +26,11 @@ content:
     i18n: duplicate
     label: Date
     name: date
+    options:
+      format: YYYY-MM-DD'T'HH:mm:ssZ'Z'
+      time: true
     required: true
     type: date
-    options:
-      time: true
   - hint: Displayed in tabs, search results, and in SMS/Messages/Social networks preview
     i18n: true
     label: Titre de la page
@@ -49,8 +50,11 @@ content:
     name: projects_types
     options:
       collection: projects_types
+      image: '{image.src}'
+      label: '{title}'
       multiple: true
       search: title
+      value: '{slug}'
     required: false
     type: reference
   - hint: ""
@@ -61,7 +65,10 @@ content:
     options:
       collection: projects_tags
       image: '{image.src}'
+      label: '{title}'
       multiple: true
+      search: title
+      value: '{slug}'
     required: false
     type: reference
   - collapsed: true
