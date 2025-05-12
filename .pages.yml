@@ -50,6 +50,7 @@ content:
     name: projects_types
     options:
       collection: projects_types
+      value: "{title}"
       multiple: true
     required: false
     type: reference
