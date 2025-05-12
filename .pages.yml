@@ -47,7 +47,8 @@ content:
     name: projects_types
     options:
       collection: projects_types
-      label: title
+      image: '{image.src}'
+      label: '{title}'
       multiple: true
       search: title
       value: '{fields.title}.md'
@@ -60,7 +61,8 @@ content:
     name: projects_tags
     options:
       collection: projects_tags
-      label: title
+      image: '{image.src}'
+      label: '{title}'
       multiple: true
       search: title
       value: '{fields.title}.md'
