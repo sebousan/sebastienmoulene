@@ -2,3 +2,12 @@ _merge: deep
 image:
   _merge: deep
   desktop: "678x"
+admin:
+  cms: pagescms
+  collections:
+    config:
+      enable: false
+    indexes:
+      enable: false
+    pages:
+      enable: false
