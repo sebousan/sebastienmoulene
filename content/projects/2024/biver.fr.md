@@ -9,6 +9,7 @@ image:
 projects_types: Editorial
 projects_solutions:
   - Hugolify
+  - Shopify
 projects_tags:
   - Jamstack
   - Headless CMS
