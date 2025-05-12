@@ -48,7 +48,6 @@ content:
     options:
       collection: projects_types
       image: '{image.src}'
-      label: '{title}'
       multiple: true
       search: title
       value: '{slug}'
