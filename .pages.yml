@@ -48,6 +48,7 @@ content:
     options:
       collection: projects_types
       multiple: true
+      search: title
     required: false
     type: reference
   - hint: ""
@@ -57,6 +58,7 @@ content:
     name: projects_tags
     options:
       collection: projects_tags
+      image: '{image.src}'
       multiple: true
     required: false
     type: reference
@@ -385,3 +387,4 @@ content:
     depth: 2
   path: content/projects_types
   type: collection
+
