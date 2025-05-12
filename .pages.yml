@@ -27,7 +27,7 @@ content:
     label: Date
     name: date
     options:
-      format: YYYY-MM-DD'T'HH:mm:ssZ'Z'
+      format: YYYY-MM-DD'T'HH:mm:ssX'Z'
       time: true
     required: true
     type: date
