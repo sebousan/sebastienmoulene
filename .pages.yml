@@ -47,10 +47,7 @@ content:
     name: projects_types
     options:
       collection: projects_types
-      image: '{image.src}'
       multiple: true
-      search: title
-      value: '{slug}'
     required: false
     type: reference
   - hint: ""
@@ -60,10 +57,7 @@ content:
     name: projects_tags
     options:
       collection: projects_tags
-      image: '{image.src}'
       multiple: true
-      search: title
-      value: '{slug}'
     required: false
     type: reference
   - collapsed: true
