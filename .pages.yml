@@ -50,8 +50,11 @@ content:
     name: projects_types
     options:
       collection: projects_types
-      value: "{title}"
+      image: '{image.src}'
+      label: '{title}'
       multiple: true
+      search: title
+      value: '{slug}'
     required: false
     type: reference
   - hint: ""
@@ -61,7 +64,11 @@ content:
     name: projects_tags
     options:
       collection: projects_tags
+      image: '{image.src}'
+      label: '{title}'
       multiple: true
+      search: title
+      value: '{slug}'
     required: false
     type: reference
   - collapsed: true
@@ -201,6 +208,7 @@ content:
           value: center
         - label: End
           value: end
+      required: false
       type: select
     i18n: true
     label: Hero
@@ -336,8 +344,6 @@ content:
   label: Tags
   label_singular: Tag
   name: projects_tags
-  nested:
-    depth: 2
   path: content/projects_tags
   type: collection
 - create: true
@@ -385,7 +391,5 @@ content:
   label: Types
   label_singular: Type
   name: projects_types
-  nested:
-    depth: 2
   path: content/projects_types
   type: collection

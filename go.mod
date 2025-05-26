@@ -2,8 +2,6 @@ module github.com/sebousan/sebastienmoulene
 
 go 1.21
 
-replace github.com/hugolify/hugolify-admin => ../../hugolify/hugolify-admin
-
 require (
 	github.com/Splidejs/splide v4.1.3+incompatible // indirect
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400 // indirect
