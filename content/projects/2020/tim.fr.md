@@ -22,4 +22,8 @@ datas:
     text: Les Mousquetaires
   - title: Agence
     text: Maddyness
+  - title: Studio
+    text: Rue Pavée
+  - title: DA
+    text: Ludovic Prigent
 ---

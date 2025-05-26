@@ -16,4 +16,6 @@ place: Paris, France
 datas:
   - title: Studio
     text: Rue Pavée
+  - title: DA
+    text: Ludovic Prigent
 ---

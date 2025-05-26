@@ -19,4 +19,8 @@ datas:
     text: Rowenta
   - title: Agency
     text: Evolve
+  - title: Studio
+    text: Rue Pavée
+  - title: AD
+    text: Ludovic Prigent
 ---
