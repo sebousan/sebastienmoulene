@@ -6,7 +6,7 @@ admin:
   cms: pagescms
   collections:
     config:
-      enable: false
+      enable: true
     indexes:
       enable: false
     pages:
