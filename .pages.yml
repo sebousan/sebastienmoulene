@@ -4,6 +4,283 @@ media:
 
 content:
 - fields:
+  - fields:
+    - i18n: true
+      label: Titre
+      name: title
+      required: false
+      type: string
+    - i18n: true
+      label: URL
+      name: url
+      required: false
+      type: string
+    - i18n: true
+      label: Nouvelle fenêtre ?
+      name: blank
+      required: false
+      type: boolean
+    - i18n: true
+      label: Mis en avant ?
+      name: is_highlighted
+      required: false
+      type: boolean
+    - fields:
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        type: string
+      - i18n: true
+        label: URL
+        name: url
+        required: false
+        type: string
+      - i18n: true
+        label: Nouvelle fenêtre ?
+        name: blank
+        required: false
+        type: boolean
+      i18n: true
+      label: Liens
+      label_singular: Lien
+      list: true
+      name: links
+      required: false
+      type: object
+    i18n: true
+    label: Liens
+    label_singular: Lien
+    list: true
+    name: links
+    required: false
+    type: object
+  i18n: true
+  label: Navigation principale
+  name: primary
+  path: data/menu/primary.yml
+  type: file
+- fields:
+  - i18n: true
+    label: Titre
+    name: title
+    required: false
+    type: string
+  - fields:
+    - i18n: true
+      label: Titre
+      name: title
+      required: false
+      type: string
+    - i18n: true
+      label: URL
+      name: url
+      required: false
+      type: string
+    - i18n: true
+      label: Nouvelle fenêtre ?
+      name: blank
+      required: false
+      type: boolean
+    - i18n: true
+      label: Mis en avant ?
+      name: is_highlighted
+      required: false
+      type: boolean
+    - fields:
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        type: string
+      - i18n: true
+        label: URL
+        name: url
+        required: false
+        type: string
+      - i18n: true
+        label: Nouvelle fenêtre ?
+        name: blank
+        required: false
+        type: boolean
+      i18n: true
+      label: Liens
+      label_singular: Lien
+      list: true
+      name: links
+      required: false
+      type: object
+    i18n: true
+    label: Liens
+    label_singular: Lien
+    list: true
+    name: links
+    required: false
+    type: object
+  i18n: true
+  label: Navigation secondaire
+  name: secondary
+  path: data/menu/secondary.yml
+  type: file
+- fields:
+  - fields:
+    - i18n: true
+      label: Titre
+      name: title
+      required: false
+      type: string
+    - i18n: true
+      label: URL
+      name: url
+      required: false
+      type: string
+    - i18n: true
+      label: Nouvelle fenêtre ?
+      name: blank
+      required: false
+      type: boolean
+    - i18n: true
+      label: Mis en avant ?
+      name: is_highlighted
+      required: false
+      type: boolean
+    - fields:
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        type: string
+      - i18n: true
+        label: URL
+        name: url
+        required: false
+        type: string
+      - i18n: true
+        label: Nouvelle fenêtre ?
+        name: blank
+        required: false
+        type: boolean
+      i18n: true
+      label: Liens
+      label_singular: Lien
+      list: true
+      name: links
+      required: false
+      type: object
+    i18n: true
+    label: Liens
+    label_singular: Lien
+    list: true
+    name: links
+    required: false
+    type: object
+  i18n: true
+  label: Navigation légales (mentions, politiques…)
+  name: legal
+  path: data/menu/legal.yml
+  type: file
+- fields:
+  - fields:
+    - i18n: true
+      label: Titre
+      name: title
+      required: false
+      type: string
+    - i18n: true
+      label: URL
+      name: url
+      required: false
+      type: string
+    - i18n: true
+      label: Nouvelle fenêtre ?
+      name: blank
+      required: false
+      type: boolean
+    - i18n: true
+      label: Mis en avant ?
+      name: is_highlighted
+      required: false
+      type: boolean
+    - fields:
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        type: string
+      - i18n: true
+        label: URL
+        name: url
+        required: false
+        type: string
+      - i18n: true
+        label: Nouvelle fenêtre ?
+        name: blank
+        required: false
+        type: boolean
+      i18n: true
+      label: Liens
+      label_singular: Lien
+      list: true
+      name: links
+      required: false
+      type: object
+    i18n: true
+    label: Liens
+    label_singular: Lien
+    list: true
+    name: links
+    required: false
+    type: object
+  i18n: true
+  label: Navigation réseaux sociaux
+  name: social
+  path: data/menu/social.yml
+  type: file
+- fields:
+  - buttons:
+    - bold
+    - italic
+    - link
+    - bulleted-list
+    editor_components: []
+    i18n: true
+    label: Texte
+    minimal: true
+    modes:
+    - rich_text
+    name: text
+    required: false
+    type: rich-text
+  - hint: ""
+    i18n: duplicate
+    label: État
+    name: state
+    options:
+      values:
+      - label: Danger
+        value: danger
+      - label: Dark
+        value: dark
+      - label: Info
+        value: info
+      - label: Light
+        value: light
+      - label: Primary
+        value: primary
+      - label: Secondary
+        value: secondary
+      - label: Success
+        value: success
+      - label: Warning
+        value: warning
+    required: true
+    type: select
+  i18n: true
+  label: Bannière d’information en haut du site
+  name: banner
+  path: data/banner.yml
+  type: file
+- fields:
   - i18n: true
     label: Titre
     name: title
