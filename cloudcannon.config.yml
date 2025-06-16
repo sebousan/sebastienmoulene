@@ -1,45 +1,140 @@
-
+_schema: _schema
 collections_config:
   pages:
     path: content
     icon: file
-    
+    disable_url: false
+    description: ''
+    _enabled_editors:
     _inputs:
       title:
         type: text
         comment: Titre de la page
+        cascade: true
       date:
         type: datetime
         comment: Date de publication
+        cascade: true
       draft:
         type: boolean
         comment: Brouillon
+        cascade: true
       description:
         type: markdown
         comment: Description de la page
+        cascade: true
       blocks:
         type: array
         options:
           structures: _structures.content_blocks
-
+        cascade: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   projects:
     path: content/projects
     icon: file
-    
+    disable_url: false
     _inputs:
       title:
         type: text
         comment: Titre du projet
-  
+        cascade: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   projects_tags:
     path: content/projects_tags
     icon: file
-    
+    disable_url: false
     _inputs:
       title:
         type: text
         comment: Titre du tag
-
+        cascade: true
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  projects_types:
+    path: content/projects_types
+    glob:
+    name:
+    singular_name:
+    icon: notes
+    url:
+    disable_url: false
+    include_developer_files:
+    documentation:
+    description: ''
+    preview:
+    sort:
+    sort_options:
+    _editables:
+      text:
+        allow_custom_markup: true
+        remove_custom_markup: false
+        bold:
+        copyformatting:
+        italic:
+        link:
+        paths:
+        redo:
+        removeformat:
+        strike:
+        subscript:
+        superscript:
+        underline:
+        undo:
+      block:
+        allow_custom_markup: false
+        remove_custom_markup: false
+        blockquote:
+        bold:
+        bulletedlist:
+        center:
+        code:
+        copyformatting:
+        embed:
+        expandable:
+        format:
+        height:
+        horizontalrule:
+        image:
+        image_size_attributes: true
+        indent:
+        italic:
+        justify:
+        left:
+        link:
+        mime_type:
+        numberedlist:
+        outdent:
+        paths:
+        redo:
+        removeformat:
+        resize_style:
+        right:
+        snippet:
+        strike:
+        styles:
+        subscript:
+        superscript:
+        table:
+        underline:
+        undo:
+        width:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
+    add_options:
+    create:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    new_preview_url:
+    schemas:
+    schema_key:
 collection_groups:
   - heading: Pages
     collections:
@@ -48,19 +143,20 @@ collection_groups:
     collections:
       - projects
       - projects_tags
-
 _structures:
   blocks:
+    style: select
     values:
-      - label: "Bloc Image"
-        icon: "image"
+      - icon: image
+        label: Bloc Image
         value:
-          type: "image_block"
-          image: ""
-          text: ""
-      - label: "Bloc Citation" 
-        icon: "format_quote"
+          type: image_block
+          image: ''
+          text: ''
+      - icon: format_quote
+        label: Bloc Citation
         value:
-          type: "quote_block"
-          quote: ""
-          author: ""
+          type: quote_block
+          quote: ''
+          author: ''
+timezone: Etc/UTC

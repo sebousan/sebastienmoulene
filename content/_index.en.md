@@ -1,8 +1,13 @@
 ---
 title: Home
 hero:
-  title: Senior freelance front-end developer specializing in high-performance website.
-  text: Living in Bordeaux, France, I have been working in this field for over 20 years, specializing in high-performance websites (Core Web Vitals / Google PageSpeed), accessible to everyone, and low-carbon.
+  title: >-
+    Senior freelance front-end developer specializing in high-performance
+    website.
+  text: >-
+    Living in Bordeaux, France, I have been working in this field for over 20
+    years, specializing in high-performance websites (Core Web Vitals / Google
+    PageSpeed), accessible to everyone, and low-carbon.
   cta:
     text: Realized projects
     url: /en/projects/
@@ -29,11 +34,16 @@ blocks:
   - type: pushes
     heading:
       title: Open-source
-      text: I work every day with open-source frameworks like Bootstrap or Hugo, which is why I am happy to contribute to the movement by sharing my work on my Hugo framework.
+      text: >-
+        I work every day with open-source frameworks like Bootstrap or Hugo,
+        which is why I am happy to contribute to the movement by sharing my work
+        on my Hugo framework.
     column: 1
     items:
-      - title: Hugolify, Hugo framework 
-        text: Jamstack solution developed in Hugo to build a high-performance, low-carbon and accessible website as quickly as possible.
+      - title: Hugolify, Hugo framework
+        text: >-
+          Jamstack solution developed in Hugo to build a high-performance,
+          low-carbon and accessible website as quickly as possible.
         icon: git
         cta:
           blank: true
