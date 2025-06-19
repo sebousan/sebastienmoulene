@@ -29,8 +29,11 @@ admin:
 
   # CMS
   cms: decapcms
+  branch: main
   git: github
   repo: sebousan/sebastienmoulene
+  i18n: 
+    locales: '[fr,en]'
   auth:
     netlify_identity: false
 
