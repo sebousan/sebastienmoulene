@@ -26,7 +26,11 @@ parallax:
 
 # Admin
 admin:
-  cms: pagescms
+  cms: decapcms
+  git: github
+  repo: sebousan/sebastienmoulene
+  auth:
+    netlify_identity: false
   collections:
     config:
       enable: true
