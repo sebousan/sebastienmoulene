@@ -26,11 +26,15 @@ parallax:
 
 # Admin
 admin:
+
+  # CMS
   cms: decapcms
   git: github
   repo: sebousan/sebastienmoulene
   auth:
     netlify_identity: false
+
+  # Collections
   collections:
     config:
       enable: true
