@@ -1,7 +1,12 @@
 _merge: deep
+
+# Image
 image:
   _merge: deep
   desktop: "678x"
+
+# Javascripts
+animation: false
 bootstrap:
   alert: false 
   carousel: false 
@@ -14,6 +19,12 @@ bootstrap:
   tab: false
   toast: false
   tooltip: false
+carousel: false
+map: false
+parallax:
+  enable: false
+
+# Admin
 admin:
   cms: pagescms
   collections:
