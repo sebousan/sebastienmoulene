@@ -2,6 +2,18 @@ _merge: deep
 image:
   _merge: deep
   desktop: "678x"
+bootstrap:
+  alert: false 
+  carousel: false 
+  collapse: false 
+  dropdown: false 
+  modal: false 
+  offcanvas: true 
+  popover: false
+  scrollspy: false
+  tab: false
+  toast: false
+  tooltip: false
 admin:
   cms: pagescms
   collections:
