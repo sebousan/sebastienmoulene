@@ -2,6 +2,9 @@ media:
   input: assets/images/uploads
   output: /images/uploads
 
+settings:
+  hide: true
+
 content:
 - fields:
   - fields:
