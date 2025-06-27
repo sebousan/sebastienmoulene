@@ -1,0 +1,70 @@
+{
+  "autoquotes": {
+    "fr": "«»‹›",
+    "en": "“”‘’"
+  },
+  "brandColors": [],
+  "corsProxy": "/corsprox",
+  "name": "sebastienmoulene",
+  "sidebar": [
+    {
+      "separator": true,
+      "target": {
+        "name": "Project.Collection",
+        "params": {
+          "path": "/.mattrbld/collections/projects.json"
+        }
+      },
+      "label": "Projects",
+      "icon": "document"
+    },
+    {
+      "separator": true
+    },
+    {
+      "label": "Dashboard",
+      "icon": "grid",
+      "target": {
+        "name": "Project"
+      },
+      "protected": true
+    },
+    {
+      "label": "Media Library",
+      "icon": "image-stack",
+      "target": {
+        "name": "Project.MediaLibrary"
+      },
+      "protected": true
+    },
+    {
+      "label": "Settings",
+      "icon": "settings",
+      "target": {
+        "name": "Project.Settings"
+      },
+      "onlyPrivileged": true,
+      "protected": true
+    }
+  ],
+  "slugifyOptions": null,
+  "customRoles": [],
+  "draftsDir": null,
+  "previewUrl": null,
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "media": {
+    "advanced": false,
+    "customFields": null,
+    "dir": null,
+    "maxSize": null,
+    "outputPath": null,
+    "permissions": {
+      "everybody": [
+        "everything"
+      ]
+    }
+  }
+}

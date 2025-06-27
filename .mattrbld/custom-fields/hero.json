@@ -1,0 +1,19 @@
+{
+  "type": "group",
+  "customField": null,
+  "description": "",
+  "displayField": null,
+  "group": "custom fields",
+  "icon": "group",
+  "key": "custom-field",
+  "label": "Custom Field",
+  "tab": null,
+  "value": [],
+  "version": 1,
+  "visibility": {
+    "hidden": false,
+    "showByValue": {
+      "field": null
+    }
+  }
+}

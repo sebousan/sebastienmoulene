@@ -1,0 +1,482 @@
+{
+  "fields": [
+    {
+      "type": "toggle",
+      "default": null,
+      "icon": "toggle-on",
+      "key": "isIndex",
+      "label": "IsIndex",
+      "options": {
+        "iconLeft": null,
+        "iconRight": null
+      },
+      "tab": "project",
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "toggle",
+      "default": null,
+      "icon": "toggle-on",
+      "key": "draft",
+      "label": "Draft",
+      "options": {
+        "iconLeft": null,
+        "iconRight": null
+      },
+      "tab": "project",
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "date",
+      "default": null,
+      "icon": "calendar",
+      "key": "date",
+      "label": "Date",
+      "options": {
+        "outputFormat": "iso",
+        "removable": false,
+        "showTime": true,
+        "defaultToNow": true,
+        "useAsUpdatedAt": false,
+        "only": null
+      },
+      "tab": "project",
+      "validation": {
+        "max": null,
+        "min": null,
+        "required": false,
+        "unit": "date",
+        "isString": true
+      },
+      "value": null,
+      "version": 2,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "text",
+      "default": null,
+      "icon": "text-input",
+      "key": "title",
+      "label": "Title",
+      "localised": false,
+      "options": {
+        "wrapping": true,
+        "multiline": false
+      },
+      "tab": "project",
+      "validation": {
+        "enforceMinMax": true,
+        "max": null,
+        "min": null,
+        "regex": null,
+        "regexError": null,
+        "required": false,
+        "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "group",
+      "displayField": null,
+      "icon": "group",
+      "key": "image",
+      "label": "Image",
+      "tab": "project",
+      "value": [
+        {
+          "type": "image",
+          "default": null,
+          "icon": "image",
+          "key": "src",
+          "label": "Src",
+          "options": {
+            "resolutionHint": "",
+            "removable": true,
+            "simple": false
+          },
+          "tab": "project",
+          "validation": {
+            "max": null,
+            "required": false,
+            "unit": "filesize (MB)"
+          },
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        },
+        {
+          "type": "toggle",
+          "default": null,
+          "icon": "toggle-on",
+          "key": "screenshot",
+          "label": "Screenshot",
+          "options": {
+            "iconLeft": null,
+            "iconRight": null
+          },
+          "tab": "project",
+          "value": null,
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        }
+      ],
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "link",
+      "default": null,
+      "icon": "link",
+      "key": "projects_types",
+      "label": "Projects_types",
+      "localised": false,
+      "options": {
+        "type": "both",
+        "byFilePath": false,
+        "urlSuffix": "/",
+        "urlTemplate": ""
+      },
+      "tab": "project",
+      "validation": {
+        "required": false
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "tags",
+      "default": null,
+      "icon": "tags",
+      "key": "projects_solutions",
+      "label": "Projects_solutions",
+      "localised": false,
+      "options": {
+        "allowUnsuggested": true,
+        "autocompleteModel": []
+      },
+      "tab": "project",
+      "validation": {
+        "max": null,
+        "min": null,
+        "unit": "tags"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "tags",
+      "default": null,
+      "icon": "tags",
+      "key": "projects_tags",
+      "label": "Projects_tags",
+      "localised": false,
+      "options": {
+        "allowUnsuggested": true,
+        "autocompleteModel": []
+      },
+      "tab": "project",
+      "validation": {
+        "max": null,
+        "min": null,
+        "unit": "tags"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "link",
+      "default": null,
+      "icon": "link",
+      "key": "projects_url",
+      "label": "Projects_url",
+      "localised": false,
+      "options": {
+        "type": "both",
+        "byFilePath": false,
+        "urlSuffix": "/",
+        "urlTemplate": ""
+      },
+      "tab": "project",
+      "validation": {
+        "required": false
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "text",
+      "default": null,
+      "icon": "text-input",
+      "key": "place",
+      "label": "Place",
+      "localised": false,
+      "options": {
+        "wrapping": true,
+        "multiline": false
+      },
+      "tab": "project",
+      "validation": {
+        "enforceMinMax": true,
+        "max": null,
+        "min": null,
+        "regex": null,
+        "regexError": null,
+        "required": false,
+        "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "rows",
+      "default": null,
+      "icon": "rows",
+      "key": "datas",
+      "label": "Datas",
+      "options": {
+        "compact": true,
+        "allowEditing": true,
+        "itemLabel": "Row"
+      },
+      "tab": "project",
+      "validation": {
+        "max": null,
+        "min": null,
+        "unit": "rows"
+      },
+      "value": [
+        {
+          "type": "group",
+          "displayField": null,
+          "icon": "group",
+          "key": "data",
+          "label": "Data",
+          "tab": "project",
+          "value": [
+            {
+              "type": "text",
+              "default": null,
+              "icon": "text-input",
+              "key": "title",
+              "label": "Title",
+              "localised": false,
+              "options": {
+                "wrapping": true,
+                "multiline": false
+              },
+              "tab": "project",
+              "validation": {
+                "enforceMinMax": true,
+                "max": null,
+                "min": null,
+                "regex": null,
+                "regexError": null,
+                "required": false,
+                "unit": "length"
+              },
+              "value": null,
+              "version": 1,
+              "visibility": {
+                "hidden": false,
+                "showByValue": {
+                  "field": null
+                }
+              }
+            },
+            {
+              "type": "text",
+              "default": null,
+              "icon": "text-input",
+              "key": "text",
+              "label": "Text",
+              "localised": false,
+              "options": {
+                "wrapping": true,
+                "multiline": false
+              },
+              "tab": "project",
+              "validation": {
+                "enforceMinMax": true,
+                "max": null,
+                "min": null,
+                "regex": null,
+                "regexError": null,
+                "required": false,
+                "unit": "length"
+              },
+              "value": null,
+              "version": 1,
+              "visibility": {
+                "hidden": false,
+                "showByValue": {
+                  "field": null
+                }
+              }
+            }
+          ],
+          "version": 1,
+          "visibility": {
+            "hidden": false,
+            "showByValue": {
+              "field": null
+            }
+          }
+        }
+      ],
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    },
+    {
+      "type": "rich text",
+      "default": null,
+      "icon": "text",
+      "key": "content",
+      "label": "Content",
+      "localised": false,
+      "options": {
+        "outputFormat": "html",
+        "blockFormats": [
+          "blockquote",
+          "heading",
+          "hr",
+          "orderedList",
+          "unorderedList",
+          "image"
+        ],
+        "inlineFormats": [
+          "em",
+          "strong",
+          "link"
+        ],
+        "formatOptions": [
+          "allowQuoteFooters",
+          "allowNestedLists",
+          "allowImageCaptions"
+        ],
+        "inputRuleOptions": [
+          "autoquotes",
+          "dashes",
+          "ellipsis",
+          "noDoubleCaps",
+          "noDoubleSpace"
+        ],
+        "minHeading": 2,
+        "maxHeading": 4,
+        "codeLangs": [
+          "html",
+          "css",
+          "javascript",
+          "markdown"
+        ],
+        "allowRaw": false,
+        "urlTemplate": "",
+        "urlSuffix": "",
+        "linkOptions": [
+          "forceBlankTarget",
+          "allowExternal",
+          "allowInternal"
+        ]
+      },
+      "tab": "project",
+      "validation": {
+        "enforceMinMax": true,
+        "max": null,
+        "min": null,
+        "regex": null,
+        "regexError": null,
+        "required": false,
+        "unit": "length"
+      },
+      "value": null,
+      "version": 1,
+      "visibility": {
+        "hidden": false,
+        "showByValue": {
+          "field": null
+        }
+      }
+    }
+  ],
+  "tabs": [
+    {
+      "label": "project",
+      "groupAs": null
+    }
+  ]
+}
