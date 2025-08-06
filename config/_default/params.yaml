@@ -4,6 +4,8 @@ _merge: deep
 image:
   _merge: deep
   desktop: "678x"
+  retina:
+    desktop: true
 
 # Javascripts
 animation: false
