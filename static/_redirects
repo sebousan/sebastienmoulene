@@ -30,7 +30,6 @@
 /2018/electra-solutions             /en/projects/electra-solutions/
 /front-end/nespresso-cannes-2015    /en/projects/nespresso-cannes/
 
-
 /projets/tags/hugolify/         /projets/solutions/hugolify/
 /projets/tags/jekyll/           /projets/solutions/jekyll/
 /projets/tags/osuny/            /projets/solutions/osuny/
@@ -39,7 +38,6 @@
 /projets/tags/sap-hybris/       /projets/solutions/sap-hybris/
 /projets/tags/shopify/          /projets/solutions/shopify/
 /projets/tags/wordpress/        /projets/solutions/wordpress/
-
 /projects/tags/hugolify/         /en/projects/solutions/hugolify/
 /projects/tags/jekyll/           /en/projects/solutions/jekyll/
 /projects/tags/osuny/            /en/projects/solutions/osuny/
@@ -48,6 +46,8 @@
 /projects/tags/sap-hybris/       /en/projects/solutions/sap-hybris/
 /projects/tags/shopify/          /en/projects/solutions/shopify/
 /projects/tags/wordpress/        /en/projects/solutions/wordpress/
+/projets/tags/lawyerify/ /projets/solutions/lawyerify/
+/projets/tags/architectify/ /projets/solutions/architectify/
 
 /en/projects_tags/design/           /en/projects/tags/design/
 /en/projects/page/4/                /en/projects/
@@ -69,26 +69,12 @@
 
 /tag/as2/ /projets/tags/actionscript-2/
 
-/en/projects_tags/design/ /en/projects/tags/design/
-/en/projects_tags/bootstrap/ /en/projects/tags/bootstrap/
-/en/projects_tags/lawyerify/ /en/projects/solutions/lawyerify/
-/en/projects_tags/shopify/ /en/projects/solutions/shopify/
-/en/projects_tags/actionscript-2/ /en/projects/tags/actionscript-2/
-/en/projects_tags/stylus/ /en/projects/tags/stylus/
-/en/projects_tags/hugo/ /en/projects/tags/hugo/
-/en/projects/tags/rails/ /en/projects/solutions/rails/
-/projets/tags/lawyerify/ /projets/solutions/lawyerify/
+/en/projects_tags/*  /en/projects/tags/:splat
+
 /en/projects/2017/monopole/ /en/projects/monopole/
 /en/projects/2011/longines-horse-racing/ /en/projects/longines-horse-racing/
 /en/projects/2015/nespresso-atelier/ /en/projects/nespresso-atelier/
 /en/projects/2019/odysound/ /en/projects/odysound/
-/en/projects_tags/jamstack/ /en/projects/tags/jamstack/
-/en/projects/tags/sass/page/2/ /en/projects/tags/sass/
-/en/projects_tags/liquid/ /en/projects/tags/liquid/
-/en/projects_tags/osuny/ /en/projects/solutions/osuny/
-/en/projects/tags/osuny/ /en/projects/solutions/osuny/
-/en/projects/tags/wordpress/ /en/projects/solutions/wordpress/
-/projets/tags/architectify/ /projets/solutions/architectify/
 /en/projects/2015-onze-metres-carres/ /en/projects/onze-metres-carres/
 /en/projects/2014-chateau-roquebert/ /en/projects/chateau-roquebert/
 /en/projects/2019/la-maison-des-startups/ /en/projects/la-maison-des-startups/
@@ -113,6 +99,7 @@
 /en/projects/senso-art-films-photo/ /en/projects/senso-art-films-photo-ai/
 /en/projects/2021-joseph-duclos/ /en/projects/joseph-duclos/
 /en/projects/2023/miram-lasserre/ /en/projects/miram-lasserre/
+
 /en/projects/types/editorial/page/2/ /en/projects/types/editorial/
 /en/projects/types/editorial/page/3/ /en/projects/types/editorial/
 /en/projects/types/editorial/page/4/ /en/projects/types/editorial/
