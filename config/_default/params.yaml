@@ -28,7 +28,14 @@ parallax:
 
 # Admin
 admin:
-  cms: pagescms
+  cms: sveltiacms
+  git: github
+  repo: sebousan/sebastienmoulene
+  i18n:
+    default_locale: fr # master lang for an i18n website
+    locales: "[fr,en]" 
+  auth:
+    netlify_identity: false
   collections:
     config:
       enable: true
