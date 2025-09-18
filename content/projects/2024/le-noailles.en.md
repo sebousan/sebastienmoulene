@@ -15,7 +15,7 @@ projects_tags:
   - SASS
   - Design
 image:
-  src: /images/uploads/lenoailles.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214810/lenoailles_ptxecl.png
   screenshot: true
 place: Bordeaux, France
 projects_url: https://www.lenoailles.fr

@@ -4,7 +4,7 @@ draft: false
 date: 2024-03-15T10:34:08.410Z
 title: Senso Art, Films, Photo, AI
 image:
-  src: /images/uploads/sensoart.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214830/sensoart_uum0go.png
   screenshot: true
 projects_types: Editorial
 projects_solutions:

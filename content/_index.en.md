@@ -34,16 +34,13 @@ blocks:
     items:
       - title: Hugolify, Hugo framework 
         text: Jamstack solution developed in Hugo to build a high-performance, low-carbon and accessible website as quickly as possible.
-        icon: git
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
         cta:
           blank: true
           text: Discover Hugolify
-          url: https://www.hugolify.io/
-        cta_second:
-          blank: true
-          text: Hugolify on Github
-          url: https://github.com/Hugolify/
-        offset: start
+          url: https://uncinq.dev/notre-solution-et-produits/hugolify/
+  
   - type: latest
     section: projects
     show_more: false

@@ -15,7 +15,7 @@ projects_tags:
 projects_awards:
   - Awwwards
 image:
-  src: /images/uploads/la-samaritaine.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214097/la-samaritaine_ck7abm.jpg
   screenshot: true
 datas:
   - title: Client

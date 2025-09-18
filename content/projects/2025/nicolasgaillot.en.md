@@ -16,7 +16,7 @@ projects_tags:
   - SASS
   - Design
 image:
-  src: /images/uploads/nicolasgaillot.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214344/nicolasgaillot_qlcigg.png
   screenshot: true
 place: Bordeaux, France
 projects_url: https://www.nicolasgaillot.fr

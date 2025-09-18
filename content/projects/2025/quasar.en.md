@@ -14,7 +14,7 @@ projects_tags:
   - Bootstrap
   - SASS
 image:
-  src: /images/uploads/quasar.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214368/quasar_dpr9w2.png
   screenshot: true
 place: New-York City, USA
 projects_url: https://www.letsquasar.com

@@ -38,11 +38,12 @@ blocks:
       - title: Hugolify, framework Hugo
         text: Solution pour créer facilement un site Web de grande qualité tout en ayant un espace admin dédié et simplifié.
         image:
-          src: /images/uploads/181.Nodes.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
         cta:
           blank: true
           text: Découvrir Hugolify
           url: https://uncinq.dev/notre-solution-et-produits/hugolify/
+  
   - type: selected-projects
     section: projects
     show_more: false

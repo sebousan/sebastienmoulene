@@ -4,7 +4,7 @@ draft: false
 date: 2024-11-26T10:34:08.410Z
 title: Sensology
 image:
-  src: /images/uploads/sensology.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214351/sensology_swgqse.png
   screenshot: true
 projects_types: Editorial
 projects_solutions:

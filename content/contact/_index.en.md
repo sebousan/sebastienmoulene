@@ -10,10 +10,10 @@ hero:
     text: Send me an e-mail
     url: mailto:sebousan@gmail.com
   image:
-    src: /images/uploads/sebastien-moulene.jpg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
 blocks:
   - type: informations
-    column: 2
+    column: 3
     background: false
     items:
       - title: Github
@@ -28,12 +28,12 @@ blocks:
           text: Follow me
           blank: true
           url: https://www.linkedin.com/in/sebastienmoulene
-      # - title: Github
-      #   icon: twitter
-      #   cta:
-      #     text: Follow me
-      #     blank: true
-      #     url: https://twitter.com/sebousan
+      - title: Bluesky
+        icon: bluesky
+        cta:
+          text: Follow me
+          blank: true
+          url: https://bsky.app/profile/sebousan.bsky.social
   - type: pushes
     column: 1
     items:
@@ -43,4 +43,7 @@ blocks:
           blank: true
           text: Discover Un Cinq (french)
           url: https://uncinq.dev/
+          lang: fr
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758116615/205.OK_zdg2ue.svg
 ---

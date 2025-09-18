@@ -10,10 +10,10 @@ hero:
     text: M’envoyer un email
     url: mailto:sebousan@gmail.com
   image:
-    src: /images/uploads/sebastien-moulene.jpg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758205367/sebastien-moulene_ft0yg7.jpg
 blocks:
   - type: informations
-    column: 2
+    column: 3
     background: false
     items:
       - title: Github
@@ -28,12 +28,12 @@ blocks:
           text: Me suivre
           blank: true
           url: https://www.linkedin.com/in/sebastienmoulene
-      # - title: Twitter
-      #   icon: twitter
-      #   cta:
-      #     text: Me suivre
-      #     blank: true
-      #     url: https://twitter.com/sebousan
+      - title: Bluesky
+        icon: bluesky
+        cta:
+          text: Me suivre
+          blank: true
+          url: https://bsky.app/profile/sebousan.bsky.social
 
   - type: pushes
     column: 1
@@ -45,7 +45,8 @@ blocks:
           text: Découvrir Un Cinq
           url: https://uncinq.dev/
         image:
-          src: /images/uploads/205.OK.svg
+          src: https://res.cloudinary.com/uncinq/image/upload/v1758116615/205.OK_zdg2ue.svg
+  
   - type: logos
     heading:
       title: Ils me font confiance
