@@ -4,7 +4,7 @@ draft: false
 date: 2023-05-15T10:34:08.410Z
 title: Venn Capital
 image:
-  src: /images/uploads/venn-capital.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214336/venn-capital_yoby2j.png
   screenshot: true
 projects_types: Editorial
 projects_solutions:

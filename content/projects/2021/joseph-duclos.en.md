@@ -12,7 +12,7 @@ projects_tags:
   - Liquid
   - SASS
 image:
-  src: /images/uploads/josephduclos.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214804/josephduclos_zfeezb.png
   screenshot: true
 projects_url: https://www.josephduclos.com
 ---

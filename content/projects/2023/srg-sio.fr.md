@@ -14,7 +14,7 @@ projects_tags:
   - Bootstrap
   - SASS
 image:
-  src: /images/uploads/srg-sio.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214357/srg-sio_pukngf.png
   screenshot: true
 place: Genève, Suisse
 projects_url: https://www.sio-ch.com/

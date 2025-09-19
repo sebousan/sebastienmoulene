@@ -4,7 +4,7 @@ draft: false
 date: 2022-03-20T10:34:08.410Z
 title: TY Studio
 image:
-  src: /images/uploads/ty.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214648/ty_dqzefq.png
   screenshot: true
 projects_types: Editorial
 projects_solutions:

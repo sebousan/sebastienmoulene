@@ -15,7 +15,7 @@ projects_tags:
   - Bootstrap
   - SASS
 image:
-  src: /images/uploads/tdesign.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214805/tdesign_ctqfz1.png
   screenshot: true
 place: Bordeaux, France
 projects_url: https://www.tdesignarchitecture.com

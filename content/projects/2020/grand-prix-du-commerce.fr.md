@@ -12,7 +12,7 @@ projects_tags:
   - SASS
   - ACF
 image:
-  src: /images/uploads/urw.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214136/urw_takwzs.jpg
 datas:
   - title: Client
     text: Unibail-Rodamco-Westfield

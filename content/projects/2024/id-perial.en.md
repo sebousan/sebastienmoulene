@@ -14,7 +14,7 @@ projects_tags:
   - ACF
 projects_url: https://id.perial.com
 image:
-  src: /images/uploads/perial.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214374/perial_xbtcsb.png
   screenshot: true
 place: Paris, France
 datas:

@@ -15,7 +15,7 @@ projects_tags:
   - PHP
   - ACF
 image:
-  src: /images/uploads/tim.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214849/tim_wzgmxx.png
   screenshot: true
 datas:
   - title: Client

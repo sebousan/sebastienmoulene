@@ -12,6 +12,6 @@ projects_tags:
   - Liquid
   - SASS
 image:
-  src: /images/uploads/maisonhellard.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214609/maisonhellard_bctp80.png
   screenshot: true
 ---

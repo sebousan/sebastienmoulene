@@ -4,7 +4,7 @@ draft: false
 date: 2024-04-15T10:34:08.410Z
 title: Biver
 image:
-  src: /images/uploads/biver.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214332/biver_u8pqab.png
   screenshot: true
 projects_types: Editorial
 projects_solutions:

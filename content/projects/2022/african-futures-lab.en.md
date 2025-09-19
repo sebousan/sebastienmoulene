@@ -5,7 +5,7 @@ date: 2022-04-10T10:34:08.410Z
 title: African futures lab
 projects_types: Editorial
 image:
-  src: /images/uploads/afab.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214354/afab_fbpu97.png
   screenshot: true
 projects_solutions:
   - Osuny

@@ -14,7 +14,7 @@ projects_tags:
   - Bootstrap
   - SASS
 image:
-  src: /images/uploads/miriam.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214452/miriam_uxoe9w.png
   screenshot: true
 place: Paris, France
 projects_url: https://www.miriamlasserre.com

@@ -14,7 +14,8 @@ projects_tags:
   - Liquid
   - SASS
 image:
-  src: /images/uploads/invivoglobalquest.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758291103/invivoglobalquest_ki2lob.png
+  screenshot: true
 place: Paris, France
 datas:
   - title: Client

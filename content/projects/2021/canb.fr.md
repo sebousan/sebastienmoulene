@@ -12,6 +12,6 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/canb.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214331/canb_joyuga.png
   screenshot: true
 ---

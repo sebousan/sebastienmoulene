@@ -12,7 +12,7 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/ensemble.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214802/ensemble_jjbpvn.png
   screenshot: true
 datas:
   - title: Client

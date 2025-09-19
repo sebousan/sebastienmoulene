@@ -13,7 +13,7 @@ projects_tags:
   - Bootstrap
   - SASS
 image:
-  src: /images/uploads/comdem.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213434/comdem_cy6tsa.png
   screenshot: true
 place: Paris, France
 datas:

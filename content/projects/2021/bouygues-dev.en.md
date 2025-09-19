@@ -15,7 +15,7 @@ projects_tags:
   - Liquid
   - SASS
 image:
-  src: /images/uploads/bouyguesdev.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214207/bouyguesdev_ft7uw5.png
   screenshot: true
 projects_url: https://www.bouyguesdev.fr/
 datas:

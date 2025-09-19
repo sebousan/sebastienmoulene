@@ -15,7 +15,7 @@ projects_tags:
   - SASS
   - Design
 image:
-  src: /images/uploads/lawyerify.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213464/lawyerify_c06zbj.png
   screenshot: true
 place: Bordeaux, France
 projects_url: https://www.lawyerify.io

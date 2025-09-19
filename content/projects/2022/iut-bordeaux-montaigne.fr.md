@@ -14,7 +14,7 @@ projects_tags:
   - SASS
 projects_url: https://www.iut.u-bordeaux-montaigne.fr/
 image:
-  src: /images/uploads/iut.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214338/iut_issgbs.png
   screenshot: true
 place: Bordeaux, France
 datas:
