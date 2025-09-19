@@ -10,7 +10,7 @@ projects_tags:
   - Smarty
   - Stylus
 image:
-  src: /images/uploads/henriot.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214365/henriot_yt2g2d.png
   screenshot: true
 place: Reims, France
 datas:

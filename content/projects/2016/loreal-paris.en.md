@@ -10,7 +10,7 @@ projects_tags:
   - HTML
   - Stylus
 image:
-  src: /images/uploads/lorealparis2.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214369/lorealparis_ajav7h.jpg
   screenshot: true
 place: Paris, France
 datas:

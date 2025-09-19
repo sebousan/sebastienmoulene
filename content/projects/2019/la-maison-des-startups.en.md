@@ -14,7 +14,7 @@ projects_tags:
   - Javascript
   - ACF
 image:
-  src: /images/uploads/lmds.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214330/lmds_adc7ty.png
   screenshot: true
 datas:
   - title: Client

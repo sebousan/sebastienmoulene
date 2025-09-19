@@ -9,7 +9,7 @@ projects_tags:
   - Javascript
   - Stylus
 image:
-  src: /images/uploads/printemps.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213471/printemps_yuwnmz.jpg
 place: Paris, France
 datas:
   - title: Client

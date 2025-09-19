@@ -11,7 +11,7 @@ projects_tags:
   - HTML
   - SASS
 image:
-  src: /images/uploads/extra.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213426/extra_fvnkox.png
 place: Jeddah, Saoudi Arabia
 datas:
   - title: Agency

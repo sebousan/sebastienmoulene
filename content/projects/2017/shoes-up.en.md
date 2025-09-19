@@ -13,7 +13,7 @@ projects_tags:
   - Stylus
 place: Paris, France
 image:
-  src: /images/uploads/shoesup.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213462/monopole_ofxydy.jpg
   screenshot: true
 datas:
   - title: Client

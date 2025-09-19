@@ -11,7 +11,7 @@ projects_tags:
   - Stylus
 place: Paris, France
 image:
-  src: /images/uploads/dissonances.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213422/dissonances_vsc05q.jpg
 datas:
   - title: Studio
     text: Rue Pavée

@@ -11,7 +11,7 @@ projects_tags:
   - Stylus
 place: Bordeaux, France
 image:
-  src: /images/uploads/monopole.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213462/monopole_ofxydy.jpg
 datas:
   - title: Studio
     text: Rue Pavée

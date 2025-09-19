@@ -11,7 +11,7 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/odysound.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213467/odysound_nemkzb.jpg
 datas:
   - title: Agence
     text: Lost Mechanics

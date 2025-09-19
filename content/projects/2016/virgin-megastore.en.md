@@ -11,7 +11,7 @@ projects_tags:
   - HTML
   - Stylus
 image:
-  src: /images/uploads/virgin.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214813/virgin_y16f99.png
   screenshot: true
 place: Dubai, UAE
 datas:

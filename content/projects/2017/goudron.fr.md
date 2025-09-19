@@ -10,7 +10,7 @@ projects_tags:
   - Smarty
   - Stylus
 image:
-  src: /images/uploads/goudron.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214346/goudron_vm0s9w.png
   screenshot: true
 place: Marseille, France
 datas:

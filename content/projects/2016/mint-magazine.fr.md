@@ -11,7 +11,7 @@ projects_tags:
   - Stylus
 place: Paris, France
 image:
-  src: /images/uploads/mint.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214816/mint_wgszhm.png
   screenshot: true
 datas:
   - title: DA

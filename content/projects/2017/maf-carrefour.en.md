@@ -11,7 +11,7 @@ projects_tags:
   - HTML
   - SASS
 image:
-  src: /images/uploads/carrefour.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214204/carrefour_oreino.png
   screenshot: true
 place: Dubai, UAE
 datas:

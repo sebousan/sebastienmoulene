@@ -11,7 +11,7 @@ projects_tags:
   - Javascript
   - Stylus
 image:
-  src: /images/uploads/metiersrares.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214373/metiersrares_ip2tgz.png
   screenshot: true
 place: Paris, France
 datas:

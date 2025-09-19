@@ -2,14 +2,15 @@
 isIndex: false
 draft: false
 date: 2017-07-03T23:00:00.000Z
-title: Impossible Challenge
+title: Volkswagen, Impossible Challenge
+slug: impossible-challenge
 projects_types: Event
 projects_tags:
   - jQuery
   - Javascript
   - Stylus
 image:
-  src: /images/uploads/vw.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214205/vw_yyc4fw.png
 place: Paris, France
 datas:
   - title: Client

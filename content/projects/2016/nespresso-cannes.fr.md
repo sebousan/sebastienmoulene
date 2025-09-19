@@ -13,7 +13,7 @@ projects_tags:
   - Stylus
 place: Paris, France
 image:
-  src: /images/uploads/cannes2016.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213416/cannes2016_t7qf7i.jpg
 datas:
   - title: Client
     text: Nespresso

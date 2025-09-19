@@ -13,7 +13,7 @@ projects_tags:
   - Stylus
 place: Paris, France
 image:
-  src: /images/uploads/albera.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214361/albera_rnzdqh.jpg
   screenshot: true
 datas:
   - title: Studio

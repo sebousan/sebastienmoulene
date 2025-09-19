@@ -11,7 +11,7 @@ projects_tags:
   - Smarty
   - Stylus
 image:
-  src: /images/uploads/bdp.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213409/bdp_dtvd3q.jpg
 place: Paris, France
 datas:
   - title: Studio

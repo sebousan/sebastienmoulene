@@ -11,7 +11,7 @@ projects_tags:
   - Javascript
   - Stylus
 image:
-  src: /images/uploads/electra.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214809/electra_awhrnk.png
   screenshot: true
 datas:
   - title: Studio
