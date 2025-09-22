@@ -10,7 +10,7 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/michelin.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213457/michelin_mf4tlg.jpg
 datas:
   - title: Client
     text: Guide Michelin

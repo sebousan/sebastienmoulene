@@ -10,7 +10,7 @@ projects_tags:
   - Smarty
   - Stylus
 image:
-  src: /images/uploads/hungaria.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214359/hungaria_ix02dz.png
   screenshot: true
 place: Paris, France
 datas:

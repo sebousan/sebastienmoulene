@@ -10,7 +10,7 @@ projects_tags:
   - Smarty
   - SASS
 image:
-  src: /images/uploads/roquebert.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214412/roquebert_hljnjs.png
   screenshot: true
 place: Bordeaux, France
 datas:

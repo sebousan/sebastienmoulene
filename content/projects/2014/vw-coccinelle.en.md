@@ -10,7 +10,7 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/cox.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213469/cox_rkgtfd.png
   screenshot: true
 projects_awards:
   - CSS Design Award

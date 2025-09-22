@@ -10,7 +10,7 @@ projects_solutions:
 projects_tags:
   - SASS
 image:
-  src: /images/uploads/lp.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213441/lp_ngcuys.jpg
 datas:
   - title: Studio
     text: Semio Design

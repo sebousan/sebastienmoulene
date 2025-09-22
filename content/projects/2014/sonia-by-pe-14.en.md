@@ -10,7 +10,7 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/soniaby-2014.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214355/soniaby-2014_uoeisq.jpg
   screenshot: true
 projects_awards:
   - Awwwards

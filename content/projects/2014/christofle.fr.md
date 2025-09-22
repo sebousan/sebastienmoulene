@@ -11,7 +11,7 @@ projects_tags:
   - HTML
   - SASS
 image:
-  src: /images/uploads/christofle.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214807/christofle_t5d4jb.png
   screenshot: true
 datas:
   - title: Agence

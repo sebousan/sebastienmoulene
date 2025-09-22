@@ -10,7 +10,7 @@ projects_solutions:
 projects_tags:
   - SASS
 image:
-  src: /images/uploads/thedecoralist.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214363/thedecoralist_vn3tg8.png
   screenshot: true
 projects_datas:
   - title: Studio

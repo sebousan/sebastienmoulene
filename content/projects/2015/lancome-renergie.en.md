@@ -11,7 +11,7 @@ projects_tags:
   - HTML
   - SASS
 image:
-  src: /images/uploads/lancome-renergie.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214334/lancome-renergie_gcemqy.png
   screenshot: true
 datas:
   - title: Client

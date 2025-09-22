@@ -11,7 +11,7 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/rich.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214100/rich_vdff23.jpg
 place: Reims, France
 datas:
   - title: Client

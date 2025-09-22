@@ -11,7 +11,7 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/84paris.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214348/84paris_j2qyty.png
   screenshot: true
 place: Paris, France
 datas:

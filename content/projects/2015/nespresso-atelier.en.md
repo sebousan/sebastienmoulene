@@ -12,7 +12,7 @@ projects_tags:
   - Javascript
   - SASS
 image:
-  src: /images/uploads/atelier.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213407/atelier_vefvas.jpg
 datas:
   - title: Client
     text: Nespresso

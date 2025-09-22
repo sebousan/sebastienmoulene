@@ -10,7 +10,7 @@ projects_solutions:
 projects_tags:
   - CSS
 image:
-  src: /images/uploads/cblog.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213418/cblog_of2oie.jpg
 datas:
   - title: Client
     text: Ministère de la Culture

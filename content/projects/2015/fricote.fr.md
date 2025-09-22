@@ -12,7 +12,7 @@ projects_tags:
   - Javascript
   - Stylus
 image:
-  src: /images/uploads/fricote.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213436/fricote_r5ouf5.jpg
   screenshot: true
 datas:
   - title: Client

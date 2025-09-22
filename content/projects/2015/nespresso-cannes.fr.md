@@ -11,7 +11,7 @@ projects_tags:
   - Javascript
   - Stylus
 image:
-  src: /images/uploads/cannes.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213412/cannes_y9tpen.jpg
 datas:
   - title: Client
     text: Nespresso

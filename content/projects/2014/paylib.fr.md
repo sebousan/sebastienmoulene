@@ -11,7 +11,7 @@ projects_tags:
   - HTML
   - SASS
 image:
-  src: /images/uploads/paylib.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214352/paylib_ynkkpe.png
   screenshot: true
 datas:
   - title: Agence

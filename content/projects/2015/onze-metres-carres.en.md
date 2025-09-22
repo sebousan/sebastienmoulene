@@ -10,7 +10,7 @@ projects_tags:
   - Smarty
   - Stylus
 image:
-  src: /images/uploads/omc.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214376/omc_ancwci.png
   screenshot: true
 place: Orléans, France
 datas:

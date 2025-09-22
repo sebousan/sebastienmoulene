@@ -11,7 +11,7 @@ projects_tags:
   - Javascript
   - CSS
 image:
-  src: /images/uploads/lesberges.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213450/lesberges_jzc0z7.jpg
 place: Paris, France
 datas:
   - title: Client

@@ -11,7 +11,7 @@ projects_tags:
   - HTML
   - SASS
 image:
-  src: /images/uploads/adl.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213404/adl_tuwxik.jpg
 datas:
   - title: Client
     text: Armée de l’air

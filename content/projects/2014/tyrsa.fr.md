@@ -10,6 +10,6 @@ projects_solutions:
 projects_tags:
   - SASS
 image:
-  src: /images/uploads/tyrsa.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214850/tyrsa_np1bv4.png
   screenshot: true
 ---

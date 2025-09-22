@@ -12,5 +12,12 @@ projects_tags:
   - CSS
 place: Paris, France
 image:
-  src: /images/uploads/lecinq.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213447/lecinq_bhtqe7.jpg
+datas:
+  - title: Client
+    text: Four Seasons
+  - title: Studio
+    text: No Site
+  - title: Art Direction
+    text: Johann Bernast
 ---

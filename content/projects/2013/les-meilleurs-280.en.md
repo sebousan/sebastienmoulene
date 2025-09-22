@@ -10,7 +10,7 @@ projects_tags:
   - Javascript
   - CSS
 image:
-  src: /images/uploads/280-1.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213400/280-1_h8fb08.jpg
 datas:
   - title: Client
     text: McDonald’s
