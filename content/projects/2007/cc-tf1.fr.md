@@ -11,7 +11,7 @@ projects_solutions:
 projects_tags:
   - ActionScript 2
 image:
-  src: /images/uploads/cc-tf1.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214231/cc-tf1_xsghzm.png
   screenshot: true
 datas:
   - title: Client

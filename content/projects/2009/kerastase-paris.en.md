@@ -10,7 +10,7 @@ projects_tags:
   - HTML
   - CSS
 image:
-  src: /images/uploads/kerastase.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213445/kerastase_iwa6hg.jpg
 datas:
   - title: Client
     text: L’Oréal

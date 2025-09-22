@@ -11,7 +11,7 @@ projects_tags:
   - Stylus
   - CSS
 image:
-  src: /images/uploads/lnm.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213438/lnm_eeiqga.jpg
 place: Orléans, France
 datas:
   - title: Studio

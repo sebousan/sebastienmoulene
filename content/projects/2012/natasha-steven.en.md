@@ -11,5 +11,11 @@ projects_tags:
   - CSS
 place: Paris, France
 image:
-  src: /images/uploads/natacha.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758558142/natacha-steven_sla6lf.jpg
+  screenshot: true
+datas:
+  - title: Client
+    text: Natacha Hadjez
+  - title: Direction Artistique
+    text: Alexandre Nacache
 ---

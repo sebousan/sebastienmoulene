@@ -9,7 +9,7 @@ projects_tags:
   - CSS
   - PHP
 image:
-  src: /images/uploads/94.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213398/94_az5nlc.jpg
 datas:
   - title: Studio
     text: Rue Pavée

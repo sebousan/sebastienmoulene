@@ -13,5 +13,5 @@ projects_tags:
   - Javascript
   - CSS
 image:
-  src: /images/uploads/carnet.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758213414/carnet_joaznl.jpg
 ---

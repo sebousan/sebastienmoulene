@@ -13,7 +13,7 @@ projects_tags:
   - PHP
   - CSS
 image:
-  src: /images/uploads/etpm.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214368/etpm_hb6bhq.png
   screenshot: true
 datas:
   - title: Client

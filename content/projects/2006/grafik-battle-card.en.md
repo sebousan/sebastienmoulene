@@ -11,7 +11,7 @@ projects_tags:
   - ActionScript 2
   - Design
 image:
-  src: /images/uploads/gbc.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214202/gbc_bh1fvy.jpg
   screenshot: true
 projects_awards:
   - FWA

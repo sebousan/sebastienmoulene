@@ -11,7 +11,8 @@ projects_tags:
   - ActionScript 2
   - CSS
 image:
-  src: /images/uploads/yue.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758561236/yuewu_bj0tua.png
+  screenshot: true
 datas:
   - title: Studio
     text: Rue Pavée

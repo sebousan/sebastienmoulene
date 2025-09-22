@@ -10,7 +10,7 @@ projects_tags:
   - Smarty
   - Stylus
 image:
-  src: /images/uploads/starcow.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214611/starcow_qgdw3d.png
   screenshot: true
 place: Paris, France
 datas:

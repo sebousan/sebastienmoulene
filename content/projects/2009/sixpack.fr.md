@@ -12,7 +12,7 @@ projects_tags:
   - Stylus
   - CSS
 image:
-  src: /images/uploads/sixpack.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758214106/sixpack_g8nnbb.jpg
 datas:
   - title: Design
     text: Lunettes Noires

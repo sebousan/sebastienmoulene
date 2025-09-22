@@ -12,8 +12,11 @@ projects_tags:
   - Stylus
   - CSS
 image:
-  src: /images/uploads/metroplastique.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758559677/mp-home-04-neutre_haypp8.jpg
+  screenshot: true
 datas:
   - title: Client
     text: Supakitch et Koralie
+  - title: Studio
+    text: Rue Pavée
 ---
