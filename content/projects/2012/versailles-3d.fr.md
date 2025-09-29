@@ -12,7 +12,8 @@ projects_tags:
   - PHP
   - CSS
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1758214138/versailles_dh4ysh.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759141226/Versailles_maquettes_v2_1_c1uoap.jpg
+  screenshot: true
 place: Versailles, France
 datas:
   - title: Agence
