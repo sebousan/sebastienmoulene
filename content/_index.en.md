@@ -40,6 +40,7 @@ blocks:
           blank: true
           text: Discover Hugolify
           url: https://uncinq.dev/notre-solution-et-produits/hugolify/
+          hreflang: fr
   
   - type: latest
     section: projects

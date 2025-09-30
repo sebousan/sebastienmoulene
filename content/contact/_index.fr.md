@@ -50,80 +50,87 @@ blocks:
   - type: logos
     heading:
       title: Ils me font confiance
-    column: 6
+    column: 7
     items: 
       - title: 23 Prod
-        src: /images/uploads/logo-23prod.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226723/logo-23prod_g7fbz9.svg
         url: https://www.23prod.com/
       - title: 84.Paris
-        src: /images/uploads/logo-84.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226723/logo-84_ryhnjd.svg
         url: https://www.84paris.com/
       - title: Angström
-        src: /images/uploads/logo-angstrom.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226723/logo-angstrom_bpzkbt.svg
         url: http://www.weareangstrom.com/fr/
       - title: BETC
-        src: /images/uploads/logo-betc.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226723/logo-betc_aouhnv.svg
         url: https://www.betc.com/
       - title: Bronx
-        src: /images/uploads/logo-bronx.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226725/logo-bronx_gaj4n0.svg
         url: https://www.bronx.fr/
       - title: Bonhomme Paris
-        src: /images/uploads/logo-bonhomme.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226724/logo-bonhomme_mnakjp.svg
         url: https://www.bonhommeparis.com/
       - title: Bonjour Paris
-        src: /images/uploads/logo-bonjour.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226724/logo-bonjour_wu6jso.svg
         url: https://bonjour.paris/
+      - title: Cher ami,
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226725/logo-cherami_iwx6mu.svg
+        url: https://cher-ami.tv/
+      - title: Colorz
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226725/logo-colorz_ikp6vo.svg
+        url: https://www.colorz.fr/
       - title: Dagobert
-        src: /images/uploads/logo-dagobert.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226725/logo-dagobert_kyhsbo.svg
         url: https://www.dagobert.com/
       - title: DDB
-        src: /images/uploads/logo-ddb.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226726/logo-ddb_gte0ni.svg
         url: https://www.ddb.fr/
       - title: Delasource
-        src: /images/uploads/logo-delasource.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226726/logo-delasource_mnaaqm.svg
         url: https://www.delasource.com/
       - title: Disko
-        src: /images/uploads/logo-disko.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226726/logo-disko_xjzwqv.svg
         url: https://www.disko.fr/
       - title: Goodkids
-        src: /images/uploads/logo-goodkids.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226727/logo-goodkids_ajv0jg.svg
         url: https://www.goodkidsagency.com/
       - title: Keyrus
-        src: /images/uploads/logo-keyrus.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226727/logo-keyrus_otwzds.svg
         url: https://keyrus.com/
       - title: Les poupées russes
-        src: /images/uploads/logo-lpr.png
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226728/logo-lpr_oobbzg.png
         url: https://www.lespoupees.paris/
       - title: Maddyness
-        src: /images/uploads/logo-maddyness.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226728/logo-maddyness_jsav3m.svg
         url: https://www.maddyness.com/
       - title: Make me pulse
-        src: /images/uploads/logo-makemepulse.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226729/logo-makemepulse_cfa7qh.svg
         url: https://www.makemepulse.com/
       - title: Marcel
-        src: /images/uploads/logo-marcel.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226730/logo-marcel_ovqc2n.svg
         url: https://www.marcelww.com/
       - title: Mazarine
-        src: /images/uploads/logo-mazarine.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226730/logo-mazarine_j7ppa8.svg
         url: https://www.mazarine.com/
       - title: Mediabrands
-        src: /images/uploads/logo-mediabrands.png
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226731/logo-mediabrands_qfm6pf.png
         url: https://www.ipgmediabrands.com/
       - title: Nurun
-        src: /images/uploads/logo-nurun.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226731/logo-nurun_hh6xnx.svg
         url: https://www.nurun.com/
       - title: Senso
-        src: /images/uploads/logo-senso.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226731/logo-senso_y2vaai.svg
         url: https://www.senso.fr/
       - title: Sismo
-        src: /images/uploads/logo-sismo.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226732/logo-sismo_mxuul8.svg
         url: https://www.les-sismo.fr/
       - title: Smart Agence
-        src: /images/uploads/logo-smartagence.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226732/logo-smartagence_ftllno.svg
         url: https://www.smartagence.com/
       - title: Soleil Noir
-        src: /images/uploads/logo-soleilnoir.svg
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226733/logo-soleilnoir_wppkln.svg
         url: https://www.soleilnoir.com/
-  
-        
+      - title: Spintank
+        src: https://res.cloudinary.com/uncinq/image/upload/v1759226733/logo-spintank_vlsfxa.svg
+        url: https://www.spintank.fr/
 ---
