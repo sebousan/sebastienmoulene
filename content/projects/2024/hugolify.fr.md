@@ -16,7 +16,7 @@ projects_tags:
   - SASS
   - Design
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1758214108/hugolify_qqwyvn.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1759154195/hugolify-screenshot_ycim2y.png
   screenshot: true
 place: Bordeaux, France
 projects_url: https://www.hugolify.io
