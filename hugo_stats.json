@@ -64,7 +64,6 @@
       "cta",
       "datas",
       "description",
-      "disabled",
       "featured-image",
       "filters",
       "flash",
@@ -101,7 +100,7 @@
       "list-tags",
       "logo",
       "logos",
-      "logos-6",
+      "logos-7",
       "main-menu",
       "media",
       "media-icon",
@@ -119,6 +118,7 @@
       "page-projects",
       "pages",
       "pagination-between",
+      "pagination-between-with-title",
       "preload",
       "prestashop",
       "previous",
@@ -153,18 +153,6 @@
       "top",
       "wordpress"
     ],
-    "ids": [
-      "certifications",
-      "derniers-projets-réalisés",
-      "footer",
-      "ils-me-font-confiance",
-      "latest-projects",
-      "main",
-      "navigation",
-      "navigationLabel",
-      "open-source",
-      "projectsFilters",
-      "projectsFiltersLabel"
-    ]
+    "ids": null
   }
 }
