@@ -3,7 +3,7 @@ _merge: deep
 # Image
 image:
   _merge: deep
-  desktop: "678x"
+  desktop: "806x"
   retina:
     desktop: true
 

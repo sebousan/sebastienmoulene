@@ -1,5 +1,6 @@
 .page-projects
     .heading
+        margin-bottom: 0
         position: relative
     .list-projects_tags
         p
@@ -29,6 +30,9 @@
         > .content
             grid-column: 1/13
     .screenshot
-        @include media-breakpoint-down(md)
-            margin-left: -3rem;
-            margin-right: -3rem;
+        background-color: #fff
+        margin-left: -3rem
+        margin-right: -3rem
+        @include media-breakpoint-up(lg)
+            margin-left: -4rem
+            margin-right: -4rem
