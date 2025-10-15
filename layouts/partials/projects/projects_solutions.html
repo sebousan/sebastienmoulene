@@ -2,11 +2,11 @@
 <div class="list-projects_solutions">
   <p>{{ i18n "projects_solutions.title" (. | len) }}</p>
   <ul>
-    {{ range . }}
+    {{- range . }}
     <li class="{{ .Title | urlize }}">
       <a href="{{ .Permalink }}">{{ .Title }}</a>
     </li>
-    {{ end }}
+    {{- end }}
   </ul>
 </div>
 {{ end }}

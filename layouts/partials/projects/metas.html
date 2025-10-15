@@ -1,6 +1,13 @@
 <div class="metas">
-  {{ with .Params.place }}
-  <p>{{ . }}</p>
-  {{ end }}
+  {{- with .Params.place }}
+  <p>{{ partial "func/PrepareHTML.html" . }}</p>
+  {{- end }}
   <p>{{ partial "commons/time.html" (dict "date" .Date "format" "2006") }}</p>
+  {{- with .GetTerms "projects_awards" }}
+  <p>
+    {{- range . }}
+    <a href="{{ .Permalink }}" class="projects_award">{{ partial "func/PrepareHTML.html" .Title }}</a>
+    {{- end }}
+  </p>
+  {{- end }}
 </div>
