@@ -2,7 +2,7 @@
 title: Home
 hero:
   title: Senior freelance front-end developer specializing in high-performance website.
-  text: Living in Bordeaux, France, I have been working in this field for over 20 years, specializing in high-performance websites (Core Web Vitals / Google PageSpeed), accessible to everyone, and low-carbon.
+  text: Living in Bordeaux, France, I have been working in this field for over 20 years, specializing in high-performance websites (Improved Core Web Vitals), accessible to everyone, and low-carbon.
   cta:
     text: Realized projects
     url: /en/projects/

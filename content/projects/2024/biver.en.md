@@ -6,7 +6,7 @@ title: Biver
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1758214332/biver_u8pqab.png
   screenshot: true
-projects_types: Editorial
+projects_types: E-commerce
 projects_solutions:
   - Hugolify
   - Shopify

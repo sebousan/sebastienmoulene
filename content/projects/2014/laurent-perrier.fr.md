@@ -8,9 +8,12 @@ projects_types: Editorial
 projects_solutions:
   - Wordpress
 projects_tags:
+  - HTML
+  - PHP
   - SASS
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1758213441/lp_ngcuys.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1761205295/laurent-perrier_qfuzdu.png
+  screenshot: true
 datas:
   - title: Studio
     text: Semio Design
