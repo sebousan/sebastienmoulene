@@ -12,7 +12,8 @@ projects_tags:
 projects_awards:
   - FWA
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1758214258/touareg_vgfstb.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1761682809/touareg_sddvhk.png
+  screenshot: true
 datas:
   - title: Client
     text: Volkswagen
