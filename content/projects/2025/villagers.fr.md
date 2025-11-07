@@ -14,7 +14,7 @@ projects_tags:
   - Bootstrap
   - SASS
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1758214848/villagers_cqcrsm.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1762504758/villagers_rswl7g.png
   screenshot: true
 place: Genève, Suisse
 projects_url: https://www.villagers.ch
