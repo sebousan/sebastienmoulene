@@ -33,7 +33,7 @@ blocks:
         cta:
           text: Me suivre
           blank: true
-          url: https://bsky.app/profile/sebousan.bsky.social
+          url: https://bsky.app/profile/sebousan.com
 
   - type: pushes
     column: 1
