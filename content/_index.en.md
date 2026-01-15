@@ -42,9 +42,13 @@ blocks:
           url: https://uncinq.dev/notre-solution-et-produits/hugolify/
           hreflang: fr
   
-  - type: latest
+  - type: selected-projects
     section: projects
     show_more: false
     heading:
       title: Latest projects
+    items:
+      - 2024/biver
+      - 2024/sensoart-films-photo
+      - 2024/id-perial
 ---

@@ -50,7 +50,7 @@ blocks:
     heading:
       title: Derniers projets réalisés
     items:
-      - Biver
-      - Senso Art, Films, Photo, AI
-      - Perial Investment & Development
+      - 2024/biver
+      - 2024/sensoart-films-photo
+      - 2024/id-perial
 ---
