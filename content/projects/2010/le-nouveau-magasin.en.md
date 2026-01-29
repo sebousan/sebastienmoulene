@@ -9,9 +9,9 @@ projects_solutions:
 projects_tags:
   - Smarty
   - Stylus
-  - CSS
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1758213438/lnm_eeiqga.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1769685261/lnm-site-home-tailleimage_yduezt.jpg
+  screenshot: true
 place: Orléans, France
 datas:
   - title: Studio
