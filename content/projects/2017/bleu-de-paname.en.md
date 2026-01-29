@@ -8,10 +8,12 @@ projects_solutions:
   - Prestashop
   - Wordpress
 projects_tags:
+  - PHP
   - Smarty
   - Stylus
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1758213409/bdp_dtvd3q.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1769681237/bleudepaname_zhcdmy.jpg
+  screenshot: true
 place: Paris, France
 datas:
   - title: Studio
