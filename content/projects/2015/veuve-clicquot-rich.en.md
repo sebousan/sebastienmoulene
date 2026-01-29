@@ -10,8 +10,10 @@ projects_tags:
   - jQuery
   - Javascript
   - SASS
+  - Smarty
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1758214100/rich_vdff23.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1769682319/rich_s4l3kk.png
+  screenshot: true
 place: Reims, France
 datas:
   - title: Client
