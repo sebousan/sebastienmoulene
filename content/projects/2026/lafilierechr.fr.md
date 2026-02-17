@@ -15,7 +15,7 @@ projects_tags:
   - SASS
   - Design
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1770220065/etablissementleonard_tzcaly.png
+  src: https://res.cloudinary.com/uncinq/image/upload/v1771321259/lafilierechr_of2d7l.png
   screenshot: true
 place: Paris, France
 projects_url: https://www.lafilierechr.com/
