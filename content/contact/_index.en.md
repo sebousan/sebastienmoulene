@@ -1,4 +1,4 @@
----
+#---
 isPage: true
 title: Contact
 hero:
@@ -122,7 +122,7 @@ blocks:
         url: https://www.senso.fr/
       - title: Sismo
         src: https://res.cloudinary.com/uncinq/image/upload/v1759226732/logo-sismo_mxuul8.svg
-        url: https://www.les-sismo.fr/
+        url: https://www.les-sismo.com/
       - title: Smart Agence
         src: https://res.cloudinary.com/uncinq/image/upload/v1759226732/logo-smartagence_ftllno.svg
         url: https://www.smartagence.com/
