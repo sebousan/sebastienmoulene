@@ -48,7 +48,8 @@ blocks:
     heading:
       title: Latest projects
     items:
+      - 2026/essentialparfums
+      - 2026/bluemaxmedia
       - 2024/biver
       - 2024/sensoart-films-photo
-      - 2024/id-perial
 ---
